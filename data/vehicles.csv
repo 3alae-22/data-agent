@@ -1,0 +1,3001 @@
+vehicle_id,driver_id,make,model,year,license_plate,color,is_active
+1,7,Honda,CR-V,2024,OP331,Grey,True
+2,10,Hyundai,Sonata,2026,WK520,Black,True
+3,19,Ford,Fusion,2022,LI224,Black,True
+4,25,Toyota,RAV4,2015,FN542,Black,True
+5,26,Hyundai,Sonata,2016,CS875,Grey,True
+6,28,Toyota,Corolla,2022,WA559,Red,True
+7,29,Tesla,Model Y,2020,HZ476,Blue,True
+8,36,Tesla,Model Y,2022,QI594,Black,True
+9,43,Hyundai,Elantra,2016,EF804,Red,True
+10,44,Honda,CR-V,2018,PG877,Silver,True
+11,47,Toyota,Prius,2015,MX310,Grey,True
+12,53,Honda,Civic,2017,EO471,Blue,False
+13,54,Nissan,Altima,2022,XG737,Red,True
+14,55,Hyundai,Sonata,2026,FB387,Black,True
+15,56,Nissan,Rogue,2017,WF204,Grey,True
+16,59,Ford,Focus,2019,FU698,Silver,True
+17,67,Nissan,Altima,2026,EP705,Red,False
+18,75,Tesla,Model 3,2017,DD192,Grey,True
+19,76,Ford,Fusion,2017,YC916,Black,True
+20,78,Hyundai,Elantra,2015,OL860,Red,True
+21,87,Honda,Accord,2025,UP602,Black,True
+22,91,Hyundai,Tucson,2026,NT272,Black,True
+23,94,Hyundai,Tucson,2022,DP346,Black,True
+24,97,Ford,Fusion,2020,DN733,Red,True
+25,98,Toyota,RAV4,2021,FB548,Black,True
+26,101,Hyundai,Elantra,2021,YJ686,Silver,True
+27,102,Hyundai,Tucson,2021,FT297,Black,True
+28,107,Ford,Escape,2021,RL982,Red,True
+29,116,Honda,Civic,2017,DJ733,White,True
+30,118,Ford,Fusion,2023,IR147,Black,True
+31,126,Ford,Escape,2022,MS727,Red,True
+32,127,Hyundai,Elantra,2025,RH942,Red,True
+33,129,Toyota,Camry,2019,BL751,Black,True
+34,133,Toyota,Corolla,2021,FD547,Silver,True
+35,137,Tesla,Model Y,2026,NS346,Red,True
+36,138,Toyota,Corolla,2021,AG383,Black,True
+37,141,Ford,Focus,2021,SZ831,Black,True
+38,153,Tesla,Model Y,2021,FF139,Silver,True
+39,154,Nissan,Sentra,2020,AF581,Red,True
+40,156,Ford,Fusion,2024,XN578,Black,True
+41,159,Ford,Focus,2018,SZ667,Black,True
+42,167,Toyota,Camry,2025,RA600,Red,True
+43,179,Honda,Accord,2019,DI535,Silver,True
+44,187,Honda,Civic,2015,FV802,Silver,False
+45,189,Toyota,Corolla,2023,MI738,Silver,False
+46,190,Ford,Fusion,2018,PC593,Red,True
+47,201,Toyota,Prius,2022,BN284,Silver,True
+48,208,Honda,CR-V,2023,RA268,Silver,True
+49,216,Hyundai,Elantra,2020,CO452,White,True
+50,219,Ford,Focus,2023,OY243,Silver,True
+51,225,Ford,Escape,2018,AG219,Silver,True
+52,229,Hyundai,Elantra,2022,ZC194,Red,True
+53,232,Nissan,Altima,2026,MG113,Silver,True
+54,242,Tesla,Model 3,2023,OY998,Grey,True
+55,243,Tesla,Model 3,2026,BK467,Black,True
+56,244,Toyota,Camry,2026,VA122,Black,True
+57,252,Nissan,Sentra,2026,BJ381,Silver,True
+58,259,Hyundai,Tucson,2018,SG718,White,True
+59,260,Honda,Accord,2026,GF516,Red,True
+60,264,Hyundai,Tucson,2024,NO685,Silver,True
+61,267,Tesla,Model Y,2024,FI957,White,True
+62,270,Honda,CR-V,2017,IM478,White,True
+63,276,Hyundai,Elantra,2021,SH475,White,True
+64,278,Toyota,RAV4,2017,DZ182,Silver,True
+65,283,Toyota,Camry,2018,OF588,Red,True
+66,298,Tesla,Model 3,2025,SI240,Silver,True
+67,299,Toyota,Camry,2021,ZO540,Red,True
+68,306,Honda,Accord,2018,NH404,Blue,True
+69,307,Nissan,Sentra,2025,RA186,Silver,False
+70,308,Ford,Focus,2019,RH710,Silver,False
+71,312,Tesla,Model 3,2015,SB476,Red,True
+72,318,Toyota,Prius,2026,XM490,White,True
+73,319,Toyota,RAV4,2023,YK732,Red,True
+74,320,Hyundai,Elantra,2025,IB345,Black,True
+75,321,Toyota,Prius,2018,FL259,White,True
+76,324,Nissan,Rogue,2025,TX637,White,True
+77,330,Tesla,Model Y,2017,TR104,Silver,True
+78,334,Nissan,Rogue,2017,KD774,Blue,True
+79,340,Toyota,Corolla,2019,WT896,White,True
+80,342,Tesla,Model Y,2021,HX488,Red,True
+81,345,Toyota,RAV4,2017,TH767,Blue,True
+82,349,Honda,Accord,2022,EO422,Grey,True
+83,350,Hyundai,Sonata,2021,WF307,Red,True
+84,360,Honda,Accord,2023,YP298,Black,True
+85,363,Tesla,Model 3,2018,FR306,Black,True
+86,371,Toyota,Corolla,2024,CF723,Red,True
+87,372,Hyundai,Sonata,2025,SD151,Grey,True
+88,375,Toyota,RAV4,2016,MH241,Black,True
+89,382,Nissan,Rogue,2025,LU997,Blue,True
+90,385,Hyundai,Sonata,2025,BJ640,White,True
+91,388,Nissan,Sentra,2023,YS533,Red,True
+92,398,Toyota,RAV4,2021,NB893,Red,True
+93,399,Tesla,Model 3,2017,EN996,Blue,True
+94,401,Ford,Focus,2017,WN986,Silver,True
+95,407,Nissan,Altima,2020,OM486,Red,False
+96,410,Hyundai,Tucson,2016,UK894,Grey,True
+97,411,Honda,Civic,2019,FO746,Black,True
+98,415,Tesla,Model Y,2022,FR719,Black,True
+99,416,Toyota,Corolla,2018,UJ643,Silver,True
+100,420,Toyota,Prius,2019,LG842,Silver,False
+101,421,Hyundai,Tucson,2015,SP687,Silver,True
+102,423,Tesla,Model 3,2019,IT297,Blue,False
+103,424,Ford,Focus,2026,XU486,Blue,False
+104,425,Nissan,Sentra,2015,SL496,White,True
+105,431,Toyota,Corolla,2026,AO532,Blue,True
+106,435,Hyundai,Sonata,2020,XA157,Grey,True
+107,437,Tesla,Model Y,2025,QR750,Silver,True
+108,440,Toyota,RAV4,2023,NJ842,Black,True
+109,442,Honda,Accord,2017,AN636,Grey,True
+110,445,Nissan,Sentra,2016,XP549,White,True
+111,453,Tesla,Model Y,2019,LY123,Black,True
+112,456,Ford,Fusion,2025,NA653,Black,True
+113,460,Nissan,Altima,2026,FB305,Black,True
+114,462,Honda,Civic,2022,RA960,Grey,True
+115,463,Honda,Accord,2024,VW592,Red,True
+116,465,Nissan,Altima,2018,DS352,Black,True
+117,471,Tesla,Model 3,2018,FT560,Grey,True
+118,473,Ford,Focus,2024,BF984,Blue,True
+119,475,Honda,Civic,2019,FY640,Black,False
+120,476,Hyundai,Tucson,2026,CL380,Blue,True
+121,482,Toyota,Corolla,2022,YJ440,Blue,True
+122,485,Hyundai,Elantra,2024,HT219,Red,True
+123,489,Tesla,Model Y,2021,BI962,Silver,True
+124,494,Ford,Fusion,2019,IR779,White,True
+125,496,Tesla,Model Y,2022,SB511,White,True
+126,497,Tesla,Model 3,2017,SH574,White,False
+127,500,Hyundai,Sonata,2019,FF730,Black,True
+128,503,Toyota,Corolla,2019,LG421,Black,True
+129,506,Honda,Accord,2018,HG834,Red,True
+130,509,Tesla,Model 3,2024,FA342,White,True
+131,511,Tesla,Model Y,2017,FH241,Silver,True
+132,515,Ford,Fusion,2023,LC764,Grey,True
+133,519,Tesla,Model Y,2016,BE541,Black,True
+134,521,Hyundai,Sonata,2019,ZL609,Grey,True
+135,523,Tesla,Model Y,2022,UZ305,Grey,False
+136,526,Nissan,Altima,2024,KL952,White,True
+137,531,Hyundai,Elantra,2020,BD741,Black,True
+138,535,Toyota,Corolla,2016,TX847,White,True
+139,537,Hyundai,Sonata,2021,HK975,Grey,True
+140,547,Tesla,Model Y,2019,JK177,Red,True
+141,552,Tesla,Model 3,2015,ZW106,Red,True
+142,557,Hyundai,Sonata,2025,VB954,Red,True
+143,566,Ford,Fusion,2026,HM418,White,True
+144,571,Toyota,RAV4,2019,SQ631,Blue,True
+145,589,Nissan,Altima,2019,RZ844,Grey,True
+146,591,Toyota,Prius,2026,RJ285,White,True
+147,597,Nissan,Rogue,2023,WZ684,Blue,True
+148,599,Honda,Civic,2018,GT611,White,True
+149,600,Hyundai,Sonata,2021,GY940,Red,True
+150,602,Toyota,RAV4,2025,YH160,Red,True
+151,603,Hyundai,Elantra,2016,GF985,Blue,True
+152,606,Nissan,Altima,2025,JH100,White,True
+153,607,Toyota,RAV4,2017,MF376,White,False
+154,609,Hyundai,Sonata,2019,SN351,Red,True
+155,610,Nissan,Altima,2017,EA446,Blue,True
+156,617,Ford,Escape,2020,ZR967,White,True
+157,619,Hyundai,Tucson,2019,AL970,Black,True
+158,623,Hyundai,Elantra,2023,SX260,Silver,True
+159,627,Ford,Escape,2023,XR834,Red,True
+160,628,Ford,Fusion,2025,UH713,Red,True
+161,631,Ford,Focus,2017,DE856,Black,True
+162,635,Toyota,Prius,2017,ZI430,Red,True
+163,640,Honda,Civic,2016,YI150,Blue,False
+164,642,Ford,Focus,2015,CF336,Grey,True
+165,643,Honda,CR-V,2022,SB606,Grey,True
+166,646,Nissan,Altima,2018,OY332,Grey,False
+167,648,Tesla,Model Y,2025,KY453,Blue,True
+168,652,Hyundai,Tucson,2026,TM758,Silver,True
+169,654,Toyota,Prius,2022,KT977,Blue,True
+170,658,Nissan,Rogue,2021,TT882,Grey,True
+171,660,Tesla,Model Y,2026,EB253,Red,True
+172,661,Ford,Escape,2015,DE676,Blue,True
+173,671,Nissan,Sentra,2015,HP122,Red,True
+174,673,Tesla,Model Y,2017,MG398,Red,True
+175,675,Tesla,Model 3,2021,CP167,Grey,True
+176,678,Toyota,Camry,2017,OJ614,Blue,True
+177,686,Ford,Focus,2015,SL581,White,True
+178,687,Tesla,Model 3,2020,IF101,Grey,True
+179,694,Tesla,Model 3,2023,CA470,Grey,True
+180,703,Ford,Focus,2021,MF459,Silver,False
+181,711,Nissan,Sentra,2018,TY889,Silver,True
+182,712,Ford,Fusion,2026,IU157,Blue,True
+183,714,Tesla,Model 3,2025,CS524,White,True
+184,716,Nissan,Sentra,2020,GO705,Red,True
+185,718,Honda,Accord,2023,KT560,Grey,True
+186,723,Ford,Fusion,2015,ZD734,Grey,True
+187,727,Nissan,Rogue,2016,SE952,White,True
+188,728,Toyota,Corolla,2016,FM913,White,True
+189,733,Nissan,Sentra,2025,OC196,Red,True
+190,735,Ford,Fusion,2022,WH886,Red,True
+191,738,Honda,Accord,2022,DP750,Black,True
+192,743,Ford,Escape,2015,LH554,Red,True
+193,745,Nissan,Rogue,2025,XM120,Blue,False
+194,746,Hyundai,Tucson,2017,EN322,Blue,True
+195,750,Ford,Focus,2018,IP772,White,True
+196,751,Hyundai,Elantra,2022,KE103,Red,True
+197,754,Ford,Focus,2015,VQ602,Blue,True
+198,758,Nissan,Rogue,2022,UM347,Red,False
+199,763,Hyundai,Sonata,2020,IM779,White,True
+200,766,Nissan,Sentra,2024,DE735,Red,True
+201,772,Honda,Accord,2016,WA679,Red,True
+202,782,Ford,Fusion,2025,TN210,Red,True
+203,783,Honda,CR-V,2022,DO471,Grey,True
+204,784,Honda,CR-V,2021,ZY269,White,True
+205,790,Toyota,Corolla,2020,HA529,Black,True
+206,793,Nissan,Rogue,2017,AS421,Blue,False
+207,794,Hyundai,Tucson,2026,SF951,Blue,False
+208,801,Ford,Focus,2026,VX439,White,True
+209,804,Honda,Civic,2022,RI763,Red,False
+210,808,Honda,Civic,2025,KE912,White,True
+211,816,Hyundai,Sonata,2016,IB492,Red,True
+212,821,Nissan,Sentra,2022,GF979,Blue,True
+213,822,Toyota,Camry,2015,WD215,Black,True
+214,823,Honda,Accord,2021,CL641,Silver,True
+215,824,Tesla,Model Y,2023,WH936,Grey,False
+216,827,Hyundai,Elantra,2015,KL886,Silver,True
+217,829,Honda,Accord,2023,AK332,Grey,True
+218,833,Nissan,Altima,2016,DI297,Red,True
+219,838,Ford,Escape,2021,GX607,Red,True
+220,842,Nissan,Rogue,2025,YE578,Red,False
+221,843,Nissan,Sentra,2022,DS825,Silver,True
+222,846,Hyundai,Elantra,2021,UD283,Red,True
+223,847,Hyundai,Sonata,2016,JH299,Black,True
+224,854,Ford,Escape,2019,VB784,White,True
+225,855,Honda,CR-V,2022,QO126,Silver,True
+226,858,Honda,CR-V,2019,PS199,Grey,True
+227,859,Nissan,Rogue,2016,OU374,Red,True
+228,862,Hyundai,Tucson,2020,EI376,Grey,True
+229,873,Nissan,Altima,2025,OT280,Silver,True
+230,877,Tesla,Model Y,2024,EL106,Grey,True
+231,879,Hyundai,Sonata,2016,WX780,Silver,True
+232,880,Honda,CR-V,2021,IE751,Red,True
+233,881,Nissan,Altima,2020,EC160,Grey,True
+234,888,Tesla,Model 3,2016,QR457,Grey,False
+235,889,Toyota,Camry,2025,HW191,Red,True
+236,894,Honda,Civic,2020,IU588,Red,True
+237,895,Ford,Focus,2021,ZV482,Blue,False
+238,898,Toyota,RAV4,2021,KW925,Grey,True
+239,901,Hyundai,Elantra,2026,RZ194,Silver,True
+240,908,Ford,Escape,2015,DS378,Black,True
+241,917,Honda,Accord,2020,FX769,Silver,True
+242,920,Nissan,Altima,2020,AJ572,Blue,True
+243,921,Hyundai,Sonata,2022,YR863,White,True
+244,923,Tesla,Model Y,2019,PP591,Black,True
+245,925,Ford,Escape,2023,BN543,Silver,True
+246,932,Nissan,Sentra,2018,PU347,Black,True
+247,933,Ford,Fusion,2026,MS879,White,True
+248,937,Nissan,Altima,2015,GG751,Blue,True
+249,940,Hyundai,Sonata,2022,HY325,White,True
+250,950,Toyota,Prius,2019,FS308,White,True
+251,953,Toyota,RAV4,2023,SR826,Black,True
+252,959,Hyundai,Elantra,2018,NL692,Black,False
+253,961,Nissan,Altima,2020,DL214,Black,True
+254,962,Toyota,RAV4,2016,TB507,Blue,True
+255,965,Honda,Accord,2022,FK967,Black,True
+256,969,Toyota,Prius,2016,OW221,Blue,True
+257,972,Tesla,Model Y,2024,RV553,Blue,True
+258,974,Toyota,Prius,2022,JN522,Black,True
+259,978,Tesla,Model Y,2015,IB789,Red,True
+260,982,Tesla,Model Y,2016,QK947,White,True
+261,983,Tesla,Model 3,2023,UQ118,Grey,True
+262,987,Tesla,Model Y,2022,ZZ829,Blue,True
+263,993,Tesla,Model 3,2018,LX362,Blue,True
+264,994,Hyundai,Tucson,2021,QQ858,Red,True
+265,997,Honda,Accord,2023,GX359,White,False
+266,999,Honda,Civic,2015,RF993,Red,True
+267,1004,Toyota,Prius,2022,YK363,Silver,True
+268,1014,Ford,Escape,2018,WN218,White,True
+269,1021,Honda,CR-V,2016,WZ773,Black,True
+270,1030,Hyundai,Sonata,2026,PE883,Red,False
+271,1034,Ford,Escape,2017,MZ648,Red,True
+272,1036,Ford,Fusion,2024,FA415,Grey,True
+273,1041,Toyota,Camry,2016,XQ560,Blue,True
+274,1042,Toyota,Prius,2025,IM786,White,True
+275,1044,Honda,CR-V,2020,PE208,Red,True
+276,1050,Honda,Accord,2016,VS651,White,True
+277,1053,Nissan,Rogue,2020,YF164,Black,True
+278,1055,Toyota,Camry,2024,LJ490,Black,True
+279,1064,Hyundai,Tucson,2019,GY149,Blue,True
+280,1071,Ford,Focus,2015,UK368,Silver,True
+281,1077,Tesla,Model 3,2016,XL436,Red,True
+282,1078,Tesla,Model Y,2022,CZ259,Red,True
+283,1080,Toyota,Corolla,2025,SM737,White,True
+284,1081,Tesla,Model 3,2024,FR121,Red,True
+285,1085,Hyundai,Tucson,2025,FF151,Blue,True
+286,1086,Tesla,Model 3,2019,FL952,Silver,True
+287,1090,Hyundai,Tucson,2026,AY536,Blue,True
+288,1095,Hyundai,Sonata,2017,DR801,Red,True
+289,1098,Toyota,RAV4,2022,FL986,Black,True
+290,1099,Toyota,Prius,2023,XZ858,Grey,False
+291,1100,Tesla,Model 3,2025,VU386,Black,True
+292,1102,Nissan,Altima,2026,MF596,Grey,True
+293,1105,Nissan,Altima,2022,YJ818,White,True
+294,1107,Toyota,Corolla,2015,OF336,White,True
+295,1109,Toyota,RAV4,2022,RN194,Silver,True
+296,1110,Tesla,Model Y,2017,GS282,Grey,True
+297,1114,Ford,Focus,2021,YI579,Silver,True
+298,1116,Toyota,Prius,2020,FU703,Red,False
+299,1119,Honda,Accord,2024,AC177,Red,True
+300,1122,Toyota,Camry,2021,FZ981,White,True
+301,1123,Tesla,Model 3,2022,FH248,Blue,True
+302,1125,Hyundai,Elantra,2020,IC644,Red,True
+303,1127,Nissan,Sentra,2023,JS532,White,True
+304,1128,Nissan,Rogue,2026,SF469,Silver,True
+305,1130,Nissan,Altima,2023,TA362,White,True
+306,1132,Tesla,Model 3,2016,ZA220,Silver,True
+307,1134,Ford,Fusion,2024,TW515,Silver,True
+308,1138,Nissan,Altima,2016,UN990,White,True
+309,1140,Ford,Fusion,2018,MF925,White,False
+310,1141,Honda,Accord,2015,WO470,Red,True
+311,1144,Tesla,Model Y,2016,BE348,Blue,True
+312,1146,Honda,Accord,2025,NM253,Grey,True
+313,1147,Ford,Escape,2026,AI357,White,True
+314,1148,Honda,CR-V,2026,KB457,Blue,True
+315,1152,Hyundai,Sonata,2017,SL547,Red,True
+316,1155,Honda,Civic,2015,NG482,Black,True
+317,1161,Ford,Focus,2020,FC433,Grey,True
+318,1164,Ford,Focus,2024,PJ274,Silver,True
+319,1167,Nissan,Rogue,2023,UB263,Blue,True
+320,1170,Nissan,Altima,2022,AW634,Grey,True
+321,1174,Honda,CR-V,2022,HT867,Black,True
+322,1181,Honda,CR-V,2020,CB755,Red,False
+323,1182,Nissan,Sentra,2015,XY489,Red,True
+324,1183,Ford,Focus,2025,CS236,White,True
+325,1189,Honda,CR-V,2016,HH780,Blue,False
+326,1194,Ford,Escape,2016,LY165,Silver,True
+327,1196,Honda,CR-V,2026,GR560,Black,False
+328,1200,Honda,Accord,2016,TF885,Silver,False
+329,1201,Hyundai,Sonata,2021,EF445,Grey,True
+330,1205,Nissan,Rogue,2018,JO531,Grey,True
+331,1209,Honda,Accord,2024,CC704,Red,True
+332,1211,Tesla,Model 3,2026,SH982,Silver,True
+333,1214,Honda,CR-V,2023,MA697,Grey,False
+334,1216,Honda,CR-V,2025,WB253,White,False
+335,1220,Tesla,Model Y,2020,NA920,Blue,True
+336,1221,Ford,Escape,2025,QE877,Blue,True
+337,1223,Hyundai,Sonata,2019,OP925,Silver,True
+338,1226,Nissan,Altima,2017,VB492,White,True
+339,1228,Tesla,Model 3,2019,KM903,Blue,True
+340,1230,Nissan,Altima,2017,IM919,Red,True
+341,1233,Nissan,Altima,2018,DV224,Red,True
+342,1234,Toyota,RAV4,2026,XN145,Blue,True
+343,1235,Nissan,Sentra,2024,BP719,Silver,True
+344,1236,Toyota,RAV4,2023,NE773,White,True
+345,1238,Honda,CR-V,2016,MJ244,Blue,True
+346,1241,Tesla,Model Y,2019,GW115,Grey,True
+347,1246,Tesla,Model Y,2022,QW817,Black,True
+348,1249,Honda,Accord,2018,LA766,Grey,True
+349,1252,Hyundai,Tucson,2025,AS441,Grey,True
+350,1255,Honda,Accord,2015,KH741,Grey,True
+351,1258,Tesla,Model Y,2017,OF175,White,True
+352,1260,Tesla,Model 3,2023,GI793,Red,True
+353,1264,Tesla,Model Y,2015,NC880,Red,True
+354,1265,Toyota,RAV4,2019,ON201,Red,True
+355,1270,Honda,CR-V,2015,VE509,White,True
+356,1271,Hyundai,Tucson,2023,HV130,Grey,True
+357,1276,Tesla,Model Y,2019,DG367,White,True
+358,1289,Hyundai,Elantra,2016,GZ898,White,True
+359,1291,Nissan,Rogue,2022,ND606,Blue,True
+360,1292,Tesla,Model 3,2016,AU894,Grey,True
+361,1293,Nissan,Rogue,2019,ZT156,White,True
+362,1294,Ford,Focus,2015,IJ346,Red,False
+363,1299,Tesla,Model Y,2021,WC437,Red,True
+364,1306,Ford,Escape,2023,NJ220,Black,True
+365,1308,Toyota,Corolla,2023,EG930,Grey,True
+366,1309,Hyundai,Elantra,2016,WD712,Grey,False
+367,1312,Honda,Civic,2017,ML225,Blue,True
+368,1313,Nissan,Altima,2021,IJ416,Black,True
+369,1316,Honda,CR-V,2016,DX317,White,True
+370,1318,Tesla,Model 3,2015,GO558,Silver,True
+371,1321,Honda,Civic,2020,FO605,Red,True
+372,1324,Toyota,Corolla,2020,PV645,Red,True
+373,1331,Toyota,RAV4,2015,MQ323,Silver,True
+374,1332,Ford,Escape,2022,LP986,White,True
+375,1336,Toyota,Corolla,2024,NY109,Silver,True
+376,1337,Toyota,Corolla,2016,BN945,Blue,True
+377,1338,Honda,Accord,2018,WG165,Blue,True
+378,1342,Honda,Civic,2023,ZI299,Grey,True
+379,1344,Honda,CR-V,2015,TJ559,White,True
+380,1348,Tesla,Model 3,2024,FT952,Silver,True
+381,1354,Ford,Fusion,2021,BI730,Black,True
+382,1370,Honda,Accord,2022,NZ136,Blue,True
+383,1375,Hyundai,Elantra,2025,CP137,Grey,True
+384,1376,Toyota,Corolla,2026,KK544,White,True
+385,1379,Ford,Escape,2018,DQ346,Silver,True
+386,1382,Hyundai,Tucson,2021,RO291,White,True
+387,1387,Toyota,Corolla,2024,AC419,Silver,True
+388,1389,Toyota,RAV4,2015,PT350,Silver,True
+389,1390,Nissan,Altima,2018,TS202,White,True
+390,1392,Toyota,RAV4,2018,GF553,Black,True
+391,1396,Tesla,Model 3,2015,JW400,Blue,True
+392,1397,Nissan,Sentra,2024,FB446,Grey,True
+393,1399,Hyundai,Sonata,2018,FJ344,Red,True
+394,1403,Hyundai,Elantra,2023,RH776,Silver,True
+395,1404,Honda,Civic,2016,OJ719,Red,True
+396,1413,Tesla,Model 3,2015,IY819,Black,True
+397,1419,Ford,Escape,2017,IC501,Grey,True
+398,1420,Ford,Escape,2026,YP194,Silver,True
+399,1425,Honda,CR-V,2019,FH224,Blue,True
+400,1435,Toyota,Camry,2019,IL691,Grey,False
+401,1438,Ford,Fusion,2026,NY623,Grey,True
+402,1439,Ford,Fusion,2026,KZ980,Silver,True
+403,1441,Toyota,Corolla,2016,GQ614,Grey,False
+404,1443,Toyota,Camry,2017,MS318,Black,True
+405,1444,Ford,Escape,2023,IO714,Red,False
+406,1456,Toyota,RAV4,2015,SY861,Red,True
+407,1463,Hyundai,Sonata,2022,AF133,Silver,True
+408,1469,Nissan,Rogue,2021,LJ265,Blue,True
+409,1470,Ford,Escape,2021,YR387,Black,True
+410,1475,Nissan,Sentra,2017,LX777,Grey,True
+411,1477,Tesla,Model Y,2026,HM300,Red,True
+412,1480,Ford,Fusion,2026,YE650,Grey,True
+413,1481,Nissan,Altima,2017,NR903,Black,True
+414,1490,Toyota,Prius,2023,SB965,Blue,True
+415,1495,Toyota,Camry,2025,IW492,Silver,True
+416,1497,Hyundai,Sonata,2019,OF870,Black,True
+417,1502,Honda,CR-V,2026,GQ827,Blue,True
+418,1503,Tesla,Model Y,2020,NX402,White,True
+419,1504,Ford,Fusion,2020,WI694,Silver,True
+420,1507,Tesla,Model 3,2017,CU150,Grey,True
+421,1508,Toyota,RAV4,2024,AA836,Silver,True
+422,1513,Honda,Accord,2019,TK534,White,True
+423,1514,Nissan,Sentra,2019,HQ707,White,True
+424,1520,Toyota,Corolla,2024,KU902,Black,True
+425,1522,Honda,Accord,2015,KP431,Grey,True
+426,1525,Ford,Focus,2025,XI540,Silver,True
+427,1526,Honda,Civic,2015,FC528,Blue,True
+428,1527,Hyundai,Elantra,2021,MX903,Black,True
+429,1528,Ford,Escape,2020,IH443,White,True
+430,1529,Toyota,Camry,2026,KY360,Black,True
+431,1531,Honda,Civic,2015,ST659,Red,True
+432,1532,Toyota,RAV4,2019,AZ478,Grey,True
+433,1536,Hyundai,Elantra,2024,BS559,Black,True
+434,1542,Tesla,Model Y,2017,YH667,Red,True
+435,1545,Honda,CR-V,2018,PR309,Red,True
+436,1546,Tesla,Model 3,2023,CI126,White,True
+437,1549,Hyundai,Tucson,2020,VN776,Blue,False
+438,1556,Honda,Civic,2021,BJ900,Silver,True
+439,1557,Nissan,Altima,2022,PU956,Blue,True
+440,1558,Tesla,Model Y,2017,UN491,Silver,True
+441,1561,Tesla,Model Y,2015,XD461,Grey,True
+442,1563,Nissan,Altima,2024,JH353,Red,True
+443,1573,Ford,Fusion,2024,OQ115,Red,True
+444,1576,Tesla,Model Y,2015,QI222,White,True
+445,1580,Nissan,Altima,2016,IG883,Silver,True
+446,1583,Nissan,Sentra,2025,OB430,Silver,True
+447,1585,Honda,Civic,2026,MX788,Red,True
+448,1589,Ford,Focus,2023,MC220,Black,True
+449,1592,Tesla,Model 3,2020,RY897,White,True
+450,1593,Honda,CR-V,2015,OU889,Silver,True
+451,1595,Hyundai,Sonata,2015,LN324,Grey,True
+452,1602,Honda,Civic,2023,IN332,Red,True
+453,1605,Toyota,RAV4,2022,OE752,Blue,True
+454,1608,Tesla,Model 3,2026,VM812,Black,True
+455,1613,Nissan,Sentra,2015,YH852,Silver,True
+456,1623,Hyundai,Elantra,2022,MR692,Black,True
+457,1624,Hyundai,Sonata,2019,ZZ877,Silver,False
+458,1625,Ford,Escape,2021,CL970,Red,False
+459,1626,Toyota,Prius,2023,VJ353,Blue,True
+460,1628,Hyundai,Elantra,2025,WC665,Silver,True
+461,1631,Nissan,Rogue,2026,QL425,Silver,True
+462,1634,Hyundai,Tucson,2024,QX422,Blue,True
+463,1639,Tesla,Model Y,2026,TS284,Blue,True
+464,1645,Nissan,Altima,2017,BB323,Silver,False
+465,1646,Hyundai,Elantra,2025,EO295,Grey,True
+466,1647,Tesla,Model 3,2021,PW434,Blue,True
+467,1648,Nissan,Sentra,2016,FS371,Grey,True
+468,1655,Honda,Civic,2021,DA559,Red,True
+469,1656,Honda,Civic,2023,YQ691,Blue,True
+470,1657,Nissan,Rogue,2025,JK187,Grey,True
+471,1658,Toyota,Prius,2026,BW929,Grey,True
+472,1665,Toyota,RAV4,2015,OU911,White,True
+473,1666,Honda,Civic,2026,RM538,White,True
+474,1670,Nissan,Rogue,2022,AJ320,White,True
+475,1671,Toyota,Camry,2023,HL177,Silver,True
+476,1675,Toyota,Camry,2025,NY452,Blue,True
+477,1676,Hyundai,Tucson,2017,NB675,Blue,True
+478,1680,Toyota,Prius,2021,KB572,White,True
+479,1681,Honda,Accord,2023,HW572,Blue,True
+480,1683,Honda,CR-V,2019,HO452,Black,True
+481,1685,Ford,Fusion,2021,IN912,Silver,True
+482,1689,Honda,Civic,2016,SQ767,Blue,True
+483,1696,Ford,Focus,2021,HG280,Blue,True
+484,1698,Nissan,Rogue,2015,AM119,Red,True
+485,1699,Tesla,Model Y,2023,PU328,White,True
+486,1712,Ford,Focus,2020,OV783,Blue,True
+487,1714,Toyota,RAV4,2021,GA482,Black,True
+488,1730,Toyota,Prius,2023,MP170,Grey,True
+489,1732,Nissan,Sentra,2019,WZ388,Blue,True
+490,1735,Honda,CR-V,2017,DR639,Blue,True
+491,1736,Honda,Accord,2021,EF809,Black,False
+492,1740,Tesla,Model Y,2021,XF322,White,True
+493,1744,Tesla,Model 3,2016,NN806,Red,True
+494,1747,Hyundai,Elantra,2017,PS881,Red,True
+495,1748,Tesla,Model 3,2020,UI412,Black,True
+496,1753,Toyota,Camry,2024,YC383,Black,True
+497,1754,Hyundai,Sonata,2021,TA601,Silver,True
+498,1763,Nissan,Altima,2023,YQ302,Grey,False
+499,1769,Tesla,Model 3,2018,OQ308,Grey,True
+500,1772,Honda,CR-V,2025,UQ265,Blue,True
+501,1774,Tesla,Model 3,2016,NK671,Silver,True
+502,1776,Honda,CR-V,2017,GQ693,Silver,True
+503,1777,Tesla,Model 3,2017,YK134,Black,True
+504,1778,Hyundai,Elantra,2015,VT517,Grey,True
+505,1780,Tesla,Model Y,2026,ZB174,Blue,True
+506,1786,Hyundai,Sonata,2017,MP113,Red,True
+507,1787,Tesla,Model 3,2017,YG583,Blue,False
+508,1790,Nissan,Altima,2023,SN643,Black,True
+509,1791,Nissan,Sentra,2024,GJ354,Black,True
+510,1792,Tesla,Model 3,2023,VF277,Red,True
+511,1796,Hyundai,Tucson,2018,WQ748,Red,True
+512,1797,Ford,Focus,2018,WT680,Black,True
+513,1802,Honda,Civic,2022,QY906,Grey,False
+514,1810,Toyota,Prius,2024,PM535,Silver,True
+515,1811,Ford,Escape,2021,AX947,Red,True
+516,1813,Honda,Civic,2017,KZ894,Black,True
+517,1817,Nissan,Altima,2023,UK933,Blue,True
+518,1822,Nissan,Sentra,2021,AV448,Grey,True
+519,1825,Honda,Civic,2026,UJ153,Blue,True
+520,1828,Toyota,Corolla,2024,SE795,Silver,True
+521,1833,Toyota,Corolla,2026,ED383,Black,True
+522,1843,Tesla,Model 3,2019,WO361,Blue,True
+523,1847,Honda,Civic,2018,BI675,Blue,True
+524,1849,Tesla,Model Y,2023,UR414,Silver,True
+525,1851,Honda,Accord,2025,NY657,Red,True
+526,1859,Toyota,RAV4,2017,WY326,Blue,True
+527,1863,Hyundai,Elantra,2021,CR820,White,True
+528,1865,Nissan,Rogue,2025,MV439,Black,True
+529,1869,Hyundai,Tucson,2024,XO682,Black,True
+530,1870,Hyundai,Sonata,2026,AN176,Blue,True
+531,1875,Ford,Focus,2021,MG324,Blue,False
+532,1877,Honda,CR-V,2022,FB352,Grey,True
+533,1881,Ford,Fusion,2016,YC899,Red,True
+534,1882,Honda,Accord,2022,MY593,Blue,True
+535,1883,Tesla,Model Y,2017,FS676,Grey,True
+536,1885,Ford,Focus,2021,VA339,Black,True
+537,1887,Nissan,Rogue,2018,PG814,Blue,True
+538,1888,Tesla,Model 3,2024,ZS294,Blue,True
+539,1890,Honda,Accord,2020,SF373,Black,True
+540,1892,Hyundai,Sonata,2015,YQ755,White,True
+541,1895,Hyundai,Tucson,2024,TC277,Silver,True
+542,1896,Tesla,Model 3,2016,VS507,Grey,True
+543,1900,Honda,Accord,2021,RF838,White,True
+544,1902,Tesla,Model Y,2018,PD102,Red,False
+545,1903,Nissan,Sentra,2018,RE411,Blue,True
+546,1908,Nissan,Sentra,2024,NW547,Red,False
+547,1912,Tesla,Model Y,2020,KY426,Black,True
+548,1919,Hyundai,Elantra,2024,GY729,Blue,False
+549,1920,Toyota,RAV4,2026,ZH968,Grey,True
+550,1925,Tesla,Model 3,2016,OC794,White,True
+551,1930,Ford,Escape,2025,OX270,Blue,True
+552,1936,Tesla,Model Y,2020,AR285,Black,True
+553,1941,Hyundai,Sonata,2020,NJ559,Silver,True
+554,1959,Ford,Focus,2018,TI487,Grey,True
+555,1961,Toyota,Corolla,2025,FM801,Blue,True
+556,1965,Toyota,Prius,2015,SJ503,Silver,False
+557,1966,Hyundai,Elantra,2026,FA635,Grey,True
+558,1970,Ford,Escape,2024,GW152,Blue,True
+559,1972,Toyota,RAV4,2016,WS488,Blue,True
+560,1973,Nissan,Sentra,2020,RV775,White,False
+561,1975,Hyundai,Sonata,2015,VH515,Grey,True
+562,1977,Ford,Focus,2021,CV483,Red,True
+563,1981,Tesla,Model 3,2016,YH622,Silver,True
+564,1983,Nissan,Altima,2024,KJ987,Blue,True
+565,1984,Ford,Fusion,2021,VU369,Black,True
+566,1985,Honda,Accord,2017,TW893,Blue,True
+567,1986,Honda,Civic,2023,AD991,Red,True
+568,1987,Nissan,Altima,2026,JL722,Red,False
+569,1988,Tesla,Model Y,2026,YS486,Black,True
+570,1989,Nissan,Rogue,2023,TN218,Blue,True
+571,1990,Tesla,Model 3,2016,OA395,Silver,True
+572,1993,Honda,Accord,2019,MT328,Red,True
+573,1997,Ford,Escape,2026,FC241,Blue,True
+574,2002,Tesla,Model 3,2022,TK987,Red,True
+575,2003,Honda,Civic,2026,RO770,Red,True
+576,2005,Toyota,Prius,2018,GA401,Black,True
+577,2010,Toyota,Camry,2026,LI381,Silver,True
+578,2014,Hyundai,Tucson,2024,TQ725,Black,False
+579,2019,Hyundai,Elantra,2021,FI450,Blue,True
+580,2020,Tesla,Model Y,2018,HR234,Black,True
+581,2021,Honda,Accord,2022,QX456,Red,False
+582,2025,Hyundai,Tucson,2025,YI175,Grey,True
+583,2028,Toyota,Prius,2018,VZ201,Blue,True
+584,2031,Hyundai,Sonata,2024,HZ598,Silver,True
+585,2033,Nissan,Rogue,2018,BW759,Grey,True
+586,2034,Honda,Accord,2024,EZ991,Blue,True
+587,2035,Hyundai,Elantra,2021,WV703,Blue,True
+588,2038,Hyundai,Tucson,2017,XC221,Black,True
+589,2040,Ford,Fusion,2025,OX370,Black,False
+590,2042,Tesla,Model Y,2018,RD405,Red,False
+591,2043,Tesla,Model 3,2024,NP486,Blue,True
+592,2046,Ford,Escape,2025,QA341,Blue,True
+593,2051,Ford,Focus,2021,MU633,Red,True
+594,2054,Tesla,Model Y,2015,MU716,Red,True
+595,2061,Tesla,Model Y,2024,IV337,Black,False
+596,2062,Ford,Escape,2026,HV652,White,True
+597,2064,Toyota,Prius,2015,DK724,Grey,True
+598,2068,Ford,Fusion,2019,UQ577,White,True
+599,2069,Hyundai,Elantra,2019,SY470,Silver,True
+600,2074,Honda,Accord,2021,YB674,Black,True
+601,2077,Ford,Fusion,2025,DM571,White,True
+602,2085,Ford,Escape,2020,UI567,Black,True
+603,2086,Honda,CR-V,2019,YS226,Blue,True
+604,2089,Honda,Accord,2017,XV659,Red,False
+605,2092,Toyota,Camry,2021,EU421,Red,False
+606,2094,Tesla,Model 3,2015,QC792,Red,True
+607,2101,Ford,Focus,2022,KA606,Blue,True
+608,2103,Nissan,Altima,2015,GO466,Black,True
+609,2104,Nissan,Rogue,2018,YB739,Red,True
+610,2108,Ford,Fusion,2024,DP562,Blue,True
+611,2109,Ford,Focus,2021,BT929,White,True
+612,2113,Hyundai,Sonata,2023,EN168,Blue,True
+613,2115,Hyundai,Tucson,2026,UJ550,Red,True
+614,2117,Hyundai,Elantra,2018,BO914,Red,True
+615,2127,Tesla,Model 3,2015,BG347,White,True
+616,2130,Hyundai,Elantra,2025,AQ410,Red,True
+617,2132,Ford,Escape,2019,UR724,Blue,True
+618,2137,Ford,Focus,2022,BQ598,Black,True
+619,2143,Honda,Accord,2019,UC404,White,True
+620,2144,Tesla,Model Y,2016,OF394,White,True
+621,2145,Hyundai,Sonata,2015,ME274,Red,True
+622,2147,Toyota,Camry,2023,QF984,Red,True
+623,2148,Ford,Focus,2023,TN267,Black,False
+624,2154,Nissan,Rogue,2015,RF266,Silver,True
+625,2160,Hyundai,Sonata,2019,UY126,Grey,True
+626,2166,Tesla,Model Y,2021,JJ733,Red,True
+627,2167,Toyota,Camry,2018,QK997,White,True
+628,2168,Ford,Escape,2019,YA925,Black,False
+629,2171,Toyota,Prius,2022,VA752,Silver,True
+630,2176,Ford,Focus,2017,OE920,Blue,True
+631,2185,Hyundai,Elantra,2017,QQ767,Blue,True
+632,2186,Nissan,Rogue,2018,VS860,White,True
+633,2188,Ford,Fusion,2024,KS961,Silver,False
+634,2190,Toyota,Corolla,2019,FU664,Silver,True
+635,2192,Hyundai,Sonata,2016,UO487,Blue,True
+636,2196,Nissan,Rogue,2024,UI279,Grey,True
+637,2199,Toyota,RAV4,2016,CC388,Black,True
+638,2200,Tesla,Model Y,2025,NR164,Grey,False
+639,2201,Hyundai,Elantra,2017,AN784,Grey,True
+640,2203,Honda,Civic,2025,SV361,Blue,True
+641,2210,Ford,Fusion,2026,DX539,Black,True
+642,2221,Nissan,Sentra,2023,TM325,Silver,True
+643,2222,Hyundai,Sonata,2017,DF791,Blue,True
+644,2223,Nissan,Sentra,2024,ZP177,Red,True
+645,2224,Nissan,Rogue,2016,MM716,Silver,True
+646,2226,Ford,Escape,2025,EA447,Silver,True
+647,2236,Ford,Focus,2021,RB832,White,True
+648,2237,Tesla,Model Y,2026,QE925,Grey,True
+649,2240,Nissan,Rogue,2018,AH186,Red,True
+650,2241,Nissan,Altima,2020,TD914,Black,True
+651,2249,Ford,Escape,2025,OB574,Silver,True
+652,2251,Tesla,Model Y,2020,UY118,Grey,True
+653,2254,Honda,CR-V,2015,ZF366,Silver,True
+654,2255,Ford,Fusion,2026,NG527,Silver,True
+655,2256,Toyota,RAV4,2015,VI731,Grey,True
+656,2259,Hyundai,Elantra,2024,II198,Grey,True
+657,2261,Tesla,Model Y,2025,GK323,Blue,True
+658,2267,Honda,Civic,2016,ZT337,Silver,True
+659,2268,Hyundai,Sonata,2024,MU333,Silver,True
+660,2274,Honda,CR-V,2026,UF116,Silver,True
+661,2276,Toyota,Corolla,2017,UI698,Grey,True
+662,2286,Toyota,Prius,2022,KQ148,Red,True
+663,2287,Toyota,Prius,2018,VP800,Red,True
+664,2288,Toyota,Camry,2019,AC877,Grey,True
+665,2291,Nissan,Sentra,2026,FA290,Red,True
+666,2292,Hyundai,Elantra,2020,XX125,Grey,True
+667,2297,Nissan,Altima,2020,JZ823,Grey,False
+668,2305,Honda,CR-V,2024,VV408,Blue,True
+669,2307,Ford,Focus,2023,EJ553,Grey,True
+670,2318,Honda,CR-V,2024,FV348,Red,True
+671,2319,Honda,Civic,2024,LG130,Grey,True
+672,2325,Tesla,Model Y,2022,NT880,Red,True
+673,2331,Honda,CR-V,2015,AS975,Grey,True
+674,2332,Ford,Fusion,2026,CE284,Red,True
+675,2339,Hyundai,Tucson,2015,HO303,Grey,True
+676,2340,Tesla,Model Y,2020,LH933,Grey,True
+677,2341,Nissan,Rogue,2021,AF399,Grey,True
+678,2345,Toyota,RAV4,2019,RI871,Silver,True
+679,2348,Honda,CR-V,2025,SO427,Grey,True
+680,2349,Hyundai,Elantra,2017,MW314,Blue,True
+681,2352,Tesla,Model Y,2023,BH465,Blue,True
+682,2353,Toyota,Corolla,2017,TM780,Black,True
+683,2354,Nissan,Sentra,2019,UY146,Blue,True
+684,2357,Tesla,Model 3,2019,OA573,White,True
+685,2358,Nissan,Altima,2019,EY945,Red,True
+686,2362,Hyundai,Elantra,2017,JH728,Black,True
+687,2365,Nissan,Altima,2019,MK944,Black,True
+688,2368,Honda,CR-V,2024,EY203,Blue,True
+689,2370,Tesla,Model 3,2016,WJ223,White,True
+690,2371,Honda,Accord,2017,BL600,Red,True
+691,2372,Nissan,Sentra,2021,LH852,Red,True
+692,2378,Ford,Escape,2016,WY543,Grey,True
+693,2380,Hyundai,Sonata,2021,NI778,Silver,True
+694,2386,Toyota,RAV4,2024,QY811,White,True
+695,2388,Hyundai,Sonata,2020,CW530,White,False
+696,2391,Nissan,Sentra,2018,RO656,Black,False
+697,2393,Honda,Civic,2015,ZL767,Black,True
+698,2400,Toyota,Camry,2016,YI282,Silver,True
+699,2415,Tesla,Model 3,2022,VA160,Silver,True
+700,2417,Nissan,Altima,2021,HM997,Grey,True
+701,2418,Honda,Civic,2021,WI663,Black,True
+702,2419,Honda,CR-V,2025,QR977,White,True
+703,2420,Hyundai,Elantra,2017,ED317,Silver,True
+704,2427,Nissan,Altima,2022,LW387,Black,True
+705,2431,Toyota,RAV4,2021,SO162,Blue,False
+706,2435,Honda,Accord,2023,PH564,Red,True
+707,2439,Honda,Civic,2016,QL361,Red,True
+708,2442,Toyota,RAV4,2024,IW264,Black,True
+709,2443,Ford,Fusion,2023,MN735,Grey,True
+710,2445,Toyota,Corolla,2015,EG567,Grey,True
+711,2446,Hyundai,Sonata,2025,EH576,Grey,True
+712,2450,Ford,Focus,2020,NB744,Blue,True
+713,2452,Hyundai,Tucson,2018,MM121,Grey,True
+714,2456,Nissan,Altima,2026,ZO991,Silver,True
+715,2457,Nissan,Altima,2022,TY886,Red,False
+716,2458,Toyota,Camry,2022,TQ860,Red,True
+717,2462,Nissan,Altima,2017,NJ422,White,True
+718,2464,Tesla,Model 3,2020,SC395,White,True
+719,2467,Honda,Civic,2024,EL370,Red,True
+720,2472,Hyundai,Elantra,2015,SJ102,White,True
+721,2473,Hyundai,Sonata,2019,SP445,Blue,True
+722,2474,Nissan,Rogue,2019,VF544,Grey,True
+723,2484,Hyundai,Elantra,2017,EX641,Silver,True
+724,2486,Hyundai,Elantra,2025,BI939,White,True
+725,2493,Ford,Focus,2016,FT267,Blue,True
+726,2496,Honda,Accord,2025,QM330,White,True
+727,2497,Tesla,Model 3,2026,FF901,Silver,True
+728,2501,Nissan,Rogue,2023,NS113,Grey,True
+729,2504,Hyundai,Tucson,2016,TE180,White,True
+730,2505,Tesla,Model 3,2019,AM409,Grey,True
+731,2507,Toyota,RAV4,2025,NM426,Blue,False
+732,2508,Honda,Civic,2017,CO202,Blue,True
+733,2514,Hyundai,Tucson,2015,SS208,Red,True
+734,2521,Toyota,RAV4,2021,NF525,White,False
+735,2523,Honda,Civic,2017,GL441,Blue,True
+736,2525,Nissan,Altima,2016,MT217,Black,True
+737,2526,Toyota,RAV4,2021,ST646,Red,True
+738,2527,Ford,Fusion,2019,VE855,Black,True
+739,2528,Honda,Accord,2024,SX995,Silver,True
+740,2530,Tesla,Model Y,2025,TZ296,Blue,True
+741,2532,Honda,Accord,2020,XR276,Blue,True
+742,2533,Hyundai,Tucson,2024,HG696,Grey,True
+743,2536,Nissan,Altima,2018,KY930,Grey,True
+744,2537,Ford,Escape,2025,RX497,Blue,True
+745,2539,Nissan,Sentra,2025,PM784,White,True
+746,2547,Nissan,Sentra,2019,RQ202,Grey,True
+747,2548,Tesla,Model Y,2025,OW829,Black,True
+748,2550,Nissan,Sentra,2025,PO459,Black,True
+749,2562,Hyundai,Tucson,2025,TF783,Grey,True
+750,2564,Honda,Civic,2019,LY766,Blue,False
+751,2565,Honda,Accord,2024,NA834,Blue,True
+752,2570,Toyota,Prius,2025,JD753,Red,False
+753,2571,Ford,Focus,2025,HI801,White,True
+754,2574,Tesla,Model Y,2021,QF193,White,False
+755,2577,Nissan,Rogue,2015,BQ799,Blue,True
+756,2579,Nissan,Rogue,2020,ZI189,Grey,True
+757,2580,Hyundai,Sonata,2025,TH154,White,True
+758,2581,Tesla,Model 3,2016,DK459,Grey,True
+759,2585,Ford,Escape,2024,GT380,White,True
+760,2589,Ford,Fusion,2015,QX640,Grey,False
+761,2590,Tesla,Model Y,2024,GY553,Grey,False
+762,2592,Honda,Accord,2017,TC598,Silver,False
+763,2595,Ford,Escape,2021,EE820,Blue,True
+764,2598,Toyota,RAV4,2019,MA863,White,True
+765,2601,Hyundai,Sonata,2019,AA611,White,True
+766,2608,Honda,Civic,2023,CJ500,White,True
+767,2609,Tesla,Model Y,2024,JB124,Grey,False
+768,2610,Honda,CR-V,2020,UV968,Black,True
+769,2612,Honda,CR-V,2024,WO826,Black,True
+770,2613,Ford,Fusion,2017,ME638,Blue,True
+771,2615,Hyundai,Elantra,2016,TX328,White,True
+772,2616,Toyota,Camry,2023,XC786,Blue,True
+773,2622,Hyundai,Elantra,2015,ZJ372,Silver,True
+774,2624,Tesla,Model Y,2026,XU987,Silver,True
+775,2627,Hyundai,Sonata,2026,VH449,White,True
+776,2632,Honda,Accord,2024,BJ510,Blue,True
+777,2635,Ford,Escape,2024,XS522,White,True
+778,2647,Ford,Escape,2016,CG572,White,True
+779,2648,Nissan,Sentra,2023,JD744,Silver,True
+780,2651,Nissan,Altima,2026,AG129,Grey,True
+781,2654,Toyota,Corolla,2022,QZ462,Silver,True
+782,2656,Nissan,Rogue,2022,SP144,Blue,True
+783,2658,Tesla,Model Y,2019,KE630,Black,True
+784,2659,Nissan,Sentra,2017,UR221,Blue,True
+785,2663,Hyundai,Tucson,2018,PE891,White,True
+786,2665,Ford,Focus,2025,BS280,White,False
+787,2670,Ford,Escape,2023,TR393,Red,True
+788,2674,Toyota,Camry,2018,NU473,Silver,True
+789,2678,Hyundai,Tucson,2020,KV949,Silver,True
+790,2683,Ford,Escape,2025,MJ205,Red,True
+791,2684,Toyota,Corolla,2025,FX399,Blue,True
+792,2687,Tesla,Model 3,2017,ZV744,Red,True
+793,2688,Nissan,Sentra,2020,WE924,Red,True
+794,2696,Tesla,Model 3,2016,JA790,White,True
+795,2698,Toyota,Camry,2022,KT553,Grey,True
+796,2700,Ford,Fusion,2023,WU762,Silver,True
+797,2701,Tesla,Model 3,2024,EB953,Black,True
+798,2703,Ford,Fusion,2024,QF599,Silver,True
+799,2705,Tesla,Model 3,2018,HK772,Black,True
+800,2706,Tesla,Model 3,2024,HA270,Grey,True
+801,2709,Hyundai,Sonata,2016,SP947,Red,True
+802,2713,Hyundai,Sonata,2026,NN669,Silver,True
+803,2714,Nissan,Rogue,2022,TZ350,Blue,True
+804,2718,Honda,Accord,2020,DT755,Red,True
+805,2719,Honda,CR-V,2017,IR114,White,True
+806,2722,Hyundai,Sonata,2017,TM529,Blue,True
+807,2725,Toyota,Corolla,2024,ES473,Red,True
+808,2726,Toyota,Corolla,2026,YR107,White,True
+809,2728,Ford,Escape,2023,BU567,White,True
+810,2729,Hyundai,Tucson,2022,LM853,Grey,True
+811,2731,Nissan,Rogue,2025,RE967,White,True
+812,2743,Honda,Civic,2016,AC565,Black,False
+813,2745,Tesla,Model 3,2021,PV881,Red,True
+814,2750,Honda,Civic,2026,LH994,Red,True
+815,2755,Nissan,Altima,2016,UA271,Silver,True
+816,2756,Ford,Focus,2024,OT169,Red,True
+817,2762,Toyota,Camry,2026,NN565,White,True
+818,2763,Honda,CR-V,2019,DQ708,White,True
+819,2766,Hyundai,Elantra,2023,NS440,White,True
+820,2778,Honda,CR-V,2018,KP499,Red,True
+821,2781,Nissan,Rogue,2025,EY599,Grey,True
+822,2786,Ford,Fusion,2016,YU723,Black,True
+823,2791,Nissan,Sentra,2020,XU345,Silver,True
+824,2804,Tesla,Model Y,2017,YJ566,Red,True
+825,2805,Ford,Fusion,2018,AJ770,Grey,True
+826,2816,Tesla,Model 3,2016,HZ545,Grey,True
+827,2822,Ford,Fusion,2022,JP668,Silver,True
+828,2823,Nissan,Rogue,2024,ID253,Blue,True
+829,2828,Nissan,Rogue,2025,WF715,Black,False
+830,2829,Nissan,Rogue,2016,KH404,Blue,True
+831,2834,Ford,Focus,2017,CV774,Grey,True
+832,2836,Hyundai,Tucson,2023,GP899,Red,True
+833,2838,Nissan,Sentra,2020,VT381,Silver,False
+834,2843,Toyota,Corolla,2024,KM675,Black,True
+835,2848,Honda,CR-V,2020,DA386,Red,True
+836,2849,Nissan,Altima,2024,BP376,Silver,True
+837,2852,Toyota,Camry,2017,PP530,Red,False
+838,2853,Tesla,Model Y,2026,GU454,Red,True
+839,2855,Hyundai,Tucson,2015,FC289,Black,True
+840,2858,Nissan,Sentra,2022,PL464,Black,True
+841,2859,Hyundai,Sonata,2018,BH984,Grey,True
+842,2869,Ford,Fusion,2025,NC429,White,True
+843,2871,Tesla,Model 3,2020,YS438,Grey,True
+844,2878,Nissan,Altima,2015,YV612,Grey,True
+845,2879,Ford,Fusion,2024,FB937,Grey,True
+846,2882,Toyota,Prius,2025,EW811,Red,True
+847,2886,Honda,Accord,2019,XS256,Grey,True
+848,2891,Tesla,Model Y,2022,TX903,Grey,True
+849,2900,Honda,Accord,2024,CS218,Grey,True
+850,2901,Nissan,Altima,2019,GQ242,Grey,True
+851,2903,Hyundai,Elantra,2020,PG736,Blue,True
+852,2904,Honda,Accord,2022,GO645,Blue,True
+853,2915,Hyundai,Elantra,2025,BG155,Red,True
+854,2926,Hyundai,Elantra,2023,JX785,Red,True
+855,2928,Tesla,Model 3,2025,FZ979,Black,True
+856,2939,Nissan,Altima,2019,JJ355,Grey,True
+857,2940,Nissan,Rogue,2023,IO182,Black,True
+858,2944,Honda,Civic,2017,JR794,White,True
+859,2946,Ford,Focus,2020,TA588,Blue,True
+860,2947,Hyundai,Tucson,2025,YI893,White,False
+861,2949,Hyundai,Sonata,2022,PN452,Silver,True
+862,2951,Ford,Escape,2023,AO439,Blue,True
+863,2954,Hyundai,Tucson,2015,XR468,Grey,False
+864,2955,Hyundai,Sonata,2022,NE612,Red,True
+865,2956,Hyundai,Sonata,2023,YH995,Blue,True
+866,2957,Toyota,Corolla,2017,KC155,Silver,True
+867,2959,Hyundai,Tucson,2020,AW371,White,True
+868,2963,Hyundai,Tucson,2020,PN621,White,True
+869,2964,Nissan,Rogue,2019,KC620,Silver,True
+870,2970,Ford,Escape,2026,YY805,Silver,True
+871,2973,Ford,Focus,2021,TC863,White,True
+872,2974,Hyundai,Elantra,2024,ZP537,Silver,True
+873,2978,Toyota,Corolla,2021,UB704,Grey,True
+874,2980,Tesla,Model Y,2020,WR976,Grey,True
+875,2982,Ford,Focus,2017,YL386,White,True
+876,2987,Toyota,Camry,2025,CP352,White,True
+877,2996,Tesla,Model Y,2022,WH967,Grey,True
+878,2997,Tesla,Model 3,2016,VF981,Grey,True
+879,2998,Hyundai,Tucson,2022,RS902,Silver,False
+880,3007,Honda,Accord,2019,LC152,Red,True
+881,3011,Toyota,Prius,2017,IL718,Blue,True
+882,3018,Ford,Escape,2021,MG800,Red,True
+883,3021,Hyundai,Sonata,2018,IB718,Grey,True
+884,3034,Hyundai,Sonata,2023,TC813,Red,True
+885,3037,Nissan,Rogue,2016,RZ527,Blue,True
+886,3040,Toyota,RAV4,2022,LQ924,Blue,True
+887,3045,Nissan,Altima,2025,AL636,Black,True
+888,3049,Honda,Civic,2024,LR908,Blue,True
+889,3057,Honda,CR-V,2026,XC168,Blue,True
+890,3058,Nissan,Sentra,2015,XX755,Silver,True
+891,3061,Toyota,Camry,2015,ZD529,Silver,True
+892,3068,Hyundai,Sonata,2017,KO163,Grey,False
+893,3069,Tesla,Model Y,2024,II444,Silver,True
+894,3074,Hyundai,Sonata,2020,WZ686,Silver,True
+895,3076,Toyota,Camry,2023,TM525,Black,True
+896,3078,Hyundai,Tucson,2022,VL347,White,True
+897,3081,Tesla,Model 3,2024,HT456,Silver,True
+898,3084,Nissan,Sentra,2026,VD883,Silver,True
+899,3085,Nissan,Sentra,2017,MB306,Silver,True
+900,3087,Toyota,Camry,2020,UP395,Silver,True
+901,3090,Toyota,Corolla,2021,PA884,White,True
+902,3091,Hyundai,Sonata,2018,BJ889,Silver,True
+903,3093,Ford,Focus,2023,AS228,Blue,True
+904,3107,Hyundai,Tucson,2017,HZ156,White,True
+905,3108,Ford,Focus,2017,AW134,Red,True
+906,3110,Toyota,RAV4,2025,JK102,Blue,True
+907,3111,Ford,Fusion,2018,JD312,Silver,True
+908,3112,Toyota,Camry,2026,RI765,Blue,False
+909,3113,Honda,Civic,2020,AY841,Blue,True
+910,3114,Nissan,Altima,2017,HT753,Red,True
+911,3115,Nissan,Altima,2017,ZW138,Silver,True
+912,3116,Ford,Focus,2016,RE839,Silver,True
+913,3117,Nissan,Sentra,2016,FC459,Blue,True
+914,3119,Honda,CR-V,2023,ZR490,Silver,True
+915,3120,Nissan,Rogue,2025,AV913,Silver,True
+916,3123,Honda,Accord,2025,GS152,White,True
+917,3131,Honda,Accord,2025,MM394,Blue,True
+918,3132,Honda,Accord,2020,YF136,Grey,False
+919,3134,Honda,Civic,2021,YX882,Black,False
+920,3139,Honda,CR-V,2015,XB117,Silver,True
+921,3140,Tesla,Model 3,2020,HQ584,Grey,True
+922,3143,Ford,Escape,2022,LR618,Black,True
+923,3144,Hyundai,Tucson,2025,RM913,White,True
+924,3145,Ford,Fusion,2018,VI511,Red,True
+925,3146,Tesla,Model 3,2017,UW638,Red,True
+926,3147,Honda,CR-V,2022,XA677,Silver,True
+927,3151,Hyundai,Tucson,2015,VO673,Black,True
+928,3156,Nissan,Altima,2026,RR600,White,True
+929,3165,Honda,CR-V,2022,AE103,Red,False
+930,3177,Honda,Accord,2021,MK744,Black,True
+931,3179,Ford,Escape,2019,FT411,Blue,True
+932,3181,Ford,Escape,2022,WK205,Silver,True
+933,3182,Hyundai,Tucson,2021,CM958,Silver,True
+934,3186,Tesla,Model 3,2021,JW761,Silver,True
+935,3188,Hyundai,Tucson,2026,NW608,Grey,True
+936,3192,Honda,Civic,2019,TG273,White,True
+937,3217,Honda,Civic,2021,GX162,White,True
+938,3220,Tesla,Model 3,2015,HK988,Blue,True
+939,3222,Hyundai,Elantra,2018,XN856,Blue,True
+940,3227,Ford,Focus,2025,EG180,Black,True
+941,3229,Nissan,Sentra,2015,BG953,White,True
+942,3233,Toyota,Camry,2017,TO935,White,True
+943,3242,Hyundai,Tucson,2016,JI976,Silver,True
+944,3244,Honda,CR-V,2020,AQ394,Silver,True
+945,3250,Ford,Focus,2017,QB708,White,True
+946,3252,Toyota,Camry,2026,YY336,White,True
+947,3253,Toyota,Corolla,2016,NP127,White,True
+948,3258,Tesla,Model 3,2025,BQ657,Grey,True
+949,3259,Nissan,Sentra,2015,XT440,Grey,True
+950,3263,Hyundai,Tucson,2026,RP198,White,True
+951,3264,Honda,CR-V,2021,BT430,Black,True
+952,3267,Hyundai,Sonata,2024,FB288,Silver,True
+953,3269,Nissan,Rogue,2021,VW381,Grey,True
+954,3270,Hyundai,Sonata,2023,DT157,Red,True
+955,3272,Hyundai,Tucson,2018,WT471,Blue,True
+956,3280,Ford,Escape,2018,CR665,Black,True
+957,3282,Toyota,Corolla,2018,XW501,White,True
+958,3284,Honda,Accord,2016,UJ292,Grey,False
+959,3289,Hyundai,Sonata,2026,HC959,White,True
+960,3290,Hyundai,Tucson,2018,CG899,Blue,True
+961,3293,Honda,Accord,2024,VE428,Grey,True
+962,3296,Hyundai,Tucson,2022,ZM561,White,True
+963,3303,Nissan,Sentra,2019,MD807,White,False
+964,3304,Honda,Civic,2021,DK386,White,True
+965,3321,Honda,Civic,2023,RI264,White,True
+966,3322,Nissan,Sentra,2023,RK301,Silver,True
+967,3327,Honda,Civic,2024,RB445,Black,True
+968,3334,Hyundai,Tucson,2024,KF128,Grey,True
+969,3336,Toyota,Corolla,2019,ZM384,Black,True
+970,3343,Ford,Escape,2024,HF289,White,True
+971,3345,Ford,Fusion,2025,VD553,Black,True
+972,3347,Nissan,Rogue,2024,DT325,Grey,True
+973,3350,Nissan,Rogue,2015,UM456,Silver,True
+974,3362,Honda,CR-V,2026,BJ728,White,True
+975,3363,Hyundai,Sonata,2020,OZ215,White,True
+976,3370,Tesla,Model 3,2026,VV312,Red,True
+977,3379,Nissan,Rogue,2024,FE473,Black,True
+978,3381,Tesla,Model 3,2018,AK448,Black,True
+979,3383,Nissan,Altima,2023,HT448,Blue,True
+980,3386,Ford,Escape,2026,PV620,White,True
+981,3388,Hyundai,Elantra,2017,AP330,Grey,True
+982,3389,Honda,Civic,2022,PI105,Black,True
+983,3390,Toyota,RAV4,2019,LW717,Red,True
+984,3391,Hyundai,Tucson,2019,IJ567,Blue,True
+985,3395,Ford,Escape,2024,PX860,Black,True
+986,3404,Honda,CR-V,2025,WZ475,Blue,True
+987,3405,Toyota,RAV4,2017,BR685,Grey,True
+988,3407,Hyundai,Tucson,2026,VV100,White,True
+989,3411,Honda,CR-V,2020,YE799,Grey,True
+990,3413,Ford,Focus,2016,UG205,Grey,True
+991,3421,Ford,Fusion,2021,CO856,White,True
+992,3424,Toyota,Camry,2025,YC532,Blue,True
+993,3426,Nissan,Rogue,2025,JM126,Red,True
+994,3431,Toyota,Prius,2021,XC682,Silver,True
+995,3433,Honda,Civic,2019,TS534,White,True
+996,3435,Ford,Escape,2017,KX832,Black,True
+997,3442,Ford,Focus,2018,HS850,White,False
+998,3444,Nissan,Sentra,2018,IN402,Silver,True
+999,3450,Nissan,Rogue,2018,ZP961,Blue,True
+1000,3451,Honda,CR-V,2018,ZM372,Black,True
+1001,3454,Toyota,Prius,2021,NE792,Red,True
+1002,3457,Toyota,Prius,2026,NF346,Black,True
+1003,3458,Honda,Civic,2017,HK472,Grey,True
+1004,3461,Hyundai,Sonata,2022,WY700,Silver,True
+1005,3468,Hyundai,Elantra,2022,SM545,Grey,True
+1006,3471,Hyundai,Sonata,2017,AL388,Red,True
+1007,3475,Honda,Civic,2025,HA577,Grey,True
+1008,3476,Tesla,Model 3,2015,EX852,Grey,True
+1009,3484,Toyota,Corolla,2019,MC238,Silver,True
+1010,3486,Toyota,Prius,2024,XR501,Grey,True
+1011,3493,Honda,Civic,2026,JA215,Red,True
+1012,3500,Nissan,Rogue,2015,EL768,Black,True
+1013,3502,Tesla,Model 3,2015,PR946,Grey,False
+1014,3503,Nissan,Sentra,2017,OA549,Grey,True
+1015,3504,Toyota,Prius,2017,GM683,Black,True
+1016,3506,Tesla,Model 3,2026,QM116,Blue,True
+1017,3510,Ford,Escape,2016,BK233,Black,True
+1018,3511,Nissan,Altima,2018,BM801,Black,True
+1019,3516,Ford,Fusion,2015,HB904,White,True
+1020,3523,Nissan,Rogue,2022,MM625,Red,True
+1021,3525,Hyundai,Sonata,2021,HN115,Blue,False
+1022,3528,Ford,Focus,2019,AL218,Black,True
+1023,3531,Honda,Accord,2020,BE173,Blue,True
+1024,3532,Ford,Escape,2026,XQ372,White,False
+1025,3534,Hyundai,Elantra,2017,UC801,Black,True
+1026,3538,Honda,CR-V,2016,UU497,Black,False
+1027,3539,Toyota,Corolla,2026,NI181,Blue,True
+1028,3546,Nissan,Altima,2016,AT966,Silver,True
+1029,3555,Ford,Focus,2019,RS297,Black,True
+1030,3560,Toyota,RAV4,2015,DA433,Grey,True
+1031,3561,Nissan,Altima,2020,GS291,Silver,True
+1032,3567,Nissan,Sentra,2018,BS608,Blue,True
+1033,3572,Honda,Civic,2022,DF107,White,True
+1034,3581,Toyota,Prius,2026,BZ428,Grey,True
+1035,3583,Toyota,RAV4,2015,XH836,Grey,True
+1036,3586,Nissan,Rogue,2020,UA231,White,True
+1037,3589,Hyundai,Elantra,2025,EL201,Black,False
+1038,3594,Tesla,Model 3,2016,EA900,Red,False
+1039,3596,Nissan,Altima,2015,TI891,Black,True
+1040,3599,Tesla,Model 3,2026,KF268,Red,True
+1041,3607,Nissan,Sentra,2024,WG910,White,True
+1042,3609,Nissan,Sentra,2023,YO628,Blue,True
+1043,3612,Ford,Focus,2020,YL178,Grey,True
+1044,3613,Ford,Focus,2020,SO253,Silver,True
+1045,3614,Ford,Focus,2015,WT438,White,True
+1046,3620,Ford,Focus,2022,LH277,White,True
+1047,3624,Nissan,Altima,2024,DS740,Blue,True
+1048,3627,Ford,Focus,2016,UF164,Black,True
+1049,3630,Honda,CR-V,2026,MB755,White,True
+1050,3631,Hyundai,Elantra,2019,BT938,White,True
+1051,3638,Hyundai,Sonata,2022,WR582,Red,True
+1052,3644,Nissan,Altima,2022,NB566,Red,True
+1053,3645,Hyundai,Elantra,2026,EO622,White,True
+1054,3650,Toyota,Camry,2020,LP748,Black,True
+1055,3653,Honda,Civic,2016,JV860,Silver,True
+1056,3658,Honda,Civic,2017,KI675,Grey,True
+1057,3660,Hyundai,Sonata,2026,ZI185,Blue,True
+1058,3674,Toyota,Corolla,2017,US556,Red,True
+1059,3675,Ford,Focus,2025,EB219,White,True
+1060,3677,Hyundai,Elantra,2023,KJ798,Blue,False
+1061,3679,Hyundai,Elantra,2015,XR189,Red,True
+1062,3681,Nissan,Sentra,2015,TJ739,Grey,True
+1063,3682,Nissan,Rogue,2022,WJ787,Blue,True
+1064,3684,Honda,Accord,2023,KH121,Blue,True
+1065,3685,Honda,Civic,2024,QC935,Red,True
+1066,3690,Ford,Escape,2021,DR500,Grey,True
+1067,3691,Hyundai,Sonata,2026,AU108,Silver,True
+1068,3695,Tesla,Model 3,2015,RD764,Silver,True
+1069,3697,Toyota,Corolla,2018,WR661,Black,True
+1070,3698,Tesla,Model 3,2015,TM469,Grey,True
+1071,3706,Tesla,Model 3,2020,LU459,Blue,False
+1072,3712,Ford,Escape,2024,LQ699,Grey,True
+1073,3715,Toyota,Camry,2018,GJ367,Blue,True
+1074,3723,Toyota,Prius,2026,JY113,White,True
+1075,3728,Tesla,Model 3,2021,KM550,Black,True
+1076,3729,Nissan,Rogue,2026,MF212,Silver,True
+1077,3734,Tesla,Model 3,2022,FT522,Red,True
+1078,3736,Toyota,Camry,2016,ZV237,Blue,True
+1079,3743,Tesla,Model 3,2022,LE221,Blue,True
+1080,3744,Ford,Escape,2025,DP809,Black,True
+1081,3746,Hyundai,Sonata,2018,TP757,Grey,True
+1082,3751,Ford,Fusion,2025,BK462,Grey,True
+1083,3753,Honda,CR-V,2015,WN429,Grey,True
+1084,3760,Tesla,Model Y,2018,MA136,Red,True
+1085,3761,Hyundai,Sonata,2023,HZ398,Blue,True
+1086,3766,Ford,Fusion,2020,ND583,White,True
+1087,3771,Ford,Escape,2018,ZN423,Silver,True
+1088,3774,Hyundai,Sonata,2024,EJ306,White,True
+1089,3776,Tesla,Model 3,2015,RN274,Blue,True
+1090,3778,Nissan,Sentra,2022,AO312,Red,True
+1091,3788,Toyota,Corolla,2018,AJ103,Grey,True
+1092,3789,Toyota,Camry,2018,OU967,Silver,False
+1093,3793,Hyundai,Elantra,2025,EY711,Red,True
+1094,3794,Hyundai,Sonata,2026,NM600,Red,True
+1095,3805,Ford,Escape,2021,AE510,Black,True
+1096,3812,Hyundai,Sonata,2019,GL366,Silver,True
+1097,3813,Toyota,Prius,2024,ZC328,Silver,True
+1098,3815,Nissan,Altima,2016,LQ834,Blue,False
+1099,3818,Honda,Civic,2017,LA806,Blue,True
+1100,3820,Hyundai,Elantra,2016,CL541,Black,True
+1101,3822,Nissan,Sentra,2026,GV273,Blue,True
+1102,3825,Honda,CR-V,2019,AC765,Blue,True
+1103,3827,Ford,Focus,2016,OH245,Grey,True
+1104,3831,Ford,Fusion,2023,VX653,Blue,False
+1105,3834,Tesla,Model 3,2018,UC970,Grey,True
+1106,3835,Ford,Fusion,2024,NP294,Black,True
+1107,3842,Honda,Civic,2019,ZD654,Red,True
+1108,3847,Toyota,Prius,2019,KN410,White,True
+1109,3849,Honda,CR-V,2022,BL792,White,True
+1110,3854,Nissan,Rogue,2024,QO137,Black,True
+1111,3856,Hyundai,Sonata,2026,SB328,Blue,True
+1112,3858,Hyundai,Sonata,2018,LE871,Black,True
+1113,3863,Honda,CR-V,2017,FI361,Grey,True
+1114,3864,Toyota,Camry,2024,JC392,White,True
+1115,3867,Tesla,Model Y,2018,GH260,Silver,True
+1116,3868,Nissan,Sentra,2016,SK424,White,True
+1117,3869,Hyundai,Sonata,2026,JO512,Black,True
+1118,3870,Tesla,Model Y,2016,SI145,Black,True
+1119,3872,Hyundai,Sonata,2024,BW617,Blue,True
+1120,3873,Honda,CR-V,2017,MI417,Grey,True
+1121,3879,Hyundai,Sonata,2017,XX665,Red,True
+1122,3880,Ford,Fusion,2025,LG819,Black,True
+1123,3881,Ford,Focus,2025,DV401,Silver,True
+1124,3887,Honda,CR-V,2021,ZK663,White,True
+1125,3888,Honda,CR-V,2021,WO359,Blue,True
+1126,3891,Toyota,Corolla,2019,SB363,Red,True
+1127,3892,Toyota,Camry,2026,KX719,Blue,True
+1128,3894,Honda,Civic,2023,OD803,Grey,True
+1129,3896,Toyota,Prius,2018,SX778,Black,True
+1130,3897,Hyundai,Tucson,2016,CY917,Red,True
+1131,3899,Ford,Focus,2026,UQ639,Blue,True
+1132,3900,Toyota,Corolla,2015,US467,Red,True
+1133,3907,Nissan,Sentra,2019,RM344,Silver,True
+1134,3909,Tesla,Model 3,2025,NX717,Grey,True
+1135,3911,Ford,Escape,2018,JW620,White,True
+1136,3912,Tesla,Model 3,2025,MS411,Blue,True
+1137,3913,Nissan,Altima,2020,GN248,Black,True
+1138,3918,Ford,Escape,2017,KM638,Black,True
+1139,3919,Tesla,Model Y,2025,DR945,Black,True
+1140,3920,Toyota,RAV4,2021,HG620,Blue,True
+1141,3921,Ford,Fusion,2015,KW100,Silver,True
+1142,3924,Nissan,Altima,2025,TP595,Grey,True
+1143,3925,Hyundai,Tucson,2025,IU161,White,True
+1144,3928,Hyundai,Elantra,2021,VR322,Black,True
+1145,3930,Ford,Fusion,2016,OM387,Silver,True
+1146,3931,Toyota,RAV4,2018,RA852,White,True
+1147,3936,Hyundai,Sonata,2016,LV825,Grey,True
+1148,3938,Nissan,Sentra,2019,OB816,Grey,True
+1149,3942,Ford,Focus,2016,YF450,Blue,True
+1150,3946,Nissan,Altima,2020,HX797,Grey,True
+1151,3947,Honda,Civic,2021,WP880,Black,True
+1152,3951,Hyundai,Elantra,2022,PZ181,Grey,True
+1153,3955,Toyota,RAV4,2015,XC413,Grey,True
+1154,3959,Nissan,Rogue,2020,RI258,Blue,True
+1155,3964,Honda,CR-V,2024,HA437,Grey,False
+1156,3967,Honda,Accord,2018,ZU632,Grey,True
+1157,3979,Tesla,Model Y,2022,DS589,Blue,True
+1158,3982,Toyota,Camry,2019,FF329,Blue,True
+1159,3987,Ford,Fusion,2018,AT217,Blue,True
+1160,3991,Toyota,Camry,2025,LN644,White,True
+1161,3994,Ford,Focus,2021,PH890,Silver,True
+1162,3996,Honda,CR-V,2022,GG485,Silver,True
+1163,3997,Hyundai,Sonata,2019,EW879,Silver,True
+1164,3998,Ford,Escape,2019,WT339,Red,True
+1165,4001,Tesla,Model 3,2022,WP719,Silver,True
+1166,4003,Ford,Escape,2025,GZ508,Silver,True
+1167,4005,Honda,Civic,2015,VE802,Red,True
+1168,4006,Toyota,Prius,2019,GS363,Blue,True
+1169,4011,Ford,Focus,2026,MJ997,Grey,True
+1170,4012,Nissan,Rogue,2015,IB974,Black,False
+1171,4013,Nissan,Rogue,2021,FR579,Grey,True
+1172,4019,Honda,Accord,2019,EK163,White,True
+1173,4020,Ford,Focus,2023,HY250,Blue,True
+1174,4023,Ford,Focus,2018,FM630,Silver,True
+1175,4034,Nissan,Altima,2015,ZO330,White,True
+1176,4040,Tesla,Model Y,2018,MT834,Red,True
+1177,4041,Ford,Escape,2019,SU922,Black,True
+1178,4047,Ford,Focus,2015,FI883,Silver,True
+1179,4051,Tesla,Model Y,2026,FO819,Grey,True
+1180,4052,Tesla,Model 3,2026,PH652,Blue,True
+1181,4055,Ford,Focus,2022,TW278,White,True
+1182,4059,Hyundai,Elantra,2020,FH214,Blue,True
+1183,4060,Honda,Accord,2023,XR900,Black,True
+1184,4061,Hyundai,Elantra,2021,KU959,White,True
+1185,4062,Hyundai,Elantra,2022,EB487,Black,True
+1186,4066,Tesla,Model Y,2016,EH302,Silver,True
+1187,4067,Nissan,Sentra,2024,VF177,Grey,True
+1188,4074,Hyundai,Sonata,2026,AS525,Black,True
+1189,4075,Ford,Focus,2025,DI790,Blue,True
+1190,4082,Tesla,Model Y,2021,WA591,White,False
+1191,4083,Toyota,Camry,2019,CN284,Blue,True
+1192,4086,Nissan,Rogue,2017,TG285,Silver,True
+1193,4089,Nissan,Rogue,2022,HY533,Black,False
+1194,4090,Hyundai,Elantra,2022,ZF501,Black,True
+1195,4091,Tesla,Model Y,2024,QI571,White,True
+1196,4093,Tesla,Model Y,2017,JE808,White,False
+1197,4095,Honda,CR-V,2015,GJ614,Black,True
+1198,4097,Honda,Accord,2016,PV876,White,True
+1199,4098,Honda,Accord,2019,CT449,White,False
+1200,4103,Hyundai,Elantra,2020,SQ167,Silver,True
+1201,4106,Honda,Civic,2023,ET167,Black,True
+1202,4107,Ford,Escape,2016,AZ555,Red,False
+1203,4111,Hyundai,Elantra,2022,VP545,Blue,True
+1204,4115,Nissan,Rogue,2016,KK302,White,True
+1205,4117,Hyundai,Sonata,2018,CK420,Red,True
+1206,4119,Hyundai,Sonata,2020,IW265,Silver,False
+1207,4120,Honda,Accord,2018,KE350,Grey,False
+1208,4128,Nissan,Rogue,2026,MB279,Black,True
+1209,4129,Honda,Accord,2026,OK407,Blue,True
+1210,4131,Tesla,Model 3,2024,NS399,Red,True
+1211,4134,Ford,Focus,2022,WT881,Blue,True
+1212,4136,Toyota,RAV4,2020,TC101,Blue,True
+1213,4137,Nissan,Sentra,2023,GR478,White,True
+1214,4141,Toyota,Prius,2018,HD920,Silver,True
+1215,4143,Hyundai,Elantra,2021,AA904,Blue,True
+1216,4151,Tesla,Model 3,2023,WM547,Blue,True
+1217,4156,Nissan,Altima,2019,ZJ785,Grey,True
+1218,4162,Tesla,Model 3,2025,HG131,Blue,False
+1219,4171,Honda,Civic,2021,VE902,Blue,True
+1220,4174,Tesla,Model 3,2015,FY748,Blue,True
+1221,4176,Toyota,Prius,2024,YN243,Silver,True
+1222,4177,Tesla,Model 3,2016,UX874,Black,True
+1223,4181,Honda,Accord,2019,YE557,White,True
+1224,4184,Nissan,Altima,2021,EP151,Red,True
+1225,4187,Tesla,Model 3,2024,OO161,Red,True
+1226,4194,Tesla,Model Y,2016,OG237,Black,True
+1227,4198,Toyota,Camry,2017,GC623,Grey,True
+1228,4199,Tesla,Model 3,2024,NX701,Black,True
+1229,4201,Toyota,Prius,2020,QW736,Silver,True
+1230,4205,Hyundai,Elantra,2023,BM545,Black,True
+1231,4211,Hyundai,Tucson,2018,MJ135,Black,True
+1232,4217,Toyota,Corolla,2020,XP985,Grey,False
+1233,4222,Ford,Fusion,2015,AZ633,Black,True
+1234,4224,Honda,Civic,2019,OA939,White,False
+1235,4233,Hyundai,Elantra,2022,GR466,Silver,True
+1236,4247,Toyota,Corolla,2020,LB222,Silver,True
+1237,4250,Tesla,Model 3,2016,HM691,Grey,True
+1238,4255,Nissan,Sentra,2021,ZB710,Red,True
+1239,4263,Toyota,Corolla,2021,KT340,Silver,True
+1240,4265,Nissan,Altima,2026,KF424,Red,True
+1241,4269,Ford,Focus,2023,TQ409,Grey,True
+1242,4271,Hyundai,Elantra,2015,ZJ683,Black,True
+1243,4273,Tesla,Model 3,2016,EU209,Silver,True
+1244,4280,Nissan,Sentra,2021,JC859,Black,True
+1245,4289,Ford,Escape,2019,XB723,Silver,True
+1246,4292,Honda,CR-V,2024,UP373,Blue,True
+1247,4293,Toyota,Corolla,2024,ZW970,Blue,True
+1248,4295,Toyota,Prius,2020,JX301,White,True
+1249,4296,Toyota,Prius,2017,BE325,Silver,False
+1250,4297,Nissan,Sentra,2025,PI415,Red,True
+1251,4305,Tesla,Model 3,2019,AV984,Red,True
+1252,4313,Ford,Fusion,2023,UN382,Grey,True
+1253,4316,Ford,Escape,2021,PZ799,Red,True
+1254,4326,Honda,CR-V,2015,YL389,Silver,True
+1255,4327,Nissan,Altima,2025,QF874,Silver,True
+1256,4333,Nissan,Rogue,2020,NO309,White,True
+1257,4334,Nissan,Sentra,2023,NE340,Grey,True
+1258,4335,Toyota,RAV4,2021,LS933,Blue,True
+1259,4336,Toyota,Prius,2016,AN258,Red,False
+1260,4337,Ford,Focus,2021,FA616,Red,True
+1261,4340,Toyota,Prius,2018,BH811,Red,True
+1262,4342,Tesla,Model 3,2023,WM133,Grey,True
+1263,4343,Tesla,Model 3,2023,GZ434,Grey,True
+1264,4346,Tesla,Model 3,2026,QV723,Red,True
+1265,4348,Hyundai,Elantra,2022,LU319,Blue,True
+1266,4350,Toyota,Camry,2020,ZZ152,Red,True
+1267,4351,Hyundai,Tucson,2026,MZ757,Silver,True
+1268,4352,Honda,CR-V,2022,IN163,Silver,True
+1269,4353,Tesla,Model 3,2018,XC923,Silver,False
+1270,4358,Nissan,Rogue,2026,JS457,Grey,True
+1271,4360,Ford,Escape,2015,OI427,Grey,True
+1272,4361,Toyota,Camry,2026,KT827,Blue,True
+1273,4368,Toyota,Corolla,2019,PU138,Red,True
+1274,4370,Ford,Focus,2016,SG772,Grey,True
+1275,4372,Nissan,Sentra,2018,DQ798,Grey,True
+1276,4375,Toyota,Corolla,2026,GS995,Red,True
+1277,4376,Ford,Escape,2020,WY425,White,True
+1278,4378,Hyundai,Elantra,2020,SV430,Blue,True
+1279,4382,Ford,Escape,2025,PX259,Grey,True
+1280,4384,Nissan,Rogue,2022,SR655,Black,True
+1281,4387,Toyota,Camry,2017,WI777,Black,True
+1282,4388,Tesla,Model Y,2022,TZ210,Blue,True
+1283,4389,Toyota,Prius,2018,CI627,White,True
+1284,4397,Nissan,Sentra,2021,TW713,Grey,True
+1285,4398,Honda,CR-V,2016,QN521,White,True
+1286,4402,Hyundai,Tucson,2019,BS677,Red,True
+1287,4404,Nissan,Rogue,2015,XT161,Black,True
+1288,4407,Nissan,Sentra,2026,KK324,Black,True
+1289,4413,Hyundai,Tucson,2021,AJ945,Silver,False
+1290,4416,Nissan,Altima,2022,TW766,White,True
+1291,4418,Tesla,Model 3,2023,ZV497,Silver,True
+1292,4422,Honda,Accord,2021,GE388,White,True
+1293,4423,Tesla,Model 3,2022,NY867,Silver,True
+1294,4426,Nissan,Sentra,2018,NJ421,Red,True
+1295,4429,Nissan,Rogue,2025,GE897,Black,True
+1296,4434,Tesla,Model Y,2024,EX107,Grey,False
+1297,4439,Honda,CR-V,2016,HS756,Blue,True
+1298,4442,Hyundai,Elantra,2022,IM439,Blue,True
+1299,4449,Toyota,RAV4,2022,DE289,Silver,False
+1300,4450,Toyota,Corolla,2020,DF952,Red,True
+1301,4451,Ford,Focus,2024,WR571,Red,True
+1302,4452,Nissan,Sentra,2020,SW482,Silver,True
+1303,4459,Ford,Focus,2026,RZ465,Silver,True
+1304,4461,Hyundai,Sonata,2025,UC352,Silver,True
+1305,4463,Toyota,RAV4,2017,VD303,Red,True
+1306,4466,Ford,Focus,2025,KT591,Grey,True
+1307,4470,Tesla,Model 3,2017,JR779,Black,True
+1308,4472,Tesla,Model 3,2022,KH758,White,True
+1309,4476,Toyota,Camry,2019,IA836,White,True
+1310,4477,Nissan,Altima,2022,AW961,Red,True
+1311,4478,Honda,Civic,2020,CF397,Blue,True
+1312,4480,Ford,Escape,2018,VO162,Black,True
+1313,4487,Ford,Escape,2015,NX324,Black,True
+1314,4495,Honda,Civic,2021,WF388,Silver,True
+1315,4497,Honda,Civic,2018,EG388,Blue,True
+1316,4498,Tesla,Model 3,2020,SQ968,Silver,True
+1317,4499,Tesla,Model 3,2017,WJ856,Blue,False
+1318,4500,Toyota,Camry,2015,PJ537,Grey,True
+1319,4501,Hyundai,Sonata,2025,FU737,Blue,True
+1320,4505,Nissan,Rogue,2026,FK560,White,True
+1321,4506,Nissan,Rogue,2025,MW546,Silver,True
+1322,4507,Honda,Accord,2022,OX115,Grey,True
+1323,4509,Ford,Focus,2021,QW737,Blue,True
+1324,4511,Hyundai,Tucson,2018,PC512,White,True
+1325,4520,Tesla,Model 3,2022,QY141,Black,False
+1326,4521,Tesla,Model Y,2020,QQ611,Black,True
+1327,4523,Ford,Focus,2017,EE288,Black,True
+1328,4527,Honda,Accord,2015,GO934,Grey,True
+1329,4528,Honda,CR-V,2024,QU478,Grey,True
+1330,4531,Nissan,Rogue,2018,RU241,Red,True
+1331,4533,Ford,Escape,2016,PB317,Blue,True
+1332,4534,Toyota,RAV4,2026,KV515,Red,True
+1333,4541,Hyundai,Sonata,2019,RJ794,Blue,True
+1334,4543,Toyota,RAV4,2016,CM217,Red,False
+1335,4544,Nissan,Rogue,2016,QB438,Black,True
+1336,4545,Hyundai,Tucson,2017,MW564,White,True
+1337,4553,Honda,Accord,2020,CX220,Grey,True
+1338,4554,Tesla,Model Y,2017,GW110,Blue,True
+1339,4555,Honda,Accord,2017,XI990,Grey,True
+1340,4558,Ford,Focus,2026,SU650,Silver,True
+1341,4559,Nissan,Rogue,2018,LM971,Blue,True
+1342,4561,Ford,Fusion,2023,JO762,Blue,True
+1343,4563,Toyota,Corolla,2025,XS465,Grey,True
+1344,4564,Toyota,Corolla,2022,TR938,Red,True
+1345,4565,Ford,Fusion,2015,IM150,White,True
+1346,4566,Ford,Focus,2019,AY716,White,True
+1347,4567,Honda,Accord,2018,VK722,Blue,True
+1348,4570,Toyota,Prius,2023,QN416,Blue,True
+1349,4572,Nissan,Altima,2016,VO219,Red,True
+1350,4574,Hyundai,Elantra,2017,TI638,Grey,True
+1351,4578,Hyundai,Tucson,2019,SY325,Blue,True
+1352,4579,Tesla,Model Y,2023,ZM548,Grey,True
+1353,4582,Nissan,Sentra,2018,GV573,Grey,False
+1354,4584,Nissan,Rogue,2016,RH755,Grey,True
+1355,4592,Tesla,Model 3,2021,AT425,Blue,True
+1356,4595,Ford,Escape,2018,OE939,Silver,True
+1357,4603,Nissan,Altima,2025,GM451,Blue,True
+1358,4605,Nissan,Sentra,2022,ZD841,Red,True
+1359,4608,Toyota,RAV4,2025,BR552,Black,True
+1360,4609,Nissan,Rogue,2020,BS482,White,True
+1361,4612,Toyota,Corolla,2018,EN596,Black,True
+1362,4617,Ford,Escape,2022,CM254,White,False
+1363,4620,Tesla,Model 3,2025,ME211,White,True
+1364,4622,Tesla,Model Y,2022,AD491,Grey,True
+1365,4629,Toyota,Prius,2020,NK474,Grey,False
+1366,4633,Honda,Accord,2016,LK971,Blue,True
+1367,4635,Nissan,Rogue,2021,XO463,Silver,True
+1368,4636,Nissan,Altima,2017,VQ415,Grey,True
+1369,4637,Hyundai,Sonata,2023,NI258,Grey,True
+1370,4641,Honda,Civic,2017,KP289,Black,True
+1371,4643,Toyota,RAV4,2024,VQ399,Blue,True
+1372,4644,Honda,Accord,2017,MK448,Grey,True
+1373,4650,Nissan,Sentra,2019,KY841,Red,True
+1374,4652,Toyota,RAV4,2018,YL562,Blue,True
+1375,4653,Toyota,Corolla,2018,PL687,White,False
+1376,4654,Nissan,Rogue,2021,DF450,Grey,True
+1377,4656,Tesla,Model 3,2017,IP908,Black,True
+1378,4659,Toyota,RAV4,2020,NI845,Black,True
+1379,4668,Tesla,Model Y,2016,AA743,Grey,True
+1380,4669,Ford,Focus,2019,BM632,Silver,True
+1381,4670,Honda,Civic,2019,QO506,Red,False
+1382,4671,Toyota,Corolla,2015,KQ860,Black,True
+1383,4672,Nissan,Sentra,2023,ZZ133,Red,True
+1384,4674,Hyundai,Tucson,2019,NZ134,Black,False
+1385,4679,Hyundai,Elantra,2017,QE350,Black,True
+1386,4682,Toyota,RAV4,2016,JV422,Red,True
+1387,4686,Tesla,Model 3,2021,BL690,Black,True
+1388,4688,Hyundai,Sonata,2016,CN339,Silver,True
+1389,4690,Honda,Accord,2017,ML282,Black,True
+1390,4691,Toyota,Prius,2016,IK322,Grey,True
+1391,4692,Hyundai,Sonata,2017,DE272,White,True
+1392,4694,Ford,Focus,2020,FI711,Red,True
+1393,4698,Nissan,Altima,2019,JI598,White,True
+1394,4701,Hyundai,Elantra,2022,CY184,Blue,False
+1395,4704,Nissan,Rogue,2025,QS582,Red,True
+1396,4709,Honda,CR-V,2023,TP881,Black,True
+1397,4713,Toyota,Camry,2025,JA133,Silver,True
+1398,4718,Tesla,Model 3,2023,EZ312,White,True
+1399,4720,Honda,Civic,2022,GG315,Blue,True
+1400,4721,Ford,Fusion,2023,QN914,Black,True
+1401,4723,Honda,CR-V,2019,RN291,Silver,True
+1402,4729,Tesla,Model Y,2019,AQ662,Blue,True
+1403,4731,Toyota,Camry,2016,YH528,Blue,True
+1404,4732,Ford,Fusion,2019,KP746,White,True
+1405,4733,Honda,Civic,2024,BX774,Red,True
+1406,4738,Honda,Civic,2025,CO404,Blue,True
+1407,4739,Hyundai,Tucson,2026,AH949,Black,True
+1408,4742,Nissan,Altima,2015,NG174,White,False
+1409,4743,Hyundai,Tucson,2025,BT876,Grey,False
+1410,4744,Ford,Fusion,2024,JZ184,Grey,True
+1411,4745,Ford,Escape,2022,IE601,Black,True
+1412,4746,Nissan,Altima,2015,GQ569,Silver,True
+1413,4758,Ford,Fusion,2017,UN897,White,False
+1414,4772,Honda,Accord,2025,BF506,Silver,True
+1415,4773,Hyundai,Elantra,2023,BZ401,Silver,True
+1416,4778,Toyota,Corolla,2020,WK514,Blue,True
+1417,4779,Honda,Civic,2021,XB789,Blue,True
+1418,4781,Toyota,Corolla,2022,RT933,Red,True
+1419,4782,Honda,Accord,2026,XR717,White,True
+1420,4785,Honda,CR-V,2021,HA179,Red,True
+1421,4787,Honda,Civic,2024,TY233,White,False
+1422,4800,Honda,CR-V,2016,IX363,Red,True
+1423,4804,Hyundai,Sonata,2022,CG188,Blue,True
+1424,4807,Hyundai,Elantra,2025,IV263,Silver,True
+1425,4808,Ford,Focus,2023,SA937,White,True
+1426,4809,Toyota,RAV4,2023,SY699,White,True
+1427,4814,Nissan,Altima,2023,NU148,White,True
+1428,4821,Honda,Accord,2018,CT623,Blue,True
+1429,4832,Toyota,Prius,2025,PT953,Red,True
+1430,4836,Hyundai,Sonata,2021,PS634,Blue,True
+1431,4838,Toyota,Corolla,2024,PE592,Silver,True
+1432,4844,Honda,Civic,2015,IK125,White,True
+1433,4845,Hyundai,Sonata,2024,ER113,White,True
+1434,4847,Nissan,Sentra,2022,ID387,Black,True
+1435,4848,Tesla,Model 3,2018,GL340,Blue,True
+1436,4854,Ford,Escape,2016,MT798,White,True
+1437,4862,Ford,Fusion,2017,IQ943,Blue,True
+1438,4864,Honda,CR-V,2025,AJ279,White,True
+1439,4865,Nissan,Rogue,2024,KB615,Silver,True
+1440,4866,Ford,Fusion,2022,OG261,Blue,True
+1441,4870,Honda,CR-V,2026,LY352,Grey,True
+1442,4872,Hyundai,Tucson,2023,YM687,White,True
+1443,4874,Ford,Escape,2022,YW795,White,True
+1444,4880,Tesla,Model 3,2024,PJ900,Silver,True
+1445,4881,Toyota,RAV4,2025,QA177,Red,True
+1446,4890,Tesla,Model 3,2023,SK714,Red,True
+1447,4891,Ford,Escape,2018,PU739,White,True
+1448,4892,Honda,Accord,2019,UH250,Silver,True
+1449,4893,Honda,Civic,2020,SI595,Red,True
+1450,4895,Hyundai,Sonata,2017,VA338,Grey,True
+1451,4898,Nissan,Altima,2017,KS283,White,True
+1452,4899,Ford,Fusion,2017,UY343,Silver,True
+1453,4900,Toyota,RAV4,2024,RB733,White,True
+1454,4902,Honda,CR-V,2019,EV553,Silver,True
+1455,4906,Nissan,Rogue,2020,NA504,Grey,False
+1456,4907,Toyota,RAV4,2023,FW104,Blue,True
+1457,4915,Ford,Focus,2020,TI902,Black,True
+1458,4916,Tesla,Model Y,2026,IE536,Black,False
+1459,4921,Ford,Fusion,2017,UZ431,Grey,True
+1460,4931,Hyundai,Tucson,2022,BZ412,Black,False
+1461,4935,Toyota,Corolla,2017,HC317,Grey,True
+1462,4936,Honda,Civic,2024,LQ854,Black,True
+1463,4938,Toyota,Prius,2020,TY509,Silver,True
+1464,4939,Hyundai,Elantra,2024,EK543,Grey,True
+1465,4940,Tesla,Model Y,2016,QI906,Blue,True
+1466,4942,Nissan,Altima,2020,TA764,Silver,True
+1467,4950,Tesla,Model 3,2021,OG711,Blue,True
+1468,4952,Hyundai,Elantra,2017,JE858,White,True
+1469,4953,Ford,Fusion,2026,BH685,Red,True
+1470,4956,Ford,Focus,2019,DS206,White,True
+1471,4957,Toyota,Prius,2025,XO301,Silver,False
+1472,4958,Ford,Focus,2021,VO206,White,True
+1473,4962,Toyota,RAV4,2022,PJ579,Silver,True
+1474,4963,Ford,Escape,2017,RN285,Black,True
+1475,4967,Nissan,Altima,2025,OL234,Black,True
+1476,4979,Tesla,Model Y,2023,TL296,Black,True
+1477,4983,Nissan,Rogue,2018,DV128,Silver,True
+1478,4987,Toyota,RAV4,2016,JC434,Black,True
+1479,4998,Tesla,Model Y,2018,QN653,Grey,True
+1480,5001,Toyota,Camry,2017,XI340,Blue,True
+1481,5004,Ford,Fusion,2026,VQ312,Silver,True
+1482,5005,Honda,Accord,2021,XF765,Grey,True
+1483,5006,Nissan,Rogue,2016,QQ330,Grey,True
+1484,5010,Toyota,Corolla,2018,YX489,White,True
+1485,5017,Ford,Fusion,2016,ET743,Grey,True
+1486,5022,Ford,Escape,2025,KZ348,Grey,True
+1487,5023,Honda,Accord,2016,UQ409,Blue,True
+1488,5024,Tesla,Model 3,2025,MW805,White,True
+1489,5029,Tesla,Model 3,2025,QZ683,Red,False
+1490,5036,Ford,Fusion,2023,ID891,Grey,True
+1491,5038,Tesla,Model Y,2022,SN454,Black,True
+1492,5039,Hyundai,Tucson,2016,FH803,Red,True
+1493,5040,Tesla,Model 3,2026,UY537,White,True
+1494,5042,Ford,Focus,2018,HF719,Black,False
+1495,5044,Ford,Escape,2021,NA847,Silver,True
+1496,5051,Honda,CR-V,2016,XU544,White,True
+1497,5052,Nissan,Altima,2021,LX969,Black,True
+1498,5054,Hyundai,Elantra,2019,RM426,White,True
+1499,5061,Nissan,Sentra,2025,WT595,Grey,True
+1500,5062,Hyundai,Sonata,2017,YI180,Blue,True
+1501,5063,Hyundai,Elantra,2024,FO527,Silver,False
+1502,5068,Toyota,Camry,2022,NP210,Red,True
+1503,5071,Tesla,Model Y,2015,JQ976,Grey,True
+1504,5073,Tesla,Model Y,2024,GD243,Blue,True
+1505,5077,Honda,Civic,2016,OG379,Red,True
+1506,5078,Tesla,Model 3,2024,WA166,Black,True
+1507,5081,Hyundai,Tucson,2022,MM747,Silver,True
+1508,5083,Tesla,Model Y,2019,FS806,Blue,False
+1509,5084,Toyota,Corolla,2017,GV722,Grey,True
+1510,5086,Honda,Civic,2020,UV563,Silver,True
+1511,5092,Ford,Fusion,2016,CL958,Blue,True
+1512,5097,Nissan,Sentra,2026,CZ654,Silver,True
+1513,5106,Tesla,Model Y,2021,QZ228,Blue,True
+1514,5108,Ford,Fusion,2024,YC528,Grey,True
+1515,5112,Ford,Escape,2017,OR364,Silver,False
+1516,5120,Toyota,Prius,2018,QE501,Blue,True
+1517,5121,Toyota,Camry,2020,JY621,Grey,True
+1518,5122,Tesla,Model 3,2016,EM294,White,True
+1519,5129,Tesla,Model Y,2023,LK597,White,True
+1520,5130,Ford,Escape,2023,SJ467,Grey,True
+1521,5139,Ford,Focus,2016,NT692,Red,True
+1522,5140,Hyundai,Sonata,2023,RS353,Silver,True
+1523,5144,Hyundai,Tucson,2025,AN920,Red,True
+1524,5148,Ford,Focus,2026,EH762,Silver,True
+1525,5151,Nissan,Altima,2021,EO300,Blue,True
+1526,5153,Hyundai,Elantra,2022,XE178,Black,False
+1527,5154,Hyundai,Sonata,2018,HU981,Grey,True
+1528,5155,Ford,Fusion,2024,PD299,Silver,False
+1529,5156,Toyota,RAV4,2024,OT781,Red,True
+1530,5167,Tesla,Model 3,2019,QS721,Red,True
+1531,5169,Toyota,RAV4,2017,AE820,Red,True
+1532,5170,Nissan,Rogue,2016,FH383,Blue,True
+1533,5171,Nissan,Rogue,2018,PV406,Black,True
+1534,5180,Tesla,Model 3,2017,SB369,Black,True
+1535,5181,Ford,Focus,2015,BW994,Red,True
+1536,5184,Hyundai,Elantra,2017,ZY418,Red,False
+1537,5185,Ford,Fusion,2015,NK367,Silver,True
+1538,5189,Ford,Escape,2025,IZ862,Grey,True
+1539,5193,Nissan,Altima,2015,WR909,White,True
+1540,5195,Hyundai,Sonata,2018,UU489,Black,False
+1541,5199,Nissan,Altima,2024,OB684,Blue,True
+1542,5214,Nissan,Rogue,2024,VR100,Black,True
+1543,5217,Nissan,Altima,2016,IZ884,Red,True
+1544,5222,Toyota,RAV4,2018,OO273,Silver,False
+1545,5225,Hyundai,Elantra,2026,SK471,Black,True
+1546,5227,Nissan,Rogue,2022,WI164,Black,True
+1547,5232,Tesla,Model 3,2015,CU242,Red,True
+1548,5233,Ford,Escape,2026,ZO875,White,True
+1549,5237,Toyota,Camry,2026,NP699,Silver,True
+1550,5239,Nissan,Sentra,2022,KK411,Silver,False
+1551,5254,Hyundai,Elantra,2024,GS731,Black,True
+1552,5256,Ford,Fusion,2018,QC229,Blue,True
+1553,5257,Nissan,Rogue,2019,RR128,Red,False
+1554,5258,Hyundai,Sonata,2026,TV591,Silver,True
+1555,5261,Tesla,Model Y,2017,BO390,Blue,True
+1556,5263,Honda,Civic,2025,XG895,Red,True
+1557,5268,Ford,Focus,2021,OQ987,Silver,True
+1558,5270,Toyota,Camry,2019,CL830,Red,True
+1559,5271,Toyota,Camry,2016,SC401,White,True
+1560,5273,Hyundai,Elantra,2025,KP515,Silver,True
+1561,5278,Nissan,Altima,2024,TB923,Black,True
+1562,5280,Nissan,Rogue,2018,RS679,Silver,False
+1563,5281,Toyota,RAV4,2022,JL799,Grey,True
+1564,5284,Honda,Civic,2026,QT391,Grey,True
+1565,5287,Nissan,Rogue,2026,YW143,Blue,True
+1566,5292,Nissan,Sentra,2016,UM951,Grey,True
+1567,5296,Honda,Civic,2021,FM920,Grey,True
+1568,5297,Hyundai,Tucson,2024,RG292,White,False
+1569,5298,Toyota,RAV4,2025,QI572,Grey,True
+1570,5305,Nissan,Sentra,2015,RQ777,Red,True
+1571,5311,Toyota,Camry,2018,ON990,Red,True
+1572,5314,Hyundai,Tucson,2022,GQ796,Black,True
+1573,5315,Honda,CR-V,2020,AE912,Blue,True
+1574,5322,Ford,Escape,2020,AV901,Blue,True
+1575,5324,Nissan,Sentra,2024,PM171,Grey,True
+1576,5326,Ford,Fusion,2022,CE899,Grey,True
+1577,5328,Hyundai,Elantra,2024,HS706,Grey,True
+1578,5330,Ford,Escape,2017,MV779,White,True
+1579,5334,Ford,Focus,2015,DF247,White,True
+1580,5344,Nissan,Altima,2016,DU737,Silver,True
+1581,5345,Tesla,Model 3,2025,ZV715,Black,True
+1582,5349,Tesla,Model Y,2022,TA885,White,True
+1583,5353,Hyundai,Tucson,2024,UK347,Silver,True
+1584,5354,Nissan,Sentra,2021,XC125,Grey,True
+1585,5355,Honda,Civic,2017,RZ632,Blue,True
+1586,5356,Ford,Escape,2019,RD879,Red,True
+1587,5360,Honda,CR-V,2024,ES407,Blue,True
+1588,5363,Tesla,Model 3,2023,UZ341,Silver,True
+1589,5364,Nissan,Altima,2017,RQ856,Black,True
+1590,5371,Nissan,Sentra,2026,UM749,Grey,False
+1591,5373,Nissan,Altima,2019,UZ794,Silver,True
+1592,5374,Tesla,Model Y,2024,YD603,White,True
+1593,5375,Ford,Escape,2016,QY475,Grey,True
+1594,5376,Tesla,Model Y,2018,EZ114,Grey,True
+1595,5379,Toyota,RAV4,2020,AU567,Red,True
+1596,5382,Honda,Accord,2019,PA896,Grey,True
+1597,5384,Tesla,Model 3,2016,MM687,Black,False
+1598,5392,Honda,Civic,2026,WY106,Silver,True
+1599,5401,Toyota,Camry,2022,TB755,White,True
+1600,5402,Toyota,Corolla,2024,DB253,Blue,True
+1601,5404,Ford,Fusion,2020,OS434,Black,True
+1602,5409,Honda,Accord,2025,EH157,Black,True
+1603,5410,Tesla,Model Y,2025,PY888,Grey,True
+1604,5413,Nissan,Sentra,2017,ES915,White,True
+1605,5414,Hyundai,Sonata,2021,RE539,Red,True
+1606,5420,Honda,Civic,2022,MR268,Silver,True
+1607,5422,Toyota,Camry,2019,TH319,Silver,True
+1608,5425,Nissan,Altima,2017,HI675,Grey,True
+1609,5426,Ford,Fusion,2021,WQ458,White,True
+1610,5439,Honda,CR-V,2020,VN842,Red,True
+1611,5440,Nissan,Rogue,2019,VJ411,Black,True
+1612,5441,Hyundai,Sonata,2022,TO313,Blue,True
+1613,5443,Hyundai,Tucson,2017,BH827,Silver,False
+1614,5447,Ford,Focus,2023,WK462,Blue,False
+1615,5448,Hyundai,Sonata,2024,BN527,Silver,True
+1616,5457,Ford,Focus,2022,PK608,Grey,True
+1617,5461,Toyota,RAV4,2020,OQ982,Black,True
+1618,5462,Tesla,Model Y,2020,TN386,Black,True
+1619,5463,Tesla,Model 3,2024,QZ420,White,True
+1620,5465,Ford,Fusion,2022,XH615,Black,True
+1621,5471,Honda,Accord,2021,GK368,Red,True
+1622,5475,Ford,Escape,2026,LW968,Red,True
+1623,5483,Ford,Focus,2021,OA506,Black,True
+1624,5488,Nissan,Altima,2023,ZP325,Grey,True
+1625,5492,Honda,CR-V,2015,OH480,Grey,True
+1626,5494,Hyundai,Elantra,2022,XD881,Silver,True
+1627,5500,Nissan,Rogue,2015,YF266,Grey,True
+1628,5501,Honda,Accord,2016,ZV278,White,True
+1629,5503,Honda,CR-V,2017,GD112,Red,True
+1630,5506,Nissan,Altima,2026,KK371,Blue,False
+1631,5508,Honda,Accord,2018,KU487,Silver,False
+1632,5510,Toyota,Prius,2022,BV623,Silver,True
+1633,5512,Hyundai,Tucson,2020,YK193,Grey,True
+1634,5515,Nissan,Rogue,2019,OV436,Silver,True
+1635,5518,Tesla,Model 3,2023,BL847,Silver,True
+1636,5519,Nissan,Sentra,2023,EU439,Grey,True
+1637,5520,Tesla,Model 3,2024,CQ543,Silver,True
+1638,5522,Ford,Focus,2024,PT763,Grey,True
+1639,5525,Honda,CR-V,2022,TV832,Grey,True
+1640,5530,Toyota,Camry,2024,XH107,Grey,True
+1641,5532,Tesla,Model 3,2025,QI608,Silver,True
+1642,5537,Hyundai,Elantra,2016,WI884,Black,True
+1643,5540,Tesla,Model Y,2018,IB344,Blue,True
+1644,5543,Tesla,Model 3,2015,JL991,Silver,True
+1645,5544,Ford,Focus,2020,QR869,Red,True
+1646,5547,Nissan,Sentra,2025,GD733,Blue,True
+1647,5550,Ford,Escape,2026,CJ128,Silver,True
+1648,5554,Ford,Focus,2019,CJ312,Grey,False
+1649,5555,Ford,Focus,2019,PB853,White,True
+1650,5560,Nissan,Altima,2015,UW266,Grey,True
+1651,5561,Ford,Escape,2023,DY997,White,True
+1652,5563,Hyundai,Sonata,2024,EH377,Black,True
+1653,5568,Tesla,Model Y,2020,UZ278,Silver,True
+1654,5569,Ford,Fusion,2020,KB222,Black,True
+1655,5573,Tesla,Model 3,2020,GM568,Blue,True
+1656,5574,Toyota,RAV4,2024,RO948,Blue,True
+1657,5575,Toyota,RAV4,2025,DK194,Blue,True
+1658,5577,Toyota,Camry,2020,UY878,Black,True
+1659,5581,Tesla,Model Y,2023,MY907,White,True
+1660,5583,Tesla,Model Y,2020,RT895,Red,True
+1661,5586,Tesla,Model 3,2022,CX596,Grey,True
+1662,5591,Hyundai,Tucson,2017,BS734,White,True
+1663,5593,Nissan,Sentra,2020,UO940,Blue,True
+1664,5599,Nissan,Altima,2015,OT712,Blue,True
+1665,5604,Tesla,Model 3,2021,OR609,Black,True
+1666,5607,Honda,CR-V,2020,BE330,Black,True
+1667,5611,Toyota,Prius,2024,HU474,Grey,True
+1668,5615,Tesla,Model 3,2022,JZ442,White,True
+1669,5618,Tesla,Model Y,2023,YU299,Silver,False
+1670,5621,Nissan,Altima,2018,IL305,Blue,True
+1671,5627,Tesla,Model Y,2026,NQ706,Black,True
+1672,5633,Tesla,Model Y,2023,JI823,Blue,True
+1673,5636,Toyota,Corolla,2025,NP744,Grey,True
+1674,5637,Nissan,Sentra,2026,SZ222,White,True
+1675,5645,Hyundai,Tucson,2025,JA433,White,True
+1676,5647,Toyota,Prius,2017,YH340,Silver,True
+1677,5650,Hyundai,Elantra,2022,YN785,Black,True
+1678,5655,Tesla,Model Y,2024,XN890,Blue,True
+1679,5656,Nissan,Rogue,2024,JA596,Grey,True
+1680,5657,Tesla,Model 3,2025,CN296,White,True
+1681,5659,Toyota,Camry,2015,GE285,Silver,True
+1682,5662,Ford,Focus,2026,TK933,White,True
+1683,5664,Toyota,RAV4,2023,PG627,Black,True
+1684,5670,Ford,Focus,2022,YP461,Black,True
+1685,5672,Toyota,Prius,2025,QV244,Silver,False
+1686,5676,Tesla,Model 3,2026,GD115,Grey,True
+1687,5680,Ford,Escape,2019,LS236,Black,True
+1688,5689,Nissan,Sentra,2025,PL652,White,True
+1689,5693,Toyota,Camry,2022,OW606,Grey,True
+1690,5694,Ford,Escape,2015,FT329,Silver,True
+1691,5696,Hyundai,Tucson,2020,WV274,Grey,True
+1692,5699,Toyota,RAV4,2018,EV328,White,False
+1693,5701,Tesla,Model 3,2021,OH338,Red,True
+1694,5704,Honda,Civic,2025,DQ183,Silver,True
+1695,5705,Tesla,Model Y,2021,MR731,Red,True
+1696,5712,Ford,Fusion,2016,YX279,Black,True
+1697,5717,Hyundai,Elantra,2015,GW749,Blue,True
+1698,5719,Tesla,Model 3,2017,BE208,Silver,True
+1699,5725,Nissan,Altima,2019,SC543,Grey,True
+1700,5728,Ford,Focus,2018,KR936,Blue,True
+1701,5729,Tesla,Model 3,2026,LW219,White,True
+1702,5732,Ford,Escape,2016,VJ748,Black,True
+1703,5734,Ford,Focus,2023,UF486,Grey,False
+1704,5737,Tesla,Model Y,2024,HH127,White,True
+1705,5738,Toyota,Prius,2024,FJ620,Red,True
+1706,5739,Ford,Focus,2024,CM838,Silver,True
+1707,5751,Hyundai,Elantra,2019,XL460,Blue,True
+1708,5752,Nissan,Sentra,2022,CR395,Silver,True
+1709,5753,Ford,Escape,2016,LU795,Blue,True
+1710,5754,Hyundai,Elantra,2019,XI682,Red,True
+1711,5758,Ford,Fusion,2016,RH433,Silver,True
+1712,5760,Ford,Fusion,2020,SN810,Blue,True
+1713,5762,Toyota,Prius,2020,ZM856,White,True
+1714,5764,Nissan,Rogue,2023,AO874,Red,True
+1715,5765,Hyundai,Sonata,2020,GJ488,Black,True
+1716,5766,Tesla,Model 3,2019,JZ125,White,False
+1717,5767,Hyundai,Tucson,2017,MP400,Black,True
+1718,5773,Tesla,Model 3,2021,WI329,Grey,True
+1719,5775,Hyundai,Sonata,2023,MF366,White,True
+1720,5776,Hyundai,Sonata,2017,XD595,Grey,True
+1721,5777,Hyundai,Tucson,2020,LX224,Silver,True
+1722,5781,Honda,Accord,2017,US218,Silver,False
+1723,5782,Toyota,Camry,2023,LR972,Grey,True
+1724,5794,Toyota,Camry,2022,JU394,White,True
+1725,5795,Hyundai,Elantra,2022,CU144,Silver,False
+1726,5797,Tesla,Model Y,2018,PI453,Blue,True
+1727,5803,Nissan,Sentra,2021,XT976,White,True
+1728,5805,Tesla,Model Y,2018,DN566,White,False
+1729,5806,Honda,Civic,2023,CO100,Silver,False
+1730,5814,Honda,CR-V,2020,AK571,Silver,True
+1731,5821,Tesla,Model 3,2018,AF525,White,False
+1732,5831,Tesla,Model Y,2020,FC919,Black,True
+1733,5839,Tesla,Model Y,2023,QV883,Red,True
+1734,5842,Tesla,Model 3,2016,DM640,Black,True
+1735,5846,Tesla,Model Y,2023,SR285,Black,True
+1736,5849,Nissan,Rogue,2019,CU340,White,True
+1737,5851,Toyota,RAV4,2018,JD361,White,True
+1738,5863,Tesla,Model Y,2018,HZ447,Silver,True
+1739,5870,Ford,Focus,2022,YJ793,Grey,True
+1740,5873,Tesla,Model Y,2025,IV230,Black,True
+1741,5874,Tesla,Model 3,2019,PM289,White,True
+1742,5877,Honda,CR-V,2015,WB890,Black,True
+1743,5882,Toyota,RAV4,2016,WS330,Blue,True
+1744,5887,Honda,Accord,2018,IR763,Black,True
+1745,5891,Nissan,Rogue,2017,GW609,Silver,True
+1746,5899,Tesla,Model 3,2024,PZ959,Grey,True
+1747,5901,Hyundai,Elantra,2016,OJ238,White,True
+1748,5906,Tesla,Model Y,2016,AX714,Black,True
+1749,5908,Toyota,Camry,2017,ES582,Silver,True
+1750,5909,Tesla,Model Y,2015,ZX280,Blue,True
+1751,5910,Tesla,Model 3,2017,ER464,Red,True
+1752,5912,Toyota,RAV4,2023,MJ604,Red,True
+1753,5913,Hyundai,Sonata,2015,VU466,Black,True
+1754,5917,Toyota,Corolla,2019,HG481,Silver,False
+1755,5919,Honda,Accord,2021,YA548,Black,True
+1756,5922,Honda,Civic,2021,ZE199,White,True
+1757,5923,Hyundai,Sonata,2015,NU194,Black,True
+1758,5924,Hyundai,Sonata,2023,LX868,Silver,True
+1759,5926,Ford,Escape,2022,AS699,Grey,True
+1760,5928,Ford,Fusion,2016,XU754,Grey,True
+1761,5929,Ford,Fusion,2016,SM614,Blue,True
+1762,5931,Toyota,Camry,2017,WF209,Red,True
+1763,5932,Tesla,Model 3,2021,DR296,White,False
+1764,5933,Hyundai,Elantra,2016,GN438,Black,True
+1765,5934,Nissan,Rogue,2026,MO132,White,False
+1766,5935,Nissan,Sentra,2017,OD153,Blue,True
+1767,5936,Hyundai,Elantra,2015,TX471,Blue,True
+1768,5938,Nissan,Altima,2026,MN670,White,True
+1769,5940,Honda,Civic,2017,NN689,Silver,True
+1770,5941,Hyundai,Sonata,2026,CA936,Grey,True
+1771,5942,Hyundai,Elantra,2016,EK931,Blue,True
+1772,5943,Ford,Fusion,2024,XM462,Black,True
+1773,5948,Ford,Escape,2026,HI463,Silver,True
+1774,5953,Honda,Accord,2019,FZ263,Blue,True
+1775,5959,Hyundai,Tucson,2017,BE965,White,True
+1776,5960,Nissan,Altima,2016,ZE499,Blue,True
+1777,5963,Hyundai,Tucson,2019,EV112,Silver,False
+1778,5968,Ford,Escape,2017,WH874,Silver,True
+1779,5969,Honda,CR-V,2020,IT144,Red,True
+1780,5975,Ford,Escape,2019,SR475,Red,True
+1781,5978,Toyota,RAV4,2018,BC378,Blue,True
+1782,5990,Nissan,Altima,2026,GX140,Grey,True
+1783,5993,Tesla,Model Y,2016,ON327,Black,True
+1784,5995,Toyota,Prius,2020,RH489,White,True
+1785,6002,Tesla,Model Y,2016,NP289,Black,True
+1786,6003,Nissan,Rogue,2020,LT798,Silver,True
+1787,6013,Ford,Escape,2020,XA195,Black,True
+1788,6019,Ford,Escape,2025,DP960,Blue,True
+1789,6021,Toyota,RAV4,2023,OT957,Black,True
+1790,6023,Tesla,Model 3,2023,CK446,Grey,True
+1791,6027,Ford,Focus,2018,EU760,Blue,True
+1792,6028,Ford,Focus,2022,JI675,Silver,True
+1793,6030,Hyundai,Tucson,2026,MD678,Blue,True
+1794,6035,Ford,Focus,2017,IJ399,Grey,True
+1795,6039,Toyota,Prius,2021,AT318,Red,True
+1796,6042,Hyundai,Sonata,2023,FG513,Silver,True
+1797,6044,Hyundai,Tucson,2020,HY640,Black,True
+1798,6045,Hyundai,Tucson,2025,LC982,Blue,False
+1799,6047,Hyundai,Elantra,2020,OJ881,White,True
+1800,6050,Tesla,Model 3,2023,ML441,Black,True
+1801,6052,Hyundai,Sonata,2025,NJ634,Red,True
+1802,6055,Toyota,Corolla,2024,EZ966,White,True
+1803,6057,Honda,Accord,2022,MB522,Black,True
+1804,6059,Nissan,Rogue,2024,DR731,White,True
+1805,6060,Honda,Civic,2016,MH549,Black,True
+1806,6063,Nissan,Sentra,2024,PY845,Silver,True
+1807,6066,Nissan,Altima,2020,EM295,Black,True
+1808,6067,Tesla,Model Y,2022,GC459,Black,True
+1809,6070,Honda,Civic,2026,SS676,White,True
+1810,6071,Honda,CR-V,2015,ZY746,Black,True
+1811,6072,Hyundai,Sonata,2016,LX909,Red,False
+1812,6073,Honda,CR-V,2025,UM677,Silver,True
+1813,6075,Toyota,Camry,2022,TU537,Silver,True
+1814,6078,Toyota,RAV4,2026,KL681,White,True
+1815,6079,Nissan,Rogue,2024,SY636,Silver,True
+1816,6082,Toyota,RAV4,2018,FU179,Black,True
+1817,6087,Nissan,Altima,2024,FP128,Blue,True
+1818,6096,Ford,Fusion,2022,VO953,Red,True
+1819,6106,Hyundai,Sonata,2026,MI918,White,True
+1820,6107,Nissan,Sentra,2024,ZC526,White,True
+1821,6109,Tesla,Model 3,2019,JT602,Blue,False
+1822,6110,Toyota,Corolla,2021,BA116,Grey,True
+1823,6117,Nissan,Altima,2019,GZ581,Black,True
+1824,6119,Nissan,Altima,2016,RK156,Red,True
+1825,6123,Ford,Focus,2026,AF791,Blue,True
+1826,6126,Toyota,Corolla,2016,XZ486,Black,True
+1827,6127,Ford,Escape,2022,KK930,Black,True
+1828,6133,Toyota,Corolla,2015,CX202,White,True
+1829,6136,Honda,CR-V,2017,XG219,Grey,True
+1830,6142,Honda,CR-V,2020,ZI142,Black,True
+1831,6143,Toyota,Corolla,2016,YJ952,Red,False
+1832,6150,Nissan,Altima,2018,VI679,Silver,True
+1833,6163,Toyota,Corolla,2021,RM901,Blue,True
+1834,6164,Tesla,Model Y,2016,PE963,Black,True
+1835,6172,Toyota,Prius,2019,FR728,Black,True
+1836,6173,Hyundai,Elantra,2017,RH956,Red,True
+1837,6175,Honda,Accord,2024,SA214,Blue,True
+1838,6180,Honda,CR-V,2023,JP437,Grey,True
+1839,6181,Hyundai,Sonata,2016,YH249,Black,True
+1840,6183,Hyundai,Elantra,2017,HC988,Silver,True
+1841,6185,Ford,Focus,2020,IL499,Silver,True
+1842,6190,Honda,CR-V,2026,IM382,White,False
+1843,6193,Toyota,Camry,2019,XX433,Grey,True
+1844,6195,Ford,Focus,2020,WC577,Red,True
+1845,6202,Ford,Escape,2019,LV274,White,False
+1846,6204,Nissan,Sentra,2018,PJ528,White,False
+1847,6205,Honda,Civic,2025,SG218,Blue,True
+1848,6210,Ford,Focus,2022,EL553,Black,True
+1849,6212,Honda,Civic,2017,CD102,Black,True
+1850,6217,Nissan,Sentra,2025,IW730,White,True
+1851,6223,Toyota,RAV4,2021,ZS560,Grey,True
+1852,6225,Hyundai,Sonata,2023,OQ414,White,True
+1853,6227,Nissan,Altima,2015,QO667,Blue,False
+1854,6228,Tesla,Model 3,2019,SK144,Red,True
+1855,6230,Toyota,RAV4,2021,GC527,Blue,True
+1856,6233,Hyundai,Elantra,2021,EW681,Black,True
+1857,6237,Nissan,Rogue,2021,AJ969,Grey,True
+1858,6240,Tesla,Model 3,2015,AS752,Silver,True
+1859,6241,Hyundai,Elantra,2019,KJ524,Red,True
+1860,6242,Ford,Fusion,2023,HO753,Silver,True
+1861,6243,Hyundai,Sonata,2022,PU579,Grey,False
+1862,6247,Honda,CR-V,2025,NN934,Blue,True
+1863,6249,Honda,Accord,2022,DQ271,Red,True
+1864,6252,Honda,CR-V,2017,GB962,Red,False
+1865,6253,Hyundai,Elantra,2017,WQ249,Blue,True
+1866,6254,Hyundai,Sonata,2026,ZL363,Red,True
+1867,6257,Honda,Accord,2019,QB981,Red,True
+1868,6258,Ford,Fusion,2019,BD805,Silver,True
+1869,6262,Nissan,Sentra,2026,XW293,Black,True
+1870,6268,Honda,CR-V,2019,RP202,White,True
+1871,6271,Ford,Focus,2020,HC400,White,True
+1872,6273,Tesla,Model 3,2017,JG320,White,True
+1873,6274,Ford,Focus,2018,SC350,Silver,True
+1874,6275,Tesla,Model 3,2023,KC235,Red,False
+1875,6276,Hyundai,Sonata,2022,CI888,Grey,True
+1876,6285,Tesla,Model 3,2015,HN780,White,True
+1877,6292,Tesla,Model 3,2018,PR215,White,True
+1878,6298,Hyundai,Tucson,2016,NF506,Red,True
+1879,6300,Ford,Focus,2022,UD567,Black,True
+1880,6303,Ford,Escape,2016,ZA217,Silver,True
+1881,6305,Tesla,Model 3,2021,PZ751,White,True
+1882,6307,Ford,Escape,2019,RC724,White,True
+1883,6312,Toyota,Prius,2022,RO658,Grey,False
+1884,6315,Ford,Escape,2016,DB690,Blue,True
+1885,6318,Tesla,Model Y,2020,TV752,Black,True
+1886,6325,Hyundai,Tucson,2017,MU720,Black,True
+1887,6326,Ford,Escape,2025,QK139,Red,True
+1888,6327,Toyota,Corolla,2025,NJ131,Red,True
+1889,6329,Ford,Escape,2015,EK115,White,True
+1890,6333,Honda,Civic,2015,YO868,Grey,True
+1891,6334,Hyundai,Tucson,2017,BN396,Blue,True
+1892,6335,Nissan,Sentra,2015,UR666,Grey,True
+1893,6337,Hyundai,Elantra,2021,UA268,Blue,True
+1894,6339,Honda,CR-V,2016,EN756,Black,True
+1895,6341,Toyota,Corolla,2020,SV569,White,True
+1896,6346,Tesla,Model Y,2019,GH180,Black,True
+1897,6348,Honda,Accord,2019,ZX838,White,True
+1898,6349,Toyota,RAV4,2019,CL786,Grey,True
+1899,6354,Toyota,Prius,2023,IF303,Grey,True
+1900,6358,Nissan,Rogue,2026,WX993,Black,True
+1901,6359,Ford,Focus,2017,GA841,Grey,True
+1902,6368,Tesla,Model Y,2015,MB418,Silver,True
+1903,6372,Nissan,Altima,2018,BF365,Red,True
+1904,6382,Ford,Fusion,2020,GB998,White,True
+1905,6383,Tesla,Model Y,2017,FQ920,Grey,True
+1906,6390,Tesla,Model Y,2023,NK677,Red,True
+1907,6397,Honda,Accord,2020,UW448,Grey,True
+1908,6398,Nissan,Rogue,2017,KW386,Black,True
+1909,6406,Toyota,Prius,2024,AV751,Red,True
+1910,6412,Toyota,RAV4,2023,KE556,Silver,True
+1911,6414,Ford,Escape,2026,FJ679,Grey,True
+1912,6419,Ford,Fusion,2024,XD820,Red,True
+1913,6422,Honda,CR-V,2024,DJ541,White,True
+1914,6426,Honda,Civic,2020,ZE680,White,False
+1915,6427,Nissan,Sentra,2026,AM133,Grey,True
+1916,6438,Honda,CR-V,2026,NP454,Silver,False
+1917,6451,Tesla,Model Y,2025,BD981,White,True
+1918,6455,Ford,Fusion,2018,KC809,Blue,True
+1919,6456,Hyundai,Tucson,2018,IK864,Black,True
+1920,6465,Ford,Escape,2020,XS418,Red,True
+1921,6476,Hyundai,Elantra,2018,SE225,Black,True
+1922,6478,Toyota,Corolla,2020,AD555,Black,True
+1923,6483,Nissan,Sentra,2023,MN473,White,True
+1924,6485,Ford,Focus,2017,HG747,Black,True
+1925,6496,Ford,Fusion,2019,XQ693,Silver,True
+1926,6499,Hyundai,Tucson,2016,EE587,Blue,False
+1927,6506,Honda,Accord,2024,EE800,White,True
+1928,6512,Nissan,Rogue,2025,IB625,Red,True
+1929,6513,Toyota,Prius,2019,BK902,Red,True
+1930,6516,Honda,Accord,2017,HS543,Grey,False
+1931,6522,Honda,CR-V,2019,EF534,White,True
+1932,6524,Honda,Civic,2016,VF540,White,True
+1933,6525,Tesla,Model 3,2021,BL662,Grey,True
+1934,6528,Nissan,Rogue,2023,ME587,Silver,True
+1935,6529,Nissan,Altima,2020,UA592,Black,True
+1936,6533,Hyundai,Tucson,2017,DV550,Black,True
+1937,6538,Hyundai,Tucson,2015,XT462,Blue,True
+1938,6544,Tesla,Model 3,2025,YB800,White,False
+1939,6548,Tesla,Model Y,2026,CD975,Blue,True
+1940,6549,Tesla,Model Y,2016,YG398,Blue,True
+1941,6554,Tesla,Model 3,2016,IR310,Black,True
+1942,6561,Hyundai,Tucson,2023,JG824,Silver,True
+1943,6562,Toyota,Camry,2026,HS496,White,True
+1944,6566,Toyota,RAV4,2026,DG833,Grey,True
+1945,6567,Nissan,Sentra,2021,HU868,White,True
+1946,6570,Nissan,Altima,2016,FL857,Red,True
+1947,6571,Honda,Civic,2025,FQ708,Black,True
+1948,6573,Ford,Fusion,2018,MD195,Grey,True
+1949,6577,Hyundai,Tucson,2018,ZG931,Red,True
+1950,6581,Hyundai,Elantra,2025,FH763,Silver,True
+1951,6584,Nissan,Altima,2019,XT377,White,True
+1952,6587,Hyundai,Tucson,2020,IK399,Grey,True
+1953,6592,Hyundai,Tucson,2022,NV600,Silver,True
+1954,6593,Ford,Fusion,2026,JK941,Silver,True
+1955,6595,Tesla,Model 3,2021,EG199,White,True
+1956,6597,Honda,Accord,2018,JF327,Grey,True
+1957,6601,Toyota,Prius,2026,QM567,Silver,True
+1958,6605,Tesla,Model Y,2015,JY513,Blue,False
+1959,6611,Honda,Accord,2022,ZJ123,Grey,False
+1960,6616,Hyundai,Sonata,2021,TO145,Red,True
+1961,6623,Ford,Escape,2020,NZ627,Grey,True
+1962,6625,Toyota,Corolla,2023,AF530,Red,True
+1963,6626,Ford,Focus,2017,IS314,Blue,True
+1964,6627,Ford,Fusion,2016,QN377,Grey,True
+1965,6632,Toyota,Camry,2019,NG788,Black,True
+1966,6637,Ford,Escape,2021,IF682,Red,True
+1967,6654,Honda,Accord,2021,XB697,Black,True
+1968,6656,Toyota,Camry,2023,XZ107,Blue,True
+1969,6659,Nissan,Sentra,2023,SL643,Black,True
+1970,6662,Nissan,Rogue,2025,HN695,Grey,True
+1971,6665,Toyota,Corolla,2024,YO618,Red,True
+1972,6670,Tesla,Model 3,2023,UV725,Blue,True
+1973,6679,Honda,Civic,2020,PU523,Black,True
+1974,6681,Tesla,Model 3,2026,HI576,Silver,True
+1975,6683,Nissan,Sentra,2023,VS205,Black,False
+1976,6685,Hyundai,Tucson,2025,RU550,Silver,True
+1977,6687,Honda,Accord,2019,UL234,Red,True
+1978,6689,Ford,Escape,2023,FT802,Red,True
+1979,6690,Tesla,Model 3,2021,PH915,Blue,True
+1980,6691,Nissan,Sentra,2022,LM599,White,True
+1981,6692,Toyota,RAV4,2024,YC396,White,True
+1982,6694,Ford,Escape,2026,KW830,Blue,True
+1983,6698,Hyundai,Elantra,2020,FM902,Silver,True
+1984,6702,Hyundai,Sonata,2020,ML775,Black,True
+1985,6705,Tesla,Model 3,2021,KS428,Blue,True
+1986,6709,Ford,Escape,2018,CI492,Red,True
+1987,6718,Honda,Accord,2020,PY197,Silver,True
+1988,6724,Honda,Accord,2023,MF276,Black,True
+1989,6725,Honda,Accord,2018,LZ224,Silver,True
+1990,6731,Honda,Accord,2015,HU511,Grey,True
+1991,6732,Tesla,Model Y,2025,QB965,Red,True
+1992,6736,Hyundai,Sonata,2026,TN761,Silver,True
+1993,6745,Ford,Fusion,2019,NJ825,Red,True
+1994,6746,Tesla,Model Y,2024,DI322,Red,True
+1995,6747,Toyota,Camry,2020,PZ437,Red,True
+1996,6752,Hyundai,Sonata,2015,LH386,Silver,True
+1997,6756,Toyota,Prius,2018,HM167,Silver,True
+1998,6761,Hyundai,Sonata,2023,SW155,Grey,True
+1999,6764,Ford,Focus,2024,LF528,Red,False
+2000,6771,Nissan,Rogue,2023,JO324,Blue,True
+2001,6775,Ford,Fusion,2016,YI603,White,True
+2002,6780,Honda,Accord,2018,YM862,Grey,True
+2003,6783,Nissan,Rogue,2019,NX354,Black,True
+2004,6784,Ford,Fusion,2017,KV946,Red,True
+2005,6786,Tesla,Model Y,2021,HK531,Silver,True
+2006,6790,Honda,CR-V,2015,GR891,Blue,True
+2007,6791,Nissan,Sentra,2018,SW987,Red,True
+2008,6795,Hyundai,Sonata,2025,WW975,Blue,True
+2009,6798,Ford,Escape,2026,NE134,Grey,True
+2010,6799,Honda,CR-V,2016,YU580,Grey,True
+2011,6808,Toyota,Camry,2015,YS821,Black,True
+2012,6810,Ford,Escape,2026,RK737,White,True
+2013,6813,Tesla,Model 3,2026,XH588,Grey,True
+2014,6816,Hyundai,Elantra,2026,EJ803,White,True
+2015,6819,Toyota,Camry,2025,GW181,Black,True
+2016,6826,Hyundai,Sonata,2026,YM546,Silver,True
+2017,6827,Tesla,Model Y,2023,PS586,Red,True
+2018,6838,Nissan,Rogue,2023,EJ578,Red,True
+2019,6839,Ford,Fusion,2023,DK974,Grey,True
+2020,6844,Hyundai,Tucson,2020,PC850,Blue,True
+2021,6851,Hyundai,Elantra,2019,FU201,Red,True
+2022,6860,Tesla,Model Y,2016,OU526,Grey,True
+2023,6862,Toyota,RAV4,2026,WN703,White,True
+2024,6866,Nissan,Rogue,2020,GX684,Black,True
+2025,6867,Nissan,Rogue,2026,UR899,White,False
+2026,6869,Hyundai,Tucson,2021,HK629,Blue,True
+2027,6871,Hyundai,Tucson,2024,IG776,Red,True
+2028,6874,Honda,Civic,2018,VJ121,White,False
+2029,6879,Ford,Escape,2018,NR756,Black,True
+2030,6880,Honda,Accord,2016,KQ196,Silver,True
+2031,6883,Toyota,RAV4,2020,XN516,Black,False
+2032,6884,Honda,Civic,2017,HV445,Red,True
+2033,6889,Ford,Fusion,2015,SA547,White,True
+2034,6891,Nissan,Rogue,2026,NZ527,Black,False
+2035,6895,Tesla,Model Y,2025,DM905,Grey,True
+2036,6898,Nissan,Rogue,2015,XR589,Silver,True
+2037,6903,Honda,CR-V,2023,EJ534,Blue,True
+2038,6905,Honda,CR-V,2024,SP869,Blue,True
+2039,6907,Hyundai,Elantra,2025,SU216,White,True
+2040,6913,Nissan,Altima,2016,HT513,Silver,True
+2041,6917,Toyota,Prius,2018,TY858,Grey,False
+2042,6925,Nissan,Sentra,2019,YR800,Red,True
+2043,6930,Nissan,Rogue,2024,ZV988,Grey,True
+2044,6931,Honda,Civic,2015,CN282,Black,True
+2045,6933,Ford,Focus,2019,DL143,Black,False
+2046,6935,Toyota,Camry,2016,HV386,Grey,True
+2047,6937,Honda,Accord,2019,QC833,White,True
+2048,6938,Hyundai,Tucson,2018,DM354,Black,True
+2049,6940,Nissan,Sentra,2016,ZQ418,Silver,True
+2050,6941,Hyundai,Elantra,2023,UG921,Red,True
+2051,6946,Hyundai,Elantra,2016,WO965,Blue,True
+2052,6948,Hyundai,Tucson,2025,CA974,Grey,True
+2053,6950,Ford,Focus,2025,HA244,Red,True
+2054,6952,Toyota,Corolla,2017,PZ606,Blue,True
+2055,6956,Tesla,Model 3,2026,GP182,Silver,True
+2056,6958,Hyundai,Sonata,2026,EM120,Blue,True
+2057,6959,Hyundai,Elantra,2018,BP182,White,True
+2058,6966,Toyota,Prius,2021,WF700,Black,True
+2059,6967,Hyundai,Tucson,2025,YY759,Silver,True
+2060,6972,Hyundai,Sonata,2022,AD275,Black,True
+2061,6982,Hyundai,Elantra,2020,IR534,Grey,True
+2062,6985,Nissan,Altima,2023,TN897,Blue,True
+2063,6992,Honda,Accord,2020,PR623,Grey,True
+2064,6993,Hyundai,Elantra,2022,WA792,Black,True
+2065,7000,Tesla,Model 3,2026,RE974,Grey,True
+2066,7008,Toyota,RAV4,2026,MX488,Grey,True
+2067,7014,Nissan,Altima,2015,IS752,Black,True
+2068,7019,Nissan,Altima,2021,GD691,White,True
+2069,7020,Ford,Fusion,2022,ED287,Red,False
+2070,7023,Ford,Escape,2026,JM100,Black,True
+2071,7025,Tesla,Model Y,2025,ZG612,Black,True
+2072,7026,Ford,Fusion,2024,SY448,Silver,True
+2073,7029,Toyota,RAV4,2025,JZ655,Grey,True
+2074,7031,Ford,Focus,2023,YO766,Blue,True
+2075,7033,Tesla,Model 3,2017,MF815,Black,True
+2076,7034,Tesla,Model 3,2021,KU270,Red,True
+2077,7042,Hyundai,Tucson,2015,IE582,Grey,True
+2078,7044,Hyundai,Sonata,2026,XS481,Blue,True
+2079,7047,Ford,Fusion,2026,UF595,Grey,True
+2080,7048,Ford,Escape,2024,MW104,White,True
+2081,7049,Hyundai,Sonata,2015,JL310,Red,True
+2082,7056,Honda,Civic,2020,YM277,Blue,True
+2083,7057,Ford,Escape,2017,GG241,Blue,True
+2084,7063,Honda,CR-V,2020,TD916,Grey,True
+2085,7067,Tesla,Model Y,2020,OE958,Silver,False
+2086,7076,Nissan,Rogue,2018,XS554,Black,True
+2087,7079,Tesla,Model 3,2021,ZS775,Blue,True
+2088,7080,Nissan,Altima,2022,UJ603,Blue,True
+2089,7089,Tesla,Model 3,2025,AG924,Red,True
+2090,7103,Toyota,Corolla,2017,MS150,Silver,True
+2091,7108,Nissan,Rogue,2021,IQ793,Silver,True
+2092,7111,Hyundai,Tucson,2018,VC701,Red,True
+2093,7112,Hyundai,Tucson,2024,VD589,White,True
+2094,7119,Nissan,Sentra,2024,FU873,White,True
+2095,7120,Honda,CR-V,2023,NW300,Blue,True
+2096,7123,Tesla,Model 3,2026,MW664,Blue,True
+2097,7124,Tesla,Model 3,2023,JS453,Black,False
+2098,7127,Honda,CR-V,2026,OC991,Blue,False
+2099,7136,Toyota,RAV4,2017,TN456,Grey,True
+2100,7137,Ford,Escape,2025,OV602,Red,True
+2101,7139,Nissan,Rogue,2022,AN341,Red,False
+2102,7141,Honda,CR-V,2020,VR746,White,True
+2103,7142,Tesla,Model 3,2023,HG485,Silver,False
+2104,7145,Tesla,Model Y,2025,KH131,White,False
+2105,7146,Ford,Escape,2024,TD708,Grey,True
+2106,7148,Tesla,Model Y,2017,BD574,Grey,True
+2107,7150,Nissan,Rogue,2017,MD544,Red,True
+2108,7151,Toyota,RAV4,2022,FL513,Blue,True
+2109,7153,Hyundai,Tucson,2021,ZY973,Blue,True
+2110,7156,Honda,CR-V,2022,SA716,Black,True
+2111,7157,Toyota,Corolla,2025,DM467,Red,True
+2112,7160,Hyundai,Tucson,2024,YW906,Red,True
+2113,7165,Toyota,Prius,2026,HS320,Blue,True
+2114,7168,Nissan,Altima,2019,TI261,White,True
+2115,7169,Toyota,Camry,2017,XS347,Silver,False
+2116,7170,Nissan,Altima,2018,BY610,Blue,True
+2117,7171,Tesla,Model Y,2024,YC898,Black,True
+2118,7173,Hyundai,Sonata,2018,GH183,White,True
+2119,7178,Toyota,RAV4,2020,HI343,Blue,True
+2120,7179,Hyundai,Sonata,2018,IG968,Red,True
+2121,7180,Hyundai,Elantra,2021,PV927,Grey,True
+2122,7183,Ford,Escape,2022,NP111,White,True
+2123,7184,Nissan,Rogue,2018,VZ406,Red,True
+2124,7196,Nissan,Altima,2015,GV637,Black,True
+2125,7200,Tesla,Model Y,2025,IR544,Grey,True
+2126,7202,Nissan,Altima,2020,ZD760,Grey,True
+2127,7203,Ford,Escape,2019,JB992,Red,True
+2128,7205,Tesla,Model Y,2018,SR865,Silver,True
+2129,7206,Hyundai,Sonata,2018,ZW379,Silver,False
+2130,7207,Ford,Escape,2019,IC490,Red,True
+2131,7214,Toyota,Corolla,2022,XB599,Grey,False
+2132,7215,Tesla,Model Y,2017,CN567,White,True
+2133,7217,Nissan,Altima,2021,PT414,Grey,True
+2134,7219,Ford,Escape,2015,GB342,Black,True
+2135,7223,Toyota,Camry,2020,CI571,Grey,True
+2136,7228,Hyundai,Sonata,2024,RC924,Blue,True
+2137,7229,Nissan,Altima,2024,DM810,White,True
+2138,7230,Nissan,Sentra,2016,AJ426,Silver,True
+2139,7232,Tesla,Model Y,2024,SU764,Grey,True
+2140,7238,Hyundai,Tucson,2016,WS993,White,True
+2141,7239,Toyota,RAV4,2015,VV450,Black,True
+2142,7240,Tesla,Model 3,2020,CY456,Red,True
+2143,7243,Ford,Focus,2024,AB324,Grey,True
+2144,7245,Honda,Accord,2020,JU362,Silver,False
+2145,7246,Ford,Escape,2017,FB317,White,True
+2146,7252,Nissan,Rogue,2019,EQ729,Silver,True
+2147,7254,Honda,CR-V,2024,RN920,Red,True
+2148,7260,Toyota,RAV4,2024,ND511,Red,True
+2149,7261,Toyota,Camry,2016,MR664,Silver,True
+2150,7265,Ford,Focus,2022,BX142,Black,True
+2151,7268,Nissan,Rogue,2021,CT882,Red,True
+2152,7270,Toyota,Corolla,2021,TB959,White,True
+2153,7273,Toyota,Corolla,2017,HJ927,Red,True
+2154,7274,Ford,Escape,2023,ED821,Grey,True
+2155,7278,Hyundai,Elantra,2025,YG125,Blue,True
+2156,7284,Tesla,Model 3,2023,IQ952,White,True
+2157,7285,Ford,Escape,2022,XK658,Red,True
+2158,7286,Tesla,Model Y,2023,JR238,Red,False
+2159,7293,Honda,Civic,2025,IE899,White,True
+2160,7302,Toyota,Prius,2016,BG247,Red,True
+2161,7306,Ford,Fusion,2015,KG985,Red,False
+2162,7312,Nissan,Sentra,2016,CN684,White,True
+2163,7317,Toyota,Prius,2026,BW818,Red,True
+2164,7325,Tesla,Model Y,2019,PS433,Red,False
+2165,7326,Toyota,Prius,2015,VD378,Red,True
+2166,7328,Tesla,Model Y,2019,PS461,Blue,True
+2167,7333,Honda,Accord,2015,DG756,Grey,False
+2168,7339,Ford,Focus,2019,RM568,Red,True
+2169,7343,Ford,Fusion,2017,BC489,White,True
+2170,7345,Nissan,Sentra,2020,KZ953,Blue,False
+2171,7349,Tesla,Model Y,2025,PD378,Blue,True
+2172,7350,Ford,Escape,2016,WC979,White,True
+2173,7351,Nissan,Rogue,2020,ZP326,Black,True
+2174,7355,Nissan,Altima,2021,DG980,Blue,True
+2175,7356,Ford,Escape,2024,EZ457,Black,True
+2176,7360,Ford,Focus,2026,WD481,Blue,True
+2177,7361,Hyundai,Tucson,2018,SV688,Blue,True
+2178,7362,Honda,CR-V,2024,JA198,Silver,True
+2179,7363,Honda,Accord,2024,EJ255,Red,True
+2180,7364,Honda,Accord,2017,OV990,Black,True
+2181,7369,Tesla,Model Y,2015,AF927,Red,True
+2182,7372,Honda,Accord,2019,QR532,Blue,True
+2183,7373,Ford,Escape,2025,ZU357,Grey,True
+2184,7374,Toyota,Corolla,2025,CJ176,Red,True
+2185,7382,Hyundai,Tucson,2025,CD526,White,True
+2186,7386,Hyundai,Elantra,2023,ER747,Black,True
+2187,7389,Honda,Civic,2023,OU726,White,True
+2188,7392,Ford,Fusion,2018,JK266,Blue,True
+2189,7395,Toyota,Camry,2021,EP416,White,True
+2190,7397,Nissan,Sentra,2022,WC627,Silver,True
+2191,7398,Ford,Fusion,2021,YT427,Red,True
+2192,7399,Tesla,Model 3,2025,GN865,Silver,False
+2193,7405,Toyota,Corolla,2026,PQ150,Silver,False
+2194,7406,Tesla,Model Y,2018,LP816,Red,True
+2195,7407,Hyundai,Sonata,2015,MJ985,Black,True
+2196,7416,Ford,Escape,2023,NG801,Grey,True
+2197,7419,Ford,Fusion,2016,TC653,Red,True
+2198,7428,Hyundai,Sonata,2026,HR735,Silver,True
+2199,7429,Nissan,Sentra,2019,ZC918,Red,False
+2200,7431,Toyota,Prius,2025,BU785,Black,False
+2201,7433,Ford,Fusion,2016,PJ516,Red,True
+2202,7434,Ford,Fusion,2022,TD213,Black,True
+2203,7435,Hyundai,Sonata,2017,VM524,Blue,True
+2204,7438,Tesla,Model Y,2020,DZ397,Grey,True
+2205,7439,Nissan,Rogue,2018,SJ508,Blue,False
+2206,7450,Hyundai,Sonata,2020,FH543,Red,True
+2207,7451,Ford,Focus,2015,UE713,White,True
+2208,7452,Ford,Fusion,2017,DL892,White,True
+2209,7455,Tesla,Model 3,2021,JB954,White,True
+2210,7461,Hyundai,Sonata,2019,CW622,Red,True
+2211,7462,Tesla,Model Y,2019,HC199,Blue,True
+2212,7468,Tesla,Model 3,2018,KG513,Grey,True
+2213,7473,Toyota,Prius,2018,KB869,White,True
+2214,7478,Ford,Escape,2018,NT745,Black,True
+2215,7479,Honda,Accord,2016,VN541,Black,False
+2216,7482,Toyota,Camry,2023,VF596,Silver,True
+2217,7484,Ford,Fusion,2024,MC567,White,True
+2218,7485,Nissan,Sentra,2024,NR332,Grey,True
+2219,7487,Hyundai,Elantra,2026,IL724,Blue,True
+2220,7490,Honda,Accord,2023,KF634,Silver,True
+2221,7492,Tesla,Model Y,2018,KF777,Black,True
+2222,7493,Nissan,Altima,2025,YU812,Grey,True
+2223,7499,Toyota,RAV4,2022,PX414,Silver,True
+2224,7502,Hyundai,Elantra,2022,JC724,White,True
+2225,7505,Hyundai,Elantra,2022,AE863,Silver,True
+2226,7508,Hyundai,Sonata,2024,UL703,Black,True
+2227,7509,Tesla,Model 3,2019,JP858,Silver,True
+2228,7514,Toyota,Corolla,2015,XZ618,Red,True
+2229,7515,Ford,Fusion,2024,CW179,Grey,True
+2230,7518,Toyota,Prius,2023,OS232,Blue,True
+2231,7519,Tesla,Model Y,2016,RT106,Blue,True
+2232,7520,Toyota,RAV4,2025,WT149,Grey,True
+2233,7528,Tesla,Model 3,2019,IQ411,Silver,True
+2234,7530,Honda,Accord,2020,QL805,White,True
+2235,7533,Ford,Fusion,2016,NM727,Silver,True
+2236,7534,Nissan,Sentra,2025,TJ488,Silver,False
+2237,7539,Ford,Fusion,2018,QS333,Blue,True
+2238,7541,Tesla,Model Y,2026,TH107,Red,True
+2239,7542,Ford,Escape,2022,BA744,Red,True
+2240,7547,Tesla,Model 3,2016,LD598,Red,True
+2241,7549,Nissan,Sentra,2019,SU772,Silver,True
+2242,7556,Tesla,Model Y,2019,WX201,Red,True
+2243,7561,Nissan,Altima,2023,KN434,White,True
+2244,7563,Honda,Accord,2015,OL662,Blue,True
+2245,7565,Hyundai,Sonata,2016,VM843,Red,True
+2246,7566,Ford,Escape,2023,GL632,Black,True
+2247,7570,Tesla,Model Y,2017,LY642,Blue,True
+2248,7574,Honda,CR-V,2024,QJ123,Red,True
+2249,7580,Toyota,Prius,2021,EF840,Silver,True
+2250,7582,Toyota,Camry,2025,OU122,Black,True
+2251,7587,Toyota,Prius,2026,XC466,Grey,True
+2252,7602,Tesla,Model 3,2016,OE623,Red,True
+2253,7605,Honda,Civic,2017,MM129,Blue,True
+2254,7606,Hyundai,Elantra,2017,EY831,Blue,True
+2255,7607,Honda,Accord,2021,UL327,Red,True
+2256,7610,Toyota,Prius,2018,ML951,White,False
+2257,7612,Hyundai,Elantra,2024,AI439,Black,True
+2258,7613,Honda,Accord,2020,MA315,White,True
+2259,7614,Nissan,Altima,2024,PA366,White,True
+2260,7617,Ford,Escape,2022,VB676,White,True
+2261,7619,Ford,Escape,2025,CJ299,Grey,True
+2262,7620,Tesla,Model Y,2017,UI403,Blue,True
+2263,7623,Hyundai,Elantra,2015,DH832,Red,True
+2264,7630,Nissan,Altima,2022,AM260,Silver,True
+2265,7633,Nissan,Altima,2019,QU191,Grey,True
+2266,7634,Toyota,RAV4,2016,NF397,Black,True
+2267,7636,Toyota,Camry,2020,IB544,Blue,True
+2268,7637,Toyota,Camry,2020,ZW814,Silver,True
+2269,7644,Honda,Accord,2015,QO141,Blue,True
+2270,7649,Nissan,Rogue,2017,YZ774,White,True
+2271,7650,Ford,Escape,2022,DA468,Red,False
+2272,7651,Honda,CR-V,2024,AU761,Silver,False
+2273,7652,Ford,Fusion,2023,NN997,Red,True
+2274,7656,Ford,Escape,2022,RT756,Silver,True
+2275,7658,Ford,Escape,2019,BV710,Red,True
+2276,7660,Ford,Fusion,2020,IZ475,Black,True
+2277,7667,Tesla,Model Y,2018,YD546,Red,True
+2278,7669,Hyundai,Sonata,2020,PE533,Blue,True
+2279,7673,Toyota,Corolla,2017,RE180,White,True
+2280,7674,Honda,Civic,2026,AP759,Red,True
+2281,7675,Honda,CR-V,2025,NF895,Silver,True
+2282,7680,Ford,Fusion,2023,GQ854,White,True
+2283,7683,Ford,Fusion,2020,XD792,Blue,True
+2284,7684,Tesla,Model 3,2021,DL733,Red,False
+2285,7685,Tesla,Model 3,2017,ZV470,Silver,True
+2286,7686,Honda,Civic,2018,FE738,Silver,True
+2287,7689,Ford,Escape,2020,HE165,Black,True
+2288,7691,Nissan,Altima,2021,RE908,Blue,False
+2289,7692,Toyota,RAV4,2026,FF645,Red,True
+2290,7693,Nissan,Rogue,2026,RE255,Silver,True
+2291,7700,Ford,Fusion,2020,JA898,Blue,True
+2292,7701,Toyota,Corolla,2016,RI780,Black,True
+2293,7703,Toyota,Camry,2016,PK283,Grey,True
+2294,7706,Tesla,Model Y,2016,EQ472,White,True
+2295,7709,Hyundai,Tucson,2018,GL624,White,True
+2296,7712,Tesla,Model Y,2016,TS365,Silver,False
+2297,7713,Honda,Accord,2018,TJ938,Grey,True
+2298,7725,Nissan,Rogue,2016,BA230,Silver,True
+2299,7733,Honda,Accord,2020,IC208,Grey,True
+2300,7737,Ford,Escape,2024,BX954,Blue,True
+2301,7741,Hyundai,Sonata,2023,YR663,Black,True
+2302,7742,Toyota,Corolla,2020,IO754,Red,True
+2303,7744,Honda,Accord,2019,TZ649,White,True
+2304,7745,Honda,CR-V,2021,DH802,White,True
+2305,7746,Ford,Fusion,2025,LZ725,Black,True
+2306,7750,Nissan,Altima,2026,DW942,Red,True
+2307,7753,Toyota,Corolla,2020,DH997,Blue,True
+2308,7754,Hyundai,Elantra,2018,LV280,Grey,True
+2309,7757,Ford,Fusion,2020,AY448,White,True
+2310,7759,Tesla,Model Y,2025,KG547,White,True
+2311,7761,Toyota,Camry,2018,KY999,Silver,True
+2312,7763,Toyota,Camry,2024,OE114,Red,True
+2313,7768,Tesla,Model Y,2024,FY621,Black,True
+2314,7771,Ford,Escape,2026,UQ593,Red,True
+2315,7778,Tesla,Model Y,2024,SE683,Red,True
+2316,7785,Nissan,Rogue,2024,AZ210,Grey,True
+2317,7788,Nissan,Rogue,2023,NJ397,Grey,True
+2318,7793,Hyundai,Elantra,2018,DU277,Grey,True
+2319,7795,Nissan,Rogue,2015,WV108,White,True
+2320,7801,Ford,Fusion,2022,LP215,Silver,True
+2321,7803,Hyundai,Elantra,2018,RB563,Silver,True
+2322,7805,Honda,Accord,2017,TY135,Red,True
+2323,7808,Tesla,Model Y,2021,OQ518,Red,True
+2324,7811,Tesla,Model Y,2023,HA932,Grey,True
+2325,7812,Toyota,Corolla,2017,ER494,Black,True
+2326,7815,Nissan,Rogue,2020,AC514,Black,True
+2327,7821,Tesla,Model Y,2022,AJ962,White,True
+2328,7826,Hyundai,Tucson,2025,DT472,Silver,True
+2329,7828,Toyota,Corolla,2020,JW448,Blue,True
+2330,7830,Nissan,Sentra,2025,KH309,Black,False
+2331,7838,Honda,Accord,2024,JC438,Blue,True
+2332,7841,Nissan,Rogue,2020,TK692,Red,True
+2333,7842,Hyundai,Tucson,2020,YE293,Red,True
+2334,7843,Ford,Escape,2016,ZY292,Silver,True
+2335,7844,Ford,Escape,2016,QY859,White,True
+2336,7848,Tesla,Model Y,2021,DU146,White,True
+2337,7849,Toyota,Corolla,2015,IJ664,Grey,True
+2338,7859,Nissan,Rogue,2026,PR993,Grey,True
+2339,7860,Tesla,Model 3,2016,NZ424,Silver,True
+2340,7866,Ford,Escape,2015,OJ466,Red,True
+2341,7874,Nissan,Sentra,2018,XU820,Grey,True
+2342,7878,Nissan,Altima,2017,ER832,Red,True
+2343,7887,Honda,Accord,2016,BF360,White,True
+2344,7893,Hyundai,Sonata,2017,CU563,Silver,True
+2345,7895,Nissan,Sentra,2024,QV816,Grey,True
+2346,7900,Ford,Fusion,2024,RT316,Grey,True
+2347,7901,Ford,Escape,2015,HA359,Red,False
+2348,7902,Hyundai,Sonata,2025,MH824,Silver,True
+2349,7906,Nissan,Sentra,2026,YL684,Grey,True
+2350,7907,Hyundai,Tucson,2020,PR766,Grey,True
+2351,7911,Hyundai,Tucson,2017,UW976,Black,True
+2352,7913,Tesla,Model 3,2017,AV269,Silver,True
+2353,7917,Hyundai,Sonata,2019,HO225,White,True
+2354,7920,Tesla,Model 3,2022,RS719,Black,True
+2355,7922,Tesla,Model Y,2026,YD701,Black,True
+2356,7923,Nissan,Sentra,2016,VE466,Grey,True
+2357,7931,Toyota,Corolla,2020,DH580,Grey,True
+2358,7934,Toyota,RAV4,2017,VT156,Grey,True
+2359,7936,Honda,Civic,2024,XW610,Blue,True
+2360,7940,Hyundai,Elantra,2025,OI415,White,True
+2361,7942,Hyundai,Sonata,2022,HX663,White,True
+2362,7945,Honda,Accord,2022,MT188,White,True
+2363,7952,Toyota,Prius,2018,SA335,White,True
+2364,7954,Honda,Civic,2021,KK444,Red,False
+2365,7957,Hyundai,Sonata,2019,RK555,Black,True
+2366,7958,Honda,Civic,2020,LP202,Black,True
+2367,7963,Tesla,Model 3,2019,ZL724,Red,True
+2368,7964,Nissan,Altima,2017,SS261,Blue,True
+2369,7966,Honda,Civic,2019,JW476,White,True
+2370,7968,Tesla,Model 3,2025,YA311,Grey,False
+2371,7971,Nissan,Rogue,2018,RY220,Black,True
+2372,7973,Hyundai,Tucson,2018,IF450,Grey,True
+2373,7974,Hyundai,Elantra,2021,SX312,Silver,True
+2374,7981,Nissan,Sentra,2016,AN436,Grey,False
+2375,7988,Ford,Escape,2023,TN288,Grey,True
+2376,7989,Honda,Accord,2018,SU803,Silver,True
+2377,7995,Ford,Focus,2026,BW291,Red,True
+2378,8000,Tesla,Model 3,2019,JL829,Red,True
+2379,8001,Ford,Fusion,2020,EQ567,Red,True
+2380,8005,Nissan,Sentra,2017,TZ454,Black,True
+2381,8006,Hyundai,Elantra,2021,RN799,Silver,True
+2382,8018,Hyundai,Sonata,2017,AM190,White,False
+2383,8023,Nissan,Rogue,2020,CX178,Silver,True
+2384,8028,Ford,Fusion,2023,BM571,White,True
+2385,8032,Hyundai,Sonata,2016,KN114,Blue,True
+2386,8033,Hyundai,Tucson,2018,OH121,Grey,True
+2387,8036,Toyota,Prius,2015,HO204,Grey,True
+2388,8040,Hyundai,Tucson,2021,YI743,White,True
+2389,8042,Hyundai,Sonata,2022,LO271,White,True
+2390,8043,Honda,Accord,2025,BC367,Silver,False
+2391,8045,Honda,Accord,2021,MK598,Red,True
+2392,8048,Hyundai,Tucson,2022,EO543,Grey,True
+2393,8055,Hyundai,Tucson,2017,NC976,Blue,True
+2394,8056,Hyundai,Tucson,2015,HN299,Black,True
+2395,8057,Honda,Civic,2022,VR235,Red,True
+2396,8058,Nissan,Rogue,2017,CJ663,Black,True
+2397,8059,Toyota,Camry,2021,SR756,Grey,True
+2398,8060,Toyota,RAV4,2019,BE172,Red,True
+2399,8064,Toyota,Prius,2019,LH222,Grey,True
+2400,8072,Hyundai,Elantra,2026,UA525,Black,True
+2401,8073,Tesla,Model Y,2020,QI697,Grey,True
+2402,8078,Toyota,RAV4,2017,GP627,White,False
+2403,8084,Hyundai,Tucson,2026,XM420,Blue,True
+2404,8085,Toyota,Corolla,2021,TT679,Blue,True
+2405,8086,Ford,Focus,2024,FU273,White,True
+2406,8091,Ford,Fusion,2024,TM640,Black,False
+2407,8093,Tesla,Model Y,2015,JI915,Blue,True
+2408,8095,Honda,Civic,2026,JO933,White,True
+2409,8096,Nissan,Altima,2026,YP854,Grey,True
+2410,8099,Honda,Civic,2022,FK240,White,True
+2411,8100,Nissan,Sentra,2023,ZZ339,Grey,True
+2412,8105,Ford,Focus,2020,AR687,Grey,True
+2413,8107,Toyota,Camry,2025,JV706,White,False
+2414,8109,Toyota,RAV4,2017,FH256,White,True
+2415,8111,Honda,Civic,2026,XE480,Red,True
+2416,8116,Honda,CR-V,2024,IF653,Grey,True
+2417,8118,Toyota,Corolla,2025,GJ346,Red,True
+2418,8127,Nissan,Altima,2018,QA914,Red,True
+2419,8130,Hyundai,Tucson,2022,YB261,Red,False
+2420,8131,Hyundai,Sonata,2017,IC646,White,True
+2421,8134,Nissan,Rogue,2019,OW831,White,True
+2422,8139,Hyundai,Sonata,2016,EJ436,Silver,True
+2423,8142,Ford,Focus,2020,DX485,Blue,True
+2424,8149,Toyota,RAV4,2015,KK258,Blue,True
+2425,8150,Ford,Focus,2023,HM792,Grey,True
+2426,8152,Tesla,Model 3,2023,TD701,Grey,True
+2427,8154,Toyota,Camry,2024,KR963,Red,True
+2428,8159,Honda,Civic,2015,KK877,Red,True
+2429,8160,Nissan,Sentra,2016,OJ699,Silver,True
+2430,8166,Tesla,Model 3,2016,SA872,Grey,False
+2431,8168,Hyundai,Tucson,2018,MF520,White,True
+2432,8171,Ford,Escape,2019,PS565,Red,False
+2433,8177,Toyota,Prius,2018,ZM389,White,True
+2434,8180,Tesla,Model 3,2023,AF684,Grey,False
+2435,8182,Honda,CR-V,2019,IF632,Grey,True
+2436,8190,Toyota,RAV4,2025,LO188,Blue,True
+2437,8191,Nissan,Altima,2017,BH928,Silver,True
+2438,8194,Tesla,Model Y,2016,YG984,Grey,True
+2439,8197,Honda,Civic,2023,HV346,Black,True
+2440,8199,Toyota,Prius,2026,ET594,Grey,True
+2441,8200,Toyota,Camry,2021,ZK587,White,True
+2442,8201,Nissan,Altima,2019,VT715,Black,True
+2443,8202,Honda,Accord,2023,JL998,White,True
+2444,8208,Toyota,RAV4,2020,FH339,Blue,True
+2445,8212,Toyota,RAV4,2019,CK389,Grey,True
+2446,8215,Tesla,Model Y,2022,UR925,Black,True
+2447,8220,Honda,CR-V,2015,ZE734,Black,True
+2448,8221,Honda,CR-V,2016,QM764,Silver,True
+2449,8222,Nissan,Altima,2016,HB801,Black,True
+2450,8225,Tesla,Model 3,2015,IA223,Black,True
+2451,8226,Toyota,Camry,2026,ET295,Silver,True
+2452,8227,Ford,Focus,2024,NM904,Blue,True
+2453,8230,Tesla,Model 3,2019,FW199,Black,True
+2454,8239,Honda,CR-V,2020,TT348,Blue,True
+2455,8240,Toyota,RAV4,2021,CO607,Blue,True
+2456,8247,Hyundai,Elantra,2023,FD506,Red,True
+2457,8255,Tesla,Model Y,2022,PJ991,Red,True
+2458,8259,Hyundai,Elantra,2016,FT658,Red,True
+2459,8260,Tesla,Model 3,2022,EE414,Grey,True
+2460,8262,Nissan,Sentra,2016,AJ456,Black,True
+2461,8267,Nissan,Rogue,2022,CN361,White,False
+2462,8269,Nissan,Rogue,2017,OR131,Red,True
+2463,8271,Toyota,Camry,2026,YF216,Black,True
+2464,8274,Tesla,Model 3,2025,DL418,Black,True
+2465,8280,Ford,Focus,2015,VH339,Silver,True
+2466,8281,Ford,Fusion,2022,SF680,Red,True
+2467,8283,Ford,Escape,2020,MM915,Red,True
+2468,8289,Ford,Focus,2015,TG956,Black,False
+2469,8290,Tesla,Model Y,2023,PA529,Grey,True
+2470,8298,Honda,Civic,2020,MH383,Black,True
+2471,8308,Toyota,Prius,2025,EL191,Black,True
+2472,8309,Toyota,Camry,2022,YB126,Blue,True
+2473,8313,Toyota,RAV4,2021,GD104,Grey,False
+2474,8314,Hyundai,Tucson,2021,HS840,Red,True
+2475,8315,Hyundai,Sonata,2026,FQ915,Red,True
+2476,8317,Honda,CR-V,2024,BJ131,Red,True
+2477,8318,Tesla,Model Y,2023,RY886,Black,True
+2478,8319,Tesla,Model Y,2021,LA687,Red,True
+2479,8321,Ford,Fusion,2015,FE362,Silver,True
+2480,8326,Honda,Accord,2022,BN610,White,True
+2481,8328,Honda,CR-V,2018,DV519,Grey,False
+2482,8332,Honda,Civic,2024,SB824,Black,True
+2483,8335,Nissan,Altima,2025,DS698,Silver,False
+2484,8336,Hyundai,Tucson,2017,HU817,White,True
+2485,8338,Tesla,Model 3,2022,HG164,Black,True
+2486,8347,Hyundai,Sonata,2023,LT943,Blue,True
+2487,8348,Hyundai,Elantra,2026,HP202,Red,True
+2488,8349,Tesla,Model 3,2020,TP962,Red,False
+2489,8351,Nissan,Rogue,2025,CT868,Black,True
+2490,8356,Ford,Fusion,2020,BA140,Grey,True
+2491,8358,Honda,Accord,2021,BU425,Silver,True
+2492,8364,Nissan,Altima,2025,AF203,Blue,True
+2493,8376,Hyundai,Sonata,2016,WS568,Silver,True
+2494,8380,Toyota,Corolla,2016,UK941,White,True
+2495,8382,Hyundai,Elantra,2023,ND207,Grey,True
+2496,8386,Nissan,Altima,2023,ME741,Red,True
+2497,8391,Ford,Focus,2022,FK532,Grey,True
+2498,8395,Honda,Accord,2020,MW286,Grey,True
+2499,8396,Honda,Accord,2021,WV571,Black,True
+2500,8400,Nissan,Rogue,2018,IW967,White,True
+2501,8402,Tesla,Model Y,2015,PC648,Red,True
+2502,8409,Tesla,Model Y,2025,QX788,Grey,True
+2503,8411,Nissan,Sentra,2015,LL869,Silver,True
+2504,8415,Honda,Civic,2024,TJ706,Grey,True
+2505,8423,Tesla,Model Y,2017,AX322,Black,True
+2506,8424,Toyota,Corolla,2018,OS829,White,False
+2507,8432,Tesla,Model 3,2024,TZ109,Black,True
+2508,8446,Toyota,Camry,2021,EH601,Silver,True
+2509,8449,Nissan,Rogue,2025,AJ680,Black,True
+2510,8453,Ford,Escape,2020,ZY996,Blue,True
+2511,8463,Toyota,Camry,2020,LX954,Blue,True
+2512,8465,Toyota,Corolla,2020,ZG725,Red,True
+2513,8467,Nissan,Altima,2024,EX853,Red,True
+2514,8475,Hyundai,Elantra,2024,HC504,Black,True
+2515,8480,Tesla,Model 3,2018,MU628,Red,True
+2516,8484,Ford,Focus,2023,UO872,White,True
+2517,8487,Hyundai,Tucson,2016,OZ524,Blue,True
+2518,8491,Hyundai,Sonata,2022,RY787,Black,True
+2519,8495,Nissan,Altima,2017,CJ425,Red,True
+2520,8498,Nissan,Rogue,2019,KM823,Grey,True
+2521,8503,Nissan,Altima,2016,JO737,Silver,True
+2522,8505,Nissan,Rogue,2024,XJ747,Blue,False
+2523,8506,Tesla,Model 3,2025,HO787,Silver,True
+2524,8511,Honda,Accord,2017,AZ435,Blue,True
+2525,8514,Hyundai,Elantra,2015,XD470,Red,True
+2526,8516,Hyundai,Sonata,2015,TJ446,Silver,True
+2527,8518,Ford,Fusion,2023,YL962,Black,True
+2528,8519,Nissan,Rogue,2023,GV649,Grey,True
+2529,8539,Hyundai,Sonata,2024,TW628,Grey,True
+2530,8541,Toyota,Corolla,2024,DC331,Black,False
+2531,8544,Honda,CR-V,2015,VO572,Blue,False
+2532,8547,Nissan,Sentra,2017,PN405,Black,True
+2533,8549,Ford,Focus,2025,NW935,Red,True
+2534,8554,Honda,CR-V,2017,NK865,Red,True
+2535,8561,Toyota,Prius,2019,BL117,Blue,True
+2536,8562,Hyundai,Tucson,2025,FV547,Grey,True
+2537,8563,Ford,Fusion,2017,PU870,White,True
+2538,8566,Honda,Accord,2018,YN332,Black,True
+2539,8567,Tesla,Model 3,2019,CE347,Silver,True
+2540,8576,Ford,Fusion,2023,AZ771,Silver,True
+2541,8580,Honda,Civic,2016,SF955,Grey,False
+2542,8582,Toyota,Prius,2024,RC403,Blue,True
+2543,8585,Toyota,RAV4,2026,WU571,Grey,True
+2544,8586,Hyundai,Tucson,2024,KP103,Red,True
+2545,8593,Nissan,Rogue,2025,RB725,Grey,True
+2546,8594,Tesla,Model Y,2022,NV506,Blue,True
+2547,8596,Toyota,Prius,2016,CZ220,Black,True
+2548,8598,Ford,Fusion,2017,XT846,Silver,True
+2549,8603,Hyundai,Elantra,2015,BE170,Grey,True
+2550,8609,Toyota,Camry,2015,EH639,Silver,True
+2551,8613,Tesla,Model Y,2015,CV482,Black,True
+2552,8614,Ford,Fusion,2016,DM380,Silver,True
+2553,8618,Hyundai,Tucson,2015,PU343,Silver,True
+2554,8620,Honda,Accord,2021,RV481,White,True
+2555,8621,Honda,Civic,2016,OA267,Blue,True
+2556,8623,Tesla,Model 3,2023,MU942,White,True
+2557,8634,Toyota,Prius,2022,PU298,Black,True
+2558,8640,Honda,CR-V,2026,NG589,Blue,True
+2559,8646,Toyota,RAV4,2015,KH289,Grey,True
+2560,8656,Honda,CR-V,2023,EE385,Red,True
+2561,8665,Honda,Civic,2022,GV763,Blue,False
+2562,8667,Hyundai,Sonata,2024,PD587,Silver,False
+2563,8670,Hyundai,Tucson,2018,RL432,White,True
+2564,8675,Ford,Focus,2017,SE389,Blue,True
+2565,8676,Tesla,Model 3,2022,CE598,Silver,True
+2566,8677,Nissan,Altima,2020,MU547,Red,True
+2567,8678,Nissan,Altima,2020,QX662,Blue,True
+2568,8679,Ford,Escape,2026,JU894,Red,True
+2569,8680,Honda,Accord,2018,QL681,Silver,True
+2570,8685,Nissan,Sentra,2025,NH967,Red,True
+2571,8688,Ford,Escape,2020,PC508,White,True
+2572,8690,Tesla,Model Y,2016,ET434,Black,True
+2573,8691,Hyundai,Tucson,2018,JG502,Silver,False
+2574,8692,Toyota,Prius,2023,AB391,Blue,True
+2575,8693,Hyundai,Sonata,2021,AX555,White,True
+2576,8698,Nissan,Rogue,2015,HO179,White,True
+2577,8699,Tesla,Model Y,2017,KY973,Blue,True
+2578,8702,Tesla,Model Y,2021,HS156,Grey,True
+2579,8703,Tesla,Model Y,2025,YR548,Grey,True
+2580,8704,Nissan,Sentra,2020,SW109,Grey,True
+2581,8705,Nissan,Altima,2023,EH581,Silver,True
+2582,8710,Honda,Civic,2018,WW514,Silver,True
+2583,8713,Ford,Escape,2026,CG644,Blue,True
+2584,8725,Toyota,Prius,2016,EI338,White,True
+2585,8728,Toyota,Camry,2023,NL829,White,True
+2586,8729,Tesla,Model Y,2015,TV738,Red,True
+2587,8730,Nissan,Altima,2023,UQ776,Blue,True
+2588,8733,Toyota,Prius,2021,MM547,Black,True
+2589,8734,Toyota,RAV4,2026,TG114,Silver,True
+2590,8737,Tesla,Model Y,2015,EP574,Black,False
+2591,8742,Nissan,Altima,2026,YR478,White,True
+2592,8743,Ford,Escape,2017,WI855,Silver,False
+2593,8748,Ford,Fusion,2026,DP257,Grey,False
+2594,8749,Tesla,Model Y,2022,VR835,Red,True
+2595,8751,Honda,Accord,2021,GZ217,Red,True
+2596,8752,Toyota,Camry,2022,VP262,Grey,True
+2597,8755,Honda,CR-V,2023,NK182,Black,True
+2598,8756,Toyota,Prius,2023,SC715,Black,True
+2599,8760,Tesla,Model Y,2025,KG553,Silver,True
+2600,8761,Ford,Fusion,2025,QE557,Blue,True
+2601,8765,Nissan,Rogue,2017,BD321,Red,True
+2602,8767,Tesla,Model 3,2017,DY292,Grey,True
+2603,8770,Toyota,Camry,2021,IV525,Red,True
+2604,8771,Ford,Focus,2018,AM629,Silver,True
+2605,8774,Nissan,Sentra,2019,ZL636,Blue,True
+2606,8780,Hyundai,Elantra,2024,FW241,Blue,True
+2607,8786,Tesla,Model Y,2020,NM875,Blue,True
+2608,8787,Toyota,Camry,2015,JF577,Grey,True
+2609,8788,Ford,Fusion,2024,NO969,Red,True
+2610,8792,Tesla,Model 3,2015,ZH716,Blue,True
+2611,8794,Toyota,Prius,2023,LC578,White,False
+2612,8798,Hyundai,Elantra,2021,ZE964,Silver,True
+2613,8801,Ford,Focus,2024,PF644,Red,True
+2614,8802,Honda,Accord,2019,IK374,Blue,False
+2615,8803,Honda,Civic,2026,LH245,Red,True
+2616,8805,Honda,CR-V,2024,ZH143,White,True
+2617,8807,Tesla,Model 3,2024,PL801,Black,True
+2618,8808,Toyota,Corolla,2017,VM246,Black,True
+2619,8809,Toyota,Prius,2016,KY771,White,True
+2620,8818,Tesla,Model Y,2018,MT180,Blue,True
+2621,8819,Toyota,Prius,2016,PN397,Grey,True
+2622,8822,Ford,Escape,2022,IQ335,Black,True
+2623,8825,Tesla,Model Y,2022,OQ610,Silver,True
+2624,8828,Toyota,Corolla,2017,JS310,White,False
+2625,8831,Hyundai,Elantra,2018,NF587,Silver,True
+2626,8835,Hyundai,Tucson,2019,FI864,White,True
+2627,8836,Hyundai,Sonata,2019,ZS644,Blue,True
+2628,8838,Nissan,Sentra,2015,JW179,White,True
+2629,8841,Honda,CR-V,2020,LD779,Silver,True
+2630,8848,Nissan,Altima,2018,AJ592,Black,True
+2631,8850,Tesla,Model Y,2017,NU650,Black,True
+2632,8851,Nissan,Altima,2020,EK880,Red,False
+2633,8854,Hyundai,Tucson,2017,AN252,Silver,True
+2634,8856,Honda,CR-V,2016,SE781,White,True
+2635,8857,Ford,Focus,2024,SN613,Red,True
+2636,8861,Tesla,Model 3,2018,KM805,Black,True
+2637,8862,Toyota,Prius,2017,RK213,Silver,True
+2638,8864,Nissan,Altima,2015,DE561,Blue,True
+2639,8865,Tesla,Model 3,2019,VB961,Silver,True
+2640,8866,Ford,Fusion,2022,NY853,Silver,True
+2641,8870,Hyundai,Elantra,2018,EY205,Black,True
+2642,8875,Nissan,Altima,2023,ON919,Blue,True
+2643,8879,Nissan,Sentra,2019,WP233,White,True
+2644,8881,Ford,Fusion,2026,FT715,Blue,True
+2645,8884,Tesla,Model Y,2023,HX537,Silver,True
+2646,8889,Honda,CR-V,2015,KW201,Red,True
+2647,8890,Ford,Focus,2020,AT795,Red,True
+2648,8891,Honda,Accord,2025,OS294,White,True
+2649,8900,Hyundai,Sonata,2017,YG135,Blue,True
+2650,8901,Tesla,Model 3,2019,IV498,White,True
+2651,8904,Toyota,Camry,2023,IE340,Blue,True
+2652,8905,Tesla,Model 3,2018,CE600,Blue,False
+2653,8908,Nissan,Rogue,2019,SD752,Red,False
+2654,8909,Toyota,RAV4,2024,JN764,Silver,True
+2655,8910,Tesla,Model 3,2026,ZV845,Grey,True
+2656,8914,Tesla,Model Y,2025,LA778,Silver,True
+2657,8922,Nissan,Rogue,2020,FE345,Blue,True
+2658,8923,Tesla,Model Y,2015,ZG907,White,True
+2659,8925,Toyota,Corolla,2022,JP620,Black,True
+2660,8926,Toyota,Corolla,2017,OR650,White,True
+2661,8929,Toyota,Prius,2017,WW341,Grey,True
+2662,8931,Tesla,Model 3,2026,VX689,Silver,True
+2663,8936,Toyota,Corolla,2021,WA398,Blue,True
+2664,8937,Hyundai,Elantra,2015,JL955,Black,True
+2665,8939,Tesla,Model 3,2022,PX369,Silver,True
+2666,8940,Tesla,Model 3,2016,SO887,Blue,True
+2667,8941,Toyota,RAV4,2020,EL528,Black,True
+2668,8944,Tesla,Model Y,2026,DQ573,Blue,True
+2669,8945,Honda,Accord,2016,JW301,Blue,True
+2670,8948,Ford,Escape,2026,UB257,Silver,True
+2671,8949,Ford,Escape,2018,OA503,White,True
+2672,8951,Toyota,Prius,2019,GH258,Black,True
+2673,8956,Hyundai,Tucson,2019,UT933,Grey,True
+2674,8962,Hyundai,Sonata,2023,QE490,Blue,True
+2675,8969,Hyundai,Tucson,2026,CJ775,Grey,True
+2676,8972,Tesla,Model 3,2017,OR384,Grey,True
+2677,8977,Toyota,Corolla,2015,VE105,Grey,True
+2678,8978,Hyundai,Sonata,2022,YH295,Red,True
+2679,8984,Nissan,Sentra,2022,GO117,White,True
+2680,8985,Honda,Civic,2017,UX284,Silver,True
+2681,8990,Nissan,Rogue,2026,EW655,White,True
+2682,8996,Hyundai,Elantra,2026,BS757,White,True
+2683,8997,Honda,CR-V,2019,WW340,Silver,True
+2684,8999,Ford,Fusion,2022,IK221,Blue,True
+2685,9007,Hyundai,Tucson,2021,CW531,Black,True
+2686,9008,Nissan,Sentra,2015,MP136,Silver,True
+2687,9009,Toyota,RAV4,2025,MY266,Grey,True
+2688,9013,Tesla,Model 3,2018,XO738,Grey,False
+2689,9016,Ford,Focus,2024,AM780,Black,True
+2690,9017,Honda,Accord,2025,GN702,Grey,True
+2691,9018,Honda,Civic,2026,UH427,Silver,True
+2692,9019,Nissan,Rogue,2025,VE148,Black,True
+2693,9020,Ford,Fusion,2020,ZZ890,Blue,True
+2694,9025,Nissan,Sentra,2023,QN212,White,True
+2695,9029,Tesla,Model 3,2022,GA297,Black,True
+2696,9030,Tesla,Model Y,2019,DC381,Blue,True
+2697,9032,Nissan,Altima,2016,EZ116,Grey,True
+2698,9035,Tesla,Model 3,2023,EA350,Silver,True
+2699,9039,Nissan,Altima,2016,BX973,Red,False
+2700,9043,Honda,CR-V,2017,VQ331,Blue,True
+2701,9044,Ford,Fusion,2016,JQ147,Blue,True
+2702,9045,Hyundai,Elantra,2022,IE334,Grey,True
+2703,9049,Toyota,RAV4,2018,MI470,Blue,True
+2704,9050,Ford,Focus,2024,YR946,Blue,True
+2705,9051,Hyundai,Tucson,2016,GG338,Grey,True
+2706,9053,Honda,Accord,2025,YG268,Grey,True
+2707,9055,Ford,Fusion,2026,VS893,Red,True
+2708,9058,Tesla,Model 3,2026,MA544,Black,True
+2709,9062,Tesla,Model Y,2021,ZQ731,Black,True
+2710,9063,Ford,Fusion,2016,FW512,Black,True
+2711,9065,Tesla,Model 3,2024,RT663,White,True
+2712,9066,Nissan,Sentra,2020,MP592,Red,True
+2713,9067,Honda,Accord,2018,XX675,Black,True
+2714,9069,Ford,Escape,2026,UC302,Blue,True
+2715,9072,Ford,Focus,2017,WG985,Red,True
+2716,9074,Hyundai,Tucson,2023,MA196,Grey,True
+2717,9076,Nissan,Altima,2025,KU427,Blue,True
+2718,9080,Honda,Accord,2025,VI424,Silver,True
+2719,9082,Hyundai,Sonata,2025,TJ783,White,True
+2720,9083,Hyundai,Tucson,2024,NT878,Grey,True
+2721,9084,Ford,Focus,2018,EA892,Black,True
+2722,9087,Ford,Focus,2025,RL160,Grey,True
+2723,9088,Hyundai,Sonata,2025,NI515,White,True
+2724,9090,Ford,Focus,2026,SW199,Black,True
+2725,9096,Ford,Escape,2023,BD397,Red,True
+2726,9097,Toyota,Camry,2026,GE551,White,False
+2727,9098,Hyundai,Tucson,2018,IT902,Silver,True
+2728,9099,Tesla,Model 3,2023,LY240,Black,False
+2729,9101,Toyota,RAV4,2022,CS778,Black,True
+2730,9102,Hyundai,Sonata,2016,GL781,Black,True
+2731,9104,Ford,Escape,2015,BU278,Blue,True
+2732,9106,Hyundai,Elantra,2019,AC610,Silver,True
+2733,9107,Ford,Escape,2025,DK585,Red,True
+2734,9108,Ford,Focus,2015,JM641,Black,True
+2735,9110,Toyota,Corolla,2016,DP997,White,True
+2736,9115,Nissan,Rogue,2026,LZ272,Black,True
+2737,9125,Tesla,Model 3,2015,QW361,Black,True
+2738,9126,Honda,CR-V,2017,WW684,Black,True
+2739,9131,Nissan,Rogue,2026,UB985,Black,True
+2740,9133,Hyundai,Sonata,2019,RB250,Silver,True
+2741,9140,Hyundai,Tucson,2019,GQ530,Silver,True
+2742,9144,Tesla,Model Y,2023,XQ536,Red,True
+2743,9145,Ford,Focus,2023,SU750,Grey,True
+2744,9152,Honda,Accord,2024,YX436,Blue,True
+2745,9155,Toyota,Corolla,2023,XB398,Blue,True
+2746,9157,Nissan,Sentra,2017,JI717,Grey,True
+2747,9158,Toyota,Camry,2023,UC328,White,True
+2748,9160,Hyundai,Sonata,2016,BJ532,Red,True
+2749,9163,Nissan,Rogue,2023,BI487,Black,True
+2750,9164,Hyundai,Sonata,2024,HC799,Red,True
+2751,9166,Nissan,Rogue,2024,LM964,White,True
+2752,9169,Hyundai,Sonata,2015,MQ790,Grey,True
+2753,9174,Nissan,Altima,2021,KC812,Silver,True
+2754,9178,Ford,Focus,2021,VG850,Silver,True
+2755,9181,Hyundai,Sonata,2020,KG779,Red,False
+2756,9182,Hyundai,Sonata,2022,QU544,White,True
+2757,9184,Nissan,Rogue,2015,UD116,Blue,True
+2758,9186,Nissan,Altima,2017,IQ637,White,True
+2759,9188,Honda,Accord,2018,UG340,Red,True
+2760,9189,Hyundai,Sonata,2016,PJ807,Grey,True
+2761,9190,Hyundai,Sonata,2023,OK675,Blue,True
+2762,9191,Hyundai,Elantra,2018,LQ557,Grey,True
+2763,9193,Ford,Fusion,2021,BG960,Black,True
+2764,9196,Ford,Escape,2022,BT183,White,True
+2765,9197,Honda,Civic,2025,UA103,Silver,True
+2766,9198,Hyundai,Tucson,2024,DM673,White,True
+2767,9201,Tesla,Model 3,2026,QK268,Grey,False
+2768,9202,Tesla,Model Y,2022,MJ441,Blue,True
+2769,9212,Honda,Civic,2023,OD624,Red,True
+2770,9218,Nissan,Sentra,2024,PO549,Grey,True
+2771,9222,Toyota,Corolla,2017,RI527,White,True
+2772,9223,Nissan,Sentra,2026,BC454,Silver,True
+2773,9225,Ford,Fusion,2016,TB739,Red,True
+2774,9226,Ford,Fusion,2025,EO103,Red,False
+2775,9227,Ford,Focus,2021,ZV860,Blue,True
+2776,9241,Nissan,Altima,2017,DM872,Silver,True
+2777,9242,Nissan,Altima,2024,TQ948,Blue,True
+2778,9243,Honda,Accord,2026,WR482,Black,False
+2779,9247,Ford,Escape,2017,UW527,Grey,True
+2780,9254,Nissan,Altima,2017,GP566,Silver,True
+2781,9255,Tesla,Model Y,2023,WD267,Grey,True
+2782,9261,Toyota,Camry,2016,NC246,Silver,True
+2783,9262,Hyundai,Sonata,2015,DL559,Black,True
+2784,9269,Tesla,Model 3,2022,QM623,Black,True
+2785,9273,Toyota,Prius,2020,NZ904,Grey,True
+2786,9279,Tesla,Model 3,2015,QN833,Blue,True
+2787,9286,Tesla,Model 3,2017,DC253,Black,True
+2788,9287,Tesla,Model Y,2020,SS133,Black,True
+2789,9288,Ford,Fusion,2025,PM211,Black,True
+2790,9293,Ford,Escape,2026,OL594,Silver,False
+2791,9294,Ford,Fusion,2020,SX955,Silver,True
+2792,9296,Toyota,Camry,2018,WQ353,Silver,True
+2793,9300,Toyota,RAV4,2019,GV912,Grey,True
+2794,9305,Ford,Focus,2021,GF520,White,True
+2795,9307,Honda,Accord,2018,NC304,Red,True
+2796,9310,Ford,Focus,2020,PB509,Black,True
+2797,9316,Ford,Fusion,2020,XK313,White,True
+2798,9321,Ford,Focus,2016,AK101,Red,True
+2799,9323,Ford,Escape,2019,RG507,Blue,True
+2800,9324,Hyundai,Tucson,2024,LG545,Blue,True
+2801,9325,Nissan,Rogue,2022,IL591,Red,True
+2802,9332,Honda,Accord,2019,UR166,Silver,True
+2803,9334,Ford,Focus,2019,CS543,Red,True
+2804,9335,Ford,Escape,2015,LN454,Red,True
+2805,9347,Ford,Escape,2026,KO459,Black,True
+2806,9349,Ford,Escape,2018,WE487,Red,True
+2807,9352,Nissan,Altima,2026,RL752,Blue,True
+2808,9356,Honda,Civic,2016,HL566,Black,True
+2809,9360,Tesla,Model 3,2017,HH986,Blue,True
+2810,9370,Ford,Escape,2019,SU628,Blue,True
+2811,9371,Nissan,Rogue,2016,SY674,Red,True
+2812,9373,Nissan,Sentra,2015,YQ471,Red,True
+2813,9376,Hyundai,Elantra,2025,FM680,Grey,False
+2814,9379,Nissan,Sentra,2021,MV937,White,True
+2815,9380,Honda,Civic,2023,ED992,Blue,True
+2816,9381,Nissan,Sentra,2026,OY213,Red,True
+2817,9382,Ford,Focus,2016,WP861,White,True
+2818,9385,Nissan,Sentra,2015,KR102,Blue,True
+2819,9387,Honda,CR-V,2023,BC215,White,False
+2820,9394,Nissan,Rogue,2019,VK274,Silver,True
+2821,9398,Hyundai,Tucson,2022,RI191,Blue,True
+2822,9399,Nissan,Rogue,2021,NN686,Black,True
+2823,9400,Toyota,Corolla,2017,RP583,Red,False
+2824,9402,Honda,Civic,2026,TG333,Silver,True
+2825,9403,Honda,CR-V,2020,AY314,White,True
+2826,9410,Ford,Escape,2021,GA460,White,True
+2827,9412,Tesla,Model Y,2017,EZ836,Grey,True
+2828,9414,Ford,Focus,2025,QK948,Black,True
+2829,9421,Nissan,Rogue,2024,GF128,Silver,True
+2830,9429,Hyundai,Tucson,2016,OF608,Blue,True
+2831,9432,Tesla,Model 3,2023,PY179,Grey,True
+2832,9441,Ford,Fusion,2017,MN660,Black,True
+2833,9442,Hyundai,Elantra,2022,SR712,Black,True
+2834,9443,Hyundai,Tucson,2025,ZU391,Grey,False
+2835,9447,Nissan,Rogue,2022,HI757,White,True
+2836,9449,Nissan,Sentra,2017,KC322,White,True
+2837,9450,Hyundai,Elantra,2023,UL563,Grey,True
+2838,9459,Tesla,Model 3,2020,ZX262,Silver,True
+2839,9460,Ford,Escape,2022,WB633,Red,True
+2840,9463,Ford,Focus,2019,FK107,Silver,True
+2841,9470,Nissan,Sentra,2021,EQ553,Silver,True
+2842,9477,Ford,Escape,2020,LJ103,Blue,True
+2843,9478,Nissan,Rogue,2021,ND134,Grey,True
+2844,9481,Ford,Escape,2024,HA280,White,True
+2845,9483,Ford,Fusion,2019,ZR955,Grey,True
+2846,9485,Honda,Accord,2020,OG844,Black,True
+2847,9486,Tesla,Model Y,2015,AR426,Red,True
+2848,9489,Tesla,Model Y,2020,SP594,Silver,True
+2849,9490,Nissan,Rogue,2016,EX903,Grey,True
+2850,9492,Hyundai,Elantra,2021,AU538,White,True
+2851,9495,Nissan,Sentra,2026,OY206,Blue,False
+2852,9498,Honda,Civic,2018,HR407,Grey,True
+2853,9503,Hyundai,Elantra,2024,WF365,Silver,True
+2854,9504,Hyundai,Elantra,2023,PZ388,Silver,True
+2855,9506,Honda,Accord,2020,PP219,White,False
+2856,9507,Nissan,Rogue,2015,OX343,Silver,True
+2857,9509,Tesla,Model 3,2015,YD845,Red,True
+2858,9511,Tesla,Model 3,2026,DY121,Blue,True
+2859,9513,Toyota,Camry,2015,QJ275,Red,True
+2860,9515,Ford,Escape,2016,EK741,Black,True
+2861,9517,Tesla,Model Y,2017,EW885,White,True
+2862,9518,Nissan,Altima,2024,XP602,Black,True
+2863,9525,Nissan,Sentra,2024,UQ601,White,True
+2864,9526,Tesla,Model 3,2020,MG271,Black,True
+2865,9527,Nissan,Sentra,2022,AY273,Red,True
+2866,9528,Honda,Accord,2022,TB957,Red,False
+2867,9531,Tesla,Model 3,2024,AO440,Grey,True
+2868,9535,Nissan,Altima,2017,CE316,Blue,True
+2869,9539,Honda,Civic,2017,CB960,Silver,True
+2870,9544,Toyota,RAV4,2025,EW584,Black,True
+2871,9550,Hyundai,Tucson,2022,IE206,Black,True
+2872,9554,Toyota,RAV4,2020,GJ655,White,True
+2873,9557,Toyota,Prius,2024,VJ941,White,False
+2874,9560,Toyota,Prius,2020,PG219,Black,True
+2875,9561,Honda,CR-V,2023,VB980,Blue,False
+2876,9563,Toyota,Corolla,2024,LX686,Red,True
+2877,9568,Nissan,Altima,2019,VP691,Black,True
+2878,9572,Hyundai,Elantra,2024,WV482,Black,True
+2879,9578,Ford,Focus,2022,OP837,White,True
+2880,9583,Nissan,Altima,2025,DY728,Grey,True
+2881,9584,Toyota,Camry,2024,TZ423,Red,True
+2882,9587,Ford,Focus,2018,WN806,Silver,True
+2883,9596,Nissan,Sentra,2025,DV677,Grey,True
+2884,9598,Nissan,Altima,2022,SS743,Black,True
+2885,9599,Nissan,Sentra,2026,UP928,Red,True
+2886,9601,Ford,Focus,2024,DM735,Silver,True
+2887,9609,Toyota,Prius,2025,LW549,Grey,True
+2888,9610,Toyota,RAV4,2024,TN190,Black,True
+2889,9612,Nissan,Rogue,2018,LY148,Silver,True
+2890,9615,Hyundai,Elantra,2024,MM457,White,True
+2891,9619,Hyundai,Elantra,2019,YO306,Black,False
+2892,9620,Nissan,Sentra,2020,NJ481,Red,False
+2893,9621,Tesla,Model Y,2018,BT530,Black,False
+2894,9623,Nissan,Altima,2018,TX782,Red,True
+2895,9626,Hyundai,Elantra,2020,VM165,Silver,True
+2896,9627,Toyota,Corolla,2026,QH964,Red,True
+2897,9637,Tesla,Model Y,2019,GJ726,Red,True
+2898,9638,Toyota,Camry,2026,YI842,Blue,True
+2899,9639,Tesla,Model Y,2022,AA220,White,True
+2900,9642,Nissan,Altima,2019,TW533,Red,True
+2901,9646,Honda,Civic,2022,LE323,Silver,True
+2902,9649,Nissan,Sentra,2016,FJ816,Red,True
+2903,9650,Toyota,Corolla,2021,EV104,White,True
+2904,9653,Honda,Accord,2019,MV957,White,True
+2905,9655,Ford,Fusion,2026,WL682,Silver,True
+2906,9656,Tesla,Model 3,2024,GY757,Blue,True
+2907,9664,Nissan,Altima,2020,OT979,Black,False
+2908,9667,Tesla,Model 3,2019,GW454,White,True
+2909,9671,Tesla,Model 3,2018,FE756,Silver,True
+2910,9675,Nissan,Altima,2024,CS646,White,True
+2911,9693,Ford,Focus,2015,CY379,Red,True
+2912,9701,Toyota,Corolla,2021,IH105,Red,True
+2913,9713,Tesla,Model 3,2023,TW717,Grey,True
+2914,9718,Honda,Civic,2022,AO507,Red,False
+2915,9720,Honda,Accord,2021,AL918,Silver,True
+2916,9726,Nissan,Sentra,2015,WJ824,Blue,True
+2917,9727,Ford,Focus,2024,PV938,Red,True
+2918,9732,Hyundai,Sonata,2023,HN121,Black,True
+2919,9739,Hyundai,Elantra,2024,BY158,Black,True
+2920,9742,Hyundai,Sonata,2015,DK200,Silver,True
+2921,9743,Toyota,RAV4,2018,PZ436,Grey,True
+2922,9747,Tesla,Model Y,2026,US462,Silver,True
+2923,9748,Honda,CR-V,2016,DC292,Red,True
+2924,9749,Nissan,Altima,2026,KB494,Grey,True
+2925,9754,Tesla,Model 3,2022,XW361,Red,True
+2926,9755,Honda,Accord,2023,DB629,Red,True
+2927,9757,Toyota,RAV4,2025,CM742,Grey,True
+2928,9764,Hyundai,Tucson,2025,WE742,White,True
+2929,9765,Toyota,RAV4,2025,NA140,White,True
+2930,9770,Nissan,Rogue,2022,AQ223,Grey,True
+2931,9772,Honda,CR-V,2020,BE276,Silver,False
+2932,9775,Tesla,Model 3,2025,ML186,Grey,True
+2933,9779,Tesla,Model 3,2026,RS269,Blue,True
+2934,9786,Toyota,Prius,2016,WG971,Red,True
+2935,9788,Tesla,Model Y,2017,VI418,Silver,True
+2936,9789,Hyundai,Tucson,2015,OK915,Black,True
+2937,9790,Nissan,Sentra,2020,TO923,Red,True
+2938,9795,Hyundai,Sonata,2016,RG608,White,True
+2939,9796,Ford,Fusion,2019,HK658,Blue,True
+2940,9802,Ford,Escape,2021,JQ709,Black,True
+2941,9807,Tesla,Model 3,2016,QW965,Grey,True
+2942,9808,Toyota,Corolla,2019,GL442,Grey,True
+2943,9811,Tesla,Model Y,2025,PC274,Grey,False
+2944,9814,Honda,Civic,2020,TF531,White,True
+2945,9815,Tesla,Model Y,2026,DJ936,White,True
+2946,9818,Nissan,Sentra,2021,SM568,Blue,True
+2947,9820,Hyundai,Sonata,2017,PS818,Silver,True
+2948,9821,Honda,Civic,2018,CI963,Black,True
+2949,9823,Ford,Fusion,2024,MH703,Blue,True
+2950,9825,Ford,Focus,2016,WQ167,White,True
+2951,9828,Toyota,RAV4,2023,NU548,White,True
+2952,9829,Ford,Escape,2024,MJ791,Blue,True
+2953,9837,Toyota,Corolla,2017,VH682,White,True
+2954,9842,Hyundai,Sonata,2018,ZE275,Red,True
+2955,9845,Ford,Escape,2015,AG529,Black,True
+2956,9848,Nissan,Altima,2021,CP277,Silver,True
+2957,9849,Toyota,Camry,2021,WE230,Black,True
+2958,9852,Nissan,Altima,2022,VN239,Black,True
+2959,9854,Tesla,Model 3,2018,NL318,Grey,True
+2960,9855,Honda,CR-V,2015,EY742,Black,True
+2961,9857,Nissan,Sentra,2019,QE144,Grey,True
+2962,9858,Nissan,Altima,2022,JM117,Black,True
+2963,9860,Nissan,Altima,2018,RK325,Black,True
+2964,9862,Ford,Fusion,2026,IS402,Red,True
+2965,9864,Hyundai,Elantra,2026,FX960,Red,True
+2966,9865,Ford,Escape,2016,PV802,Red,True
+2967,9867,Honda,Civic,2019,EJ487,Red,True
+2968,9868,Ford,Escape,2026,AB940,Red,True
+2969,9870,Ford,Focus,2016,ZB578,Blue,True
+2970,9871,Nissan,Rogue,2026,WX314,Black,True
+2971,9873,Honda,Civic,2021,VV198,Red,True
+2972,9875,Tesla,Model 3,2015,EA577,Black,True
+2973,9885,Toyota,Prius,2022,RM444,Silver,False
+2974,9886,Nissan,Sentra,2020,VB237,Black,True
+2975,9892,Tesla,Model 3,2018,CJ809,Silver,True
+2976,9896,Nissan,Sentra,2024,VX580,Grey,True
+2977,9899,Ford,Fusion,2026,MZ814,Silver,True
+2978,9901,Hyundai,Sonata,2021,AK854,Red,True
+2979,9905,Hyundai,Elantra,2018,CS452,Blue,True
+2980,9908,Toyota,Corolla,2016,AR597,Grey,True
+2981,9928,Honda,Accord,2026,YK475,Blue,True
+2982,9930,Toyota,RAV4,2021,IG448,Silver,False
+2983,9936,Tesla,Model 3,2015,EP313,Black,False
+2984,9937,Honda,Accord,2017,DM282,White,False
+2985,9948,Hyundai,Elantra,2021,UG512,Silver,True
+2986,9949,Honda,CR-V,2018,XB847,Grey,True
+2987,9955,Nissan,Altima,2024,UW186,Red,True
+2988,9958,Nissan,Rogue,2016,XG263,Black,True
+2989,9961,Honda,CR-V,2022,HK265,Black,True
+2990,9967,Tesla,Model 3,2015,NU842,Blue,True
+2991,9968,Hyundai,Tucson,2017,GM362,Black,True
+2992,9971,Nissan,Rogue,2016,TW907,Grey,True
+2993,9974,Hyundai,Tucson,2018,YG983,Black,True
+2994,9978,Toyota,Corolla,2025,ZA131,Silver,True
+2995,9987,Toyota,Prius,2025,CB290,Black,True
+2996,9990,Ford,Fusion,2023,BX527,Blue,True
+2997,9991,Toyota,Corolla,2023,BS305,Red,True
+2998,9996,Hyundai,Tucson,2017,BQ748,White,True
+2999,9997,Nissan,Rogue,2024,TS335,White,True
+3000,10000,Toyota,Camry,2018,HC448,White,True
