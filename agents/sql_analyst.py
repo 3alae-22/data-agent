@@ -1,5 +1,4 @@
 import os
-import re
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -7,32 +6,9 @@ from langchain_core.messages import AIMessage, HumanMessage
 from langgraph.graph import StateGraph, START, END
 
 from utils.llm_pick import pick_llm
-from utils.database import DataBaseUtil
+from utils.connections import get_schema_db, get_execution_db
+from utils.llm_output import extract_text, clean_sql
 from models.schema import AgentSchema, JudgeSchema
-
-
-def extract_text(content) -> str:
-    """Normalize an LLM .content value into a plain string.
-    Some models (e.g. Gemini with thought signatures) return a list of
-    content blocks like [{'type': 'text', 'text': ..., 'extras': {...}}]
-    instead of a plain string. str(content) on that list stringifies the
-    whole structure, which is what caused the SQL syntax error and the
-    corrupted curated question.
-    """
-    if isinstance(content, str):
-        return content
-    if isinstance(content, list):
-        return "".join(
-            block.get("text", "") if isinstance(block, dict) else str(block)
-            for block in content
-        )
-    return str(content)
-
-
-def clean_sql(content) -> str:
-    """Extract plain SQL text and strip markdown code fences if present."""
-    text = extract_text(content).strip()
-    return re.sub(r"^```sql\s*|```\s*$", "", text, flags=re.IGNORECASE).strip()
 
 
 def curate_question(state: AgentSchema) -> dict:
@@ -42,10 +18,6 @@ def curate_question(state: AgentSchema) -> dict:
     response = llm.invoke(f"Curate the following question: {user_question}")
     curated = extract_text(response.content)
 
-    # Return only the fields this node actually changes. Returning the
-    # full state object here (as before) caused the "messages" reducer
-    # (Annotated[list, add]) to be applied on top of an already-concatenated
-    # list on every downstream node, doubling the message history at each hop.
     return {
         "curated_ques": curated,
         "messages": [HumanMessage(content=curated)],
@@ -56,17 +28,8 @@ def prompt_query_context(state: AgentSchema) -> dict:
 
     curated_question = state.curated_ques
 
-    conn_details = {
-        "host": os.environ['host'],
-        "port": int(os.environ['port']),
-        "user": os.environ['user'],
-        "password": os.environ['password'],
-        "dbname": os.environ['database'],
-    }
-
-    obj = DataBaseUtil(conn_details)
-
-    schema_info = obj.schema_details("public")
+    schema_db = get_schema_db()
+    schema_info = schema_db.schema_details("public")
 
     prompt = f"""
     You are an SQL analyst agent. Your task is to convert the user's natural language
@@ -137,17 +100,8 @@ def execute_sql(state: AgentSchema) -> dict:
 
     sql_query = state.generated_sql_query
 
-    conn_details = {
-        "host": os.environ['host'],
-        "port": int(os.environ['port']),
-        "database": os.environ['database'],
-        "user": os.environ['ai_user'],
-        "password": os.environ['ai_password'],
-    }
-
-    obj = DataBaseUtil(conn_details)
-
-    execution_result = obj.execute_query(sql_query)
+    execution_db = get_execution_db()
+    execution_result = execution_db.execute_query(sql_query)
 
     return {"sql_query_execution_result": str(execution_result)}
 
@@ -211,40 +165,9 @@ sql_agent_graph.add_conditional_edges("is_safe_sql", is_safe_sql_edge,
                                           "canceled_sql": "canceled_sql"
                                       })
 
-# sql_agent_graph.add_edge("is_safe_sql", "execute_sql")
-# sql_agent_graph.add_edge("is_safe_sql", "canceled_sql")
-
-sql_agent_graph.add_edge("canceled_sql", END) 
+sql_agent_graph.add_edge("canceled_sql", END)
 sql_agent_graph.add_edge("execute_sql", "represent_final_answer")
 sql_agent_graph.add_edge("represent_final_answer", END)
 
 # Compile the graph
 sql_analyst = sql_agent_graph.compile()
-
-if __name__ == "__main__":
-    # from IPython.display import display, Image
-    # img = Image(sql_analyst.get_graph().draw_mermaid_png())
-    # with open("sql_analyst_graph.png", "wb") as f:
-    #     f.write(img.data)
-
-    input_schema = {
-        "messages": [],
-        "user_question": "What are the diferent types of Payement methods available in the database?",
-        "curated_ques": " ",
-        "prompt_query_context": " ",
-        "generated_sql_query": " ",
-        "is_safe": "No",
-        "comments": " ",
-        "sql_query_execution_result": " ",
-        "final_answer": " "
-    }
-
-    final_response = sql_analyst.invoke(input_schema)
-    print("-"*50)
-    print(final_response['final_answer'])
-    print("-"*50)
-    print("SQL Query Execution Result:")
-    print(final_response['sql_query_execution_result'])
-    print("-"*50)
-    print("Generated SQL Query:")
-    print(final_response['generated_sql_query'])

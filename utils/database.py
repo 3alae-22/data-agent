@@ -79,8 +79,9 @@ class DataBaseUtil:
         return schema_info_context
 
     def execute_query(self, query):
+        cursor = None
+        connection = self.connection
         try:
-            connection = self.connection
             cursor = connection.cursor()
             cursor.execute(query)
             result = cursor.fetchall()
@@ -94,3 +95,16 @@ class DataBaseUtil:
                 cursor.close()
             if connection:
                 connection.close()
+
+obj = DataBaseUtil ({
+    "host": "localhost",
+    "port": 5432,
+    "user": "db_user",
+    "password": "db_password",
+    "dbname": "db"
+})
+
+result = obj.schema_details(schema_name="public")
+
+with open("test_schema_details.txt", "w") as f:
+    f.write(result)

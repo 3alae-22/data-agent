@@ -1,0 +1,11 @@
+DO $$
+BEGIN
+    IF NOT EXISTS (SELECT FROM pg_roles WHERE rolname = 'ai_agent') THEN
+        CREATE ROLE ai_agent LOGIN PASSWORD 'ai_agent_password';
+    END IF;
+END
+$$;
+
+ALTER ROLE ai_agent NOSUPERUSER NOCREATEDB NOCREATEROLE NOINHERIT;
+GRANT CONNECT ON DATABASE db TO ai_agent;
+GRANT USAGE ON SCHEMA public TO ai_agent;

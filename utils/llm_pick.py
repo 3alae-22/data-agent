@@ -28,7 +28,7 @@ def pick_llm(level: str) -> ChatGoogleGenerativeAI:
 
     elif level == "high":
         return ChatGoogleGenerativeAI(
-            model="gemini-3.6-flash"
+            model="gemini-3.7-flash"
         )
 
     raise ValueError(

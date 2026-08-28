@@ -1,3 +1,9 @@
+name: data-agent
+
+networks:
+  data-agent-net:
+    name: data-agent-net
+
 services:
   postgres:
     container_name: postgres_container
@@ -11,3 +17,13 @@ services:
     volumes:
       - ./postgres/data:/var/lib/postgresql/data
       - ./postgres/init:/docker-entrypoint-initdb.d
+    networks:
+      - data-agent-net
+
+  sandbox:
+    build:
+      context: ./sandbox
+    image: etl-sandbox:latest
+    profiles: ["build-only"]
+    networks:
+      - data-agent-net

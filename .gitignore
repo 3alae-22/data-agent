@@ -217,8 +217,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# postgres data
-postgres
 
-#data
-data/
+data/outputs/
+postgres/data/
