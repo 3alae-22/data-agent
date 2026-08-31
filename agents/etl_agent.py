@@ -89,10 +89,20 @@ def llm_node(state: ETLAgentSchema):
     messages = state.messages
 
     prompt = f"""
-            You are a Python Data Analyst who has access to tools that can extract and load, 
-            transform and load data. You will be provided with a user's question 
-            and you would need to perform the right ETL operations as per the user's question. 
-            If the operation is performed then inform the user and end the coversation.
+            You are a Python Data Analyst who has access to tools that can extract and
+            load data into Postgres, and transform data already in Postgres into new
+            tables. These are the ONLY two things you are able to do — you have no
+            tool to query/analyze data for an answer, and no tool to visualize or
+            plot data.
+
+            Use your tools to perform exactly the extract/load and transform/load
+            steps the user's question asks for. Once done, summarize ONLY what your
+            tool calls actually confirmed, based on their real results — never invent
+            numbers, dates, statistics, file names, or table names that no tool call
+            produced. If part of the user's question requires analysis or a
+            visualization, say plainly that this part is outside what you can do and
+            leave it unaddressed — do not claim it was done.
+
             Here's the chat history: {messages}\n
     """
 
@@ -116,47 +126,48 @@ def tool_node(state: ETLAgentSchema):
 
     return {"messages": tools_results}
 
+def etl_analyst_graph():
+    # Nodes and edges
+    etl_analyst_graph = StateGraph(ETLAgentSchema)
+    etl_analyst_graph.add_node("llm_node", llm_node)
+    etl_analyst_graph.add_node("tool_node", tool_node)
 
-# Nodes and edges
-etl_analyst_graph = StateGraph(ETLAgentSchema)
-etl_analyst_graph.add_node("llm_node", llm_node)
-etl_analyst_graph.add_node("tool_node", tool_node)
+    etl_analyst_graph.add_edge(START, "llm_node")
 
-etl_analyst_graph.add_edge(START, "llm_node")
+    def is_tool_call(state:ETLAgentSchema):
+        tool_calls = state.messages[-1].tool_calls
 
-def is_tool_call(state:ETLAgentSchema):
-    tool_calls = state.messages[-1].tool_calls
+        if tool_calls:
+            return "tool_node"
+        else:
+            return "end"
 
-    if tool_calls:
-        return "tool_node"
-    else:
-        return "end"
-
-etl_analyst_graph.add_conditional_edges(
-    "llm_node",is_tool_call,
-    {
-        "tool_node": "tool_node",
-        "end": END
-    }
-)
-
-etl_analyst_graph.add_edge("tool_node", "llm_node")
-
-etl_analyst = etl_analyst_graph.compile()
-
-if __name__ == "__main__":
-    # Compile the graph
-
-    # Graph
-    from IPython.display import display, Image
-    img = Image(etl_analyst.get_graph().draw_mermaid_png())
-    with open("etl_analyst_graph.png", "wb") as f:
-        f.write(img.data)
-
-    response = etl_analyst.invoke(
-        {"messages":[HumanMessage(content="""I want to extract the data from the API endpoint 'https://archive-api.open-meteo.com/v1/archive?latitude=33.5&longitude=-10.5&daily=wind_speed_10m_max,wind_direction_10m_dominant&start_date=2024-01-01&end_date=2024-01-31&timezone=UTC'
-           and save it in the table wind_raw. And also i want to extract the from the API endpoint 'https://marine-api.open-meteo.com/v1/marine?latitude=33.5&longitude=-10.5&daily=wave_height_max,wave_period_max,swell_wave_height_max&start_date=2024-01-01&end_date=2024-01-31&timezone=UTC&cell_selection=sea'
-           and save it in another table wave_raw. And then i want to create another table wind_wave_combined that combines the data from both tables and saves it in the new table. The combined table should have the following columns: date, wind_speed_10m_max, wind_direction_10m_dominant, wave_height_max, wave_period_max, swell_wave_height_max.""")]}
+    etl_analyst_graph.add_conditional_edges(
+        "llm_node",is_tool_call,
+        {
+            "tool_node": "tool_node",
+            "end": END
+        }
     )
+
+    etl_analyst_graph.add_edge("tool_node", "llm_node")
+
+    etl_analyst = etl_analyst_graph.compile()
+    return etl_analyst
+
+# if __name__ == "__main__":
+#     # Compile the graph
+
+#     # Graph
+#     from IPython.display import display, Image
+#     img = Image(etl_analyst.get_graph().draw_mermaid_png())
+#     with open("etl_analyst_graph.png", "wb") as f:
+#         f.write(img.data)
+
+#     response = etl_analyst.invoke(
+#         {"messages":[HumanMessage(content="""I want to extract the data from the API endpoint 'https://archive-api.open-meteo.com/v1/archive?latitude=33.5&longitude=-10.5&daily=wind_speed_10m_max,wind_direction_10m_dominant&start_date=2024-01-01&end_date=2024-01-31&timezone=UTC'
+#            and save it in the table wind_raw. And also i want to extract the from the API endpoint 'https://marine-api.open-meteo.com/v1/marine?latitude=33.5&longitude=-10.5&daily=wave_height_max,wave_period_max,swell_wave_height_max&start_date=2024-01-01&end_date=2024-01-31&timezone=UTC&cell_selection=sea'
+#            and save it in another table wave_raw. And then i want to create another table wind_wave_combined that combines the data from both tables and saves it in the new table. The combined table should have the following columns: date, wind_speed_10m_max, wind_direction_10m_dominant, wave_height_max, wave_period_max, swell_wave_height_max.""")]}
+#     )
  
-    print(response)
+#     print(response)

@@ -133,41 +133,44 @@ def represent_final_answer(state: AgentSchema) -> dict:
     }
 
 
-# Graph Building
-sql_agent_graph = StateGraph(AgentSchema)
+def sql_agent_graph():
+    # Graph Building
+    sql_agent_graph = StateGraph(AgentSchema)
 
-# Nodes
-sql_agent_graph.add_node("curate_ques", curate_question)
-sql_agent_graph.add_node("prompt_query_context", prompt_query_context)
-sql_agent_graph.add_node("generate_sql", generate_sql)
-sql_agent_graph.add_node("is_safe_sql", is_safe_sql)
-sql_agent_graph.add_node("canceled_sql", canceled_sql)
-sql_agent_graph.add_node("execute_sql", execute_sql)
-sql_agent_graph.add_node("represent_final_answer", represent_final_answer)
+    # Nodes
+    sql_agent_graph.add_node("curate_ques", curate_question)
+    sql_agent_graph.add_node("prompt_query_context", prompt_query_context)
+    sql_agent_graph.add_node("generate_sql", generate_sql)
+    sql_agent_graph.add_node("is_safe_sql", is_safe_sql)
+    sql_agent_graph.add_node("canceled_sql", canceled_sql)
+    sql_agent_graph.add_node("execute_sql", execute_sql)
+    sql_agent_graph.add_node("represent_final_answer", represent_final_answer)
 
-# Edges
-sql_agent_graph.add_edge(START, "curate_ques")
-sql_agent_graph.add_edge("curate_ques", "prompt_query_context")
-sql_agent_graph.add_edge("prompt_query_context", "generate_sql")
-sql_agent_graph.add_edge("generate_sql", "is_safe_sql")
+    # Edges
+    sql_agent_graph.add_edge(START, "curate_ques")
+    sql_agent_graph.add_edge("curate_ques", "prompt_query_context")
+    sql_agent_graph.add_edge("prompt_query_context", "generate_sql")
+    sql_agent_graph.add_edge("generate_sql", "is_safe_sql")
 
-# Conditional Edge Function
-def is_safe_sql_edge(state: AgentSchema) -> str:
-    is_safe = state.is_safe
-    if is_safe.capitalize() == "Yes":
-        return "execute_sql"
-    else:
-        return "canceled_sql"
+    # Conditional Edge Function
+    def is_safe_sql_edge(state: AgentSchema) -> str:
+        is_safe = state.is_safe
+        if is_safe.capitalize() == "Yes":
+            return "execute_sql"
+        else:
+            return "canceled_sql"
 
-sql_agent_graph.add_conditional_edges("is_safe_sql", is_safe_sql_edge,
-                                      {
-                                          "execute_sql": "execute_sql",
-                                          "canceled_sql": "canceled_sql"
-                                      })
+    sql_agent_graph.add_conditional_edges("is_safe_sql", is_safe_sql_edge,
+                                        {
+                                            "execute_sql": "execute_sql",
+                                            "canceled_sql": "canceled_sql"
+                                        })
 
-sql_agent_graph.add_edge("canceled_sql", END)
-sql_agent_graph.add_edge("execute_sql", "represent_final_answer")
-sql_agent_graph.add_edge("represent_final_answer", END)
+    sql_agent_graph.add_edge("execute_sql", "represent_final_answer")
+    sql_agent_graph.add_edge("represent_final_answer", END)
+    sql_agent_graph.add_edge("canceled_sql", END)
 
-# Compile the graph
-sql_analyst = sql_agent_graph.compile()
+    # Compile the graph
+    sql_analyst = sql_agent_graph.compile()
+
+    return sql_analyst

@@ -96,15 +96,15 @@ class DataBaseUtil:
             if connection:
                 connection.close()
 
-obj = DataBaseUtil ({
-    "host": "localhost",
-    "port": 5432,
-    "user": "db_user",
-    "password": "db_password",
-    "dbname": "db"
-})
+# obj = DataBaseUtil ({
+#     "host": "localhost",
+#     "port": 5432,
+#     "user": "db_user",
+#     "password": "db_password",
+#     "dbname": "db"
+# })
 
-result = obj.schema_details(schema_name="public")
+# result = obj.schema_details(schema_name="public")
 
-with open("test_schema_details.txt", "w") as f:
-    f.write(result)
+# with open("test_schema_details.txt", "w") as f:
+#     f.write(result)

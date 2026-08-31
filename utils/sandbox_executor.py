@@ -16,8 +16,7 @@ def _build_database_url() -> str:
 class SandboxExecutor:
     """
     Executes LLM-generated Python code in an isolated and ephemeral Docker
-    container instead of a local exec() (see the security note in
-    execute_code).
+    container.
     """
 
     def __init__(
@@ -25,7 +24,7 @@ class SandboxExecutor:
         image: str = "etl-sandbox:latest",
         network: str | None = None,
         timeout: int = 60,
-        output_root: str = "data/outputs",
+        output_root: str = "../data/outputs",
     ):
         self.client = docker.from_env()
         self.image = image
@@ -34,7 +33,15 @@ class SandboxExecutor:
         self.output_root = os.path.abspath(output_root)
         os.makedirs(self.output_root, exist_ok=True)
 
-    def run(self, code: str) -> str:
+    def run(self, code: str, input_files: dict[str, str] | None = None) -> str:
+        """
+        Args:
+            code: Python source to execute in the sandbox.
+            input_files: optional {filename: content} to mount read-only
+                alongside the script (e.g. a raw API JSON payload). The
+                generated code can read them via the DATA_PATH env var
+                (single file) or INPUT_DIR (multiple files).
+        """
         run_id = uuid.uuid4().hex[:8]
         output_dir = os.path.join(self.output_root, run_id)
         os.makedirs(output_dir, exist_ok=True)
@@ -44,6 +51,20 @@ class SandboxExecutor:
             with open(script_path, "w") as f:
                 f.write(code)
 
+            environment = {
+                "DATABASE_URL": _build_database_url(),
+                "OUTPUT_DIR": "/sandbox_output",
+            }
+
+            if input_files:
+                for filename, content in input_files.items():
+                    with open(os.path.join(tmp, filename), "w") as f:
+                        f.write(content)
+                if len(input_files) == 1:
+                    environment["DATA_PATH"] = f"/sandbox/{next(iter(input_files))}"
+                else:
+                    environment["INPUT_DIR"] = "/sandbox"
+
             container = self.client.containers.run(
                 self.image,
                 command=["python", "/sandbox/script.py"],
@@ -52,10 +73,7 @@ class SandboxExecutor:
                     output_dir: {"bind": "/sandbox_output", "mode": "rw"},
                 },
                 network=self.network,
-                environment={
-                    "DATABASE_URL": _build_database_url(),
-                    "OUTPUT_DIR": "/sandbox_output",
-                },
+                environment=environment,
                 mem_limit="512m",
                 nano_cpus=int(0.5 * 1_000_000_000),
                 detach=True,
