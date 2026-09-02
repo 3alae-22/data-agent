@@ -233,13 +233,9 @@ def load_csv(table_name, csv_file, columns):
 def grant_ai_agent_access(connection):
     cursor = connection.cursor()
     cursor.execute("""
-        GRANT SELECT ON TABLE
-            public.payments,
-            public.ratings,
-            public.rides,
-            public.users,
-            public.vehicles
-        TO ai_agent;
+        GRANT SELECT ON ALL TABLES IN SCHEMA public TO ai_agent;
+        ALTER DEFAULT PRIVILEGES IN SCHEMA public
+            GRANT SELECT ON TABLES TO ai_agent;
     """)
     connection.commit()
     cursor.close()

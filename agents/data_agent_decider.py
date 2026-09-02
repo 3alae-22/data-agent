@@ -29,6 +29,23 @@ def router_node(state: SupervisorSchema):
     Return 'DONE' once enough data or information already exists to fully answer the user's original question and no further workflow is needed.
     The user's original question is: {state.user_question}\n
     The context of the conversation and workflow history so far is: {state.messages}\n
+
+    Progress so far (empty means that workflow has not run yet — do not re-run a
+    workflow that already has a result below unless it clearly failed or the result
+    is incomplete/irrelevant to the original question):
+    - ETL result: {state.etl_response or "(not run)"}
+    - SQL result: {state.sql_response or "(not run)"}
+    - PLOT result: {state.plot_response or "(not run)"}
+
+    Important: ETL and SQL cannot create image files or plots — only the PLOT workflow
+    can. If the user's original question asks for a plot, chart, graph, or saved image
+    file, and "PLOT result" above is "(not run)", you MUST route to PLOT next. This
+    applies even if the ETL or SQL result above says visualization/plotting is outside
+    its own capabilities — that limitation is specific to that workflow's tools, not to
+    the PLOT workflow. Only return 'DONE' once every distinct deliverable the user asked
+    for (e.g. data loaded, question answered, AND plot saved, whichever apply) has a
+    non-empty, successful result above.
+
     You can use all the information available to you to make the best decision on which workflow to run NEXT. Please provide a short rationale for your routing decision.
     """
 
@@ -150,17 +167,20 @@ if __name__ == "__main__":
     # img = Image(supervisor.get_graph().draw_mermaid_png())
     # with open("supervisor.png", "wb") as f:
     #     f.write(img.data)
-    response = supervisor.invoke({
-        "messages": [],
-        "user_question": """Extract wind data (wind_speed_10m_max, wind_direction_10m_dominant) for
+    response = supervisor.invoke(
+        {
+            "messages": [],
+            "user_question": """Extract wind data (wind_speed_10m_max, wind_direction_10m_dominant) for
         Marrakech (latitude 31.6, longitude -8.0) from 2024-02-01 to 2024-02-10 from
         'https://archive-api.open-meteo.com/v1/archive?latitude=31.6&longitude=-8.0&daily=wind_speed_10m_max,wind_direction_10m_dominant&start_date=2024-02-01&end_date=2024-02-10&timezone=UTC'
         and save it in a table called wind_test.
         Then tell me which day had the strongest wind.
         Finally, plot wind_speed_10m_max over time and save it as wind_test_plot.png.""",
-        "route_response": "",
-        "sql_response": "",
-        "etl_response": "",
-        "plot_response": "",
-    })
+            "route_response": "",
+            "sql_response": "",
+            "etl_response": "",
+            "plot_response": "",
+        },
+        config={"recursion_limit": 10},
+    )
     print(response)

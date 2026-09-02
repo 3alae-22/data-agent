@@ -65,7 +65,7 @@ def visualizer_tool(table_name: str, user_question: str, output_path: str) -> st
     # Both parts must run in the SAME sandbox execution: execute_code spins
     # up a fresh, isolated container per call, so a second separate call
     # would not see the `df` created by pandas_code.
-    results = etl_tools.execute_code(f"{pandas_code}\n{matplotlib_code}")
+    results = etl_tools.execute_code(f"{pandas_code}\n{matplotlib_code}", output_subdir="plots")
 
     return f"Visualization saved as {output_path}.\n\nExecuted code:\n{pandas_code}\n{matplotlib_code}\n\nResult:\n{results}"
 

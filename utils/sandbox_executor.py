@@ -4,6 +4,8 @@ import uuid
 
 import docker
 
+_PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
 
 def _build_database_url() -> str:
     user = os.environ["user"]
@@ -16,7 +18,8 @@ def _build_database_url() -> str:
 class SandboxExecutor:
     """
     Executes LLM-generated Python code in an isolated and ephemeral Docker
-    container.
+    container instead of a local exec() (see the security note in
+    execute_code).
     """
 
     def __init__(
@@ -24,7 +27,7 @@ class SandboxExecutor:
         image: str = "etl-sandbox:latest",
         network: str | None = None,
         timeout: int = 60,
-        output_root: str = "../data/outputs",
+        output_root: str = os.path.join(_PROJECT_ROOT, "data", "outputs"),
     ):
         self.client = docker.from_env()
         self.image = image
@@ -33,37 +36,18 @@ class SandboxExecutor:
         self.output_root = os.path.abspath(output_root)
         os.makedirs(self.output_root, exist_ok=True)
 
-    def run(self, code: str, input_files: dict[str, str] | None = None) -> str:
-        """
-        Args:
-            code: Python source to execute in the sandbox.
-            input_files: optional {filename: content} to mount read-only
-                alongside the script (e.g. a raw API JSON payload). The
-                generated code can read them via the DATA_PATH env var
-                (single file) or INPUT_DIR (multiple files).
-        """
-        run_id = uuid.uuid4().hex[:8]
-        output_dir = os.path.join(self.output_root, run_id)
+    def run(self, code: str, output_subdir: str | None = None) -> str:
+        output_dir = (
+            os.path.join(self.output_root, output_subdir)
+            if output_subdir
+            else os.path.join(self.output_root, uuid.uuid4().hex[:8])
+        )
         os.makedirs(output_dir, exist_ok=True)
 
         with tempfile.TemporaryDirectory() as tmp:
             script_path = os.path.join(tmp, "script.py")
             with open(script_path, "w") as f:
                 f.write(code)
-
-            environment = {
-                "DATABASE_URL": _build_database_url(),
-                "OUTPUT_DIR": "/sandbox_output",
-            }
-
-            if input_files:
-                for filename, content in input_files.items():
-                    with open(os.path.join(tmp, filename), "w") as f:
-                        f.write(content)
-                if len(input_files) == 1:
-                    environment["DATA_PATH"] = f"/sandbox/{next(iter(input_files))}"
-                else:
-                    environment["INPUT_DIR"] = "/sandbox"
 
             container = self.client.containers.run(
                 self.image,
@@ -73,7 +57,10 @@ class SandboxExecutor:
                     output_dir: {"bind": "/sandbox_output", "mode": "rw"},
                 },
                 network=self.network,
-                environment=environment,
+                environment={
+                    "DATABASE_URL": _build_database_url(),
+                    "OUTPUT_DIR": "/sandbox_output",
+                },
                 mem_limit="512m",
                 nano_cpus=int(0.5 * 1_000_000_000),
                 detach=True,
